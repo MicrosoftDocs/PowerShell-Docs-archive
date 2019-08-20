@@ -1,12 +1,17 @@
 {
   "build": {
     "content": [
+      { "files": ["bread/toc.yml"], "dest": "scripting" },
+
       { "files": [ "toc.yml" ], "src": "3.0", "version": "powershell-3.0", "dest": "module/psdocs" },
       { "files": [ "**/*.md" ], "src": "3.0", "version": "powershell-3.0", "dest": "module" },
       { "files": [ "toc.yml" ], "src": "4.0", "version": "powershell-4.0", "dest": "module/psdocs" },
       { "files": [ "**/*.md" ], "src": "4.0", "version": "powershell-4.0", "dest": "module" },
       { "files": [ "toc.yml" ], "src": "5.0", "version": "powershell-5.0", "dest": "module/psdocs" },
-      { "files": [ "**/*.md" ], "src": "5.0", "version": "powershell-5.0", "dest": "module" }
+      { "files": [ "**/*.md" ], "src": "5.0", "version": "powershell-5.0", "dest": "module" },
+
+      { "files": ["**/*.md"], "src": "virtual-directory", "dest": "scripting" },
+      { "files": ["**/*.md"], "src": "virtual-directory-module", "dest": "module" }
     ],
     "resource": [
       {
