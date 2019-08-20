@@ -17,11 +17,14 @@
       "customized_template_paths": [
             "_dependentPackages/azurecli.plugins/azurecli"
         ],
-        "customized_tasks": {
+      "customized_tasks": {
             "docset_prebuild": [
                 "_dependentPackages/CommonPlugins/tools/PowerShellReference.ps1"
             ]
-        }
+        },
+      "monikerPath": [
+            "mapping/monikerMapping.json"
+       ]
     }
   ],
   "notification_subscribers": [
