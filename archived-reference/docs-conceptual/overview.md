@@ -14,4 +14,4 @@ This site contains cmdlet reference for the following versions:
 - PowerShell 4.0
 - PowerShell 5.0
 
-For the latest documentation, see the [PowerShell Reference](/powershell/overview) site.
+For the latest documentation, see the [PowerShell Reference](/powershell/scripting/overview) site.
