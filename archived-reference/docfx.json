@@ -28,7 +28,8 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/previous-versions/powershell/breadcrumb/toc.json",
-      "uhfHeaderId": "MSDocsHeader-Powershell",
+      "uhfHeaderId": "MSDocsHeader-Archive",
+      "is_archived": "true" 
       "apiPlatform": "powershell",
       "ms.devlang": "powershell",
       "ROBOTS": "NOINDEX, NOFOLLOW",
