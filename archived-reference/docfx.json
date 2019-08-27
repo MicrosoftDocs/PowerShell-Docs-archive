@@ -1,12 +1,20 @@
 {
   "build": {
     "content": [
-      { "files": ["bread/toc.yml"], "dest": "scripting" },
+      { "files": ["bread/toc.yml"], "dest": "concepts" },
 
+      { "files": ["toc.yml"], "src": "docs-conceptual", "version": "powershell-3.0", "dest": "concepts/powershell-3.0" },
+      { "files": ["**/*.md"], "src": "docs-conceptual", "version": "powershell-3.0", "dest": "concepts" },
       { "files": [ "toc.yml" ], "src": "3.0", "version": "powershell-3.0", "dest": "module/psdocs" },
       { "files": [ "**/*.md" ], "src": "3.0", "version": "powershell-3.0", "dest": "module" },
+
+      { "files": ["toc.yml"], "src": "docs-conceptual", "version": "powershell-4.0", "dest": "concepts/powershell-4.0" },
+      { "files": ["**/*.md"], "src": "docs-conceptual", "version": "powershell-4.0", "dest": "concepts" },
       { "files": [ "toc.yml" ], "src": "4.0", "version": "powershell-4.0", "dest": "module/psdocs" },
       { "files": [ "**/*.md" ], "src": "4.0", "version": "powershell-4.0", "dest": "module" },
+
+      { "files": ["toc.yml"], "src": "docs-conceptual", "version": "powershell-5.0", "dest": "concepts/powershell-5.0" },
+      { "files": ["**/*.md"], "src": "docs-conceptual", "version": "powershell-5.0", "dest": "concepts" },
       { "files": [ "toc.yml" ], "src": "5.0", "version": "powershell-5.0", "dest": "module/psdocs" },
       { "files": [ "**/*.md" ], "src": "5.0", "version": "powershell-5.0", "dest": "module" },
 
@@ -15,7 +23,7 @@
     ],
     "resource": [
       {
-        "files": [ "**/*.png", "**/*.jpg" ],
+        "files": ["**/images/**", "**/*.png", "**/*.gif", "**/*.jpeg", "**/*.jpg", "**/*.svg"],
         "exclude": [ "**/obj/**", "**/includes/**", "_themes/**", "_themes.pdf/**", "**/docfx.json" ]
       }
     ],
@@ -27,7 +35,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/previous-versions/powershell/breadcrumb/toc.json",
+      "breadcrumb_path": "/previous-versions/powershell/concepts/breadcrumb/toc.json",
       "uhfHeaderId": "MSDocsHeader-Archive",
       "is_archived": "true",
       "apiPlatform": "powershell",
