@@ -1,30 +1,45 @@
 {
   "build": {
     "content": [
-      { "files": ["bread/toc.yml"], "dest": "concepts" },
+      { "files": [ "bread/toc.yml" ], "dest": "concepts" },
 
-      { "files": ["toc.yml"], "src": "docs-conceptual", "version": "powershell-3.0", "dest": "concepts/powershell-3.0" },
-      { "files": ["**/*.md"], "src": "docs-conceptual", "version": "powershell-3.0", "dest": "concepts" },
+      { "files": [ "toc.yml" ], "src": "docs-conceptual", "version": "powershell-3.0", "dest": "concepts/powershell-3.0" },
+      { "files": [ "**/*.md" ], "src": "docs-conceptual", "version": "powershell-3.0", "dest": "concepts" },
       { "files": [ "toc.yml" ], "src": "3.0", "version": "powershell-3.0", "dest": "module/psdocs" },
       { "files": [ "**/*.md" ], "src": "3.0", "version": "powershell-3.0", "dest": "module" },
 
-      { "files": ["toc.yml"], "src": "docs-conceptual", "version": "powershell-4.0", "dest": "concepts/powershell-4.0" },
-      { "files": ["**/*.md"], "src": "docs-conceptual", "version": "powershell-4.0", "dest": "concepts" },
+      { "files": [ "toc.yml" ], "src": "docs-conceptual", "version": "powershell-4.0", "dest": "concepts/powershell-4.0" },
+      { "files": [ "**/*.md" ], "src": "docs-conceptual", "version": "powershell-4.0", "dest": "concepts" },
       { "files": [ "toc.yml" ], "src": "4.0", "version": "powershell-4.0", "dest": "module/psdocs" },
       { "files": [ "**/*.md" ], "src": "4.0", "version": "powershell-4.0", "dest": "module" },
 
-      { "files": ["toc.yml"], "src": "docs-conceptual", "version": "powershell-5.0", "dest": "concepts/powershell-5.0" },
-      { "files": ["**/*.md"], "src": "docs-conceptual", "version": "powershell-5.0", "dest": "concepts" },
+      { "files": [ "toc.yml" ], "src": "docs-conceptual", "version": "powershell-5.0", "dest": "concepts/powershell-5.0" },
+      { "files": [ "**/*.md" ], "src": "docs-conceptual", "version": "powershell-5.0", "dest": "concepts" },
       { "files": [ "toc.yml" ], "src": "5.0", "version": "powershell-5.0", "dest": "module/psdocs" },
       { "files": [ "**/*.md" ], "src": "5.0", "version": "powershell-5.0", "dest": "module" },
 
-      { "files": ["**/*.md"], "src": "virtual-directory", "dest": "scripting" },
-      { "files": ["**/*.md"], "src": "virtual-directory-module", "dest": "module" }
+      { "files": [ "**/*.md" ], "src": "virtual-directory", "dest": "concepts" },
+      { "files": [ "**/*.md" ], "src": "virtual-directory-module", "dest": "module" }
     ],
     "resource": [
       {
-        "files": ["**/images/**", "**/*.png", "**/*.gif", "**/*.jpeg", "**/*.jpg", "**/*.svg"],
+        "files": [ "**/images/**", "**/*.png", "**/*.gif", "**/*.jpeg", "**/*.jpg", "**/*.svg" ],
         "exclude": [ "**/obj/**", "**/includes/**", "_themes/**", "_themes.pdf/**", "**/docfx.json" ]
+      },
+      {
+        "files": ["**/images/**", "**/*.png", "**/*.gif", "**/*.jpeg", "**/*.jpg", "**/*.svg"],
+        "exclude": ["**/obj/**", "**/includes/**"],
+        "version": "powershell-3.0"
+      },
+      {
+        "files": ["**/images/**", "**/*.png", "**/*.gif", "**/*.jpeg", "**/*.jpg", "**/*.svg"],
+        "exclude": ["**/obj/**", "**/includes/**"],
+        "version": "powershell-4.0"
+      },
+      {
+        "files": ["**/images/**", "**/*.png", "**/*.gif", "**/*.jpeg", "**/*.jpg", "**/*.svg"],
+        "exclude": ["**/obj/**", "**/includes/**"],
+        "version": "powershell-5.0"
       }
     ],
     "versions": {
