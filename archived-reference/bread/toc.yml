@@ -1,0 +1,10 @@
+- name: PowerShell (Archive)
+  tocHref: /previous-versions/powershell/
+  topicHref: /previous-versions/powershell
+  items:
+  - name: Concepts
+    tocHref: /previous-versions/powershell/concepts/
+    topicHref: /previous-versions/powershell/concepts/overview
+  - name: Concepts
+    tocHref: /previous-versions/powershell/module/
+    topicHref: /previous-versions/powershell/concepts/overview
