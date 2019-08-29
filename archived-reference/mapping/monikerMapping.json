@@ -1,7 +1,7 @@
 {
     "powershell-3.0": {
         "conceptualToc": "docs-conceptual/TOC.yml",
-        "conceptualTocUrl": "/previous-versions/powershell/concepts/powershell-3.0/toc.json",
+        "conceptualTocUrl": "/previous-versions/powershell/scripting/powershell-3.0/toc.json",
         "referenceTocUrl": "/previous-versions/powershell/module/psdocs/toc.json",
         "packageRoot": "3.0",
         "modules": {
@@ -23,7 +23,7 @@
     "powershell-4.0": {
         "conceptualToc": "docs-conceptual/TOC.yml",
         "packageRoot": "4.0",
-        "conceptualTocUrl": "/previous-versions/powershell/concepts/powershell-4.0/toc.json",
+        "conceptualTocUrl": "/previous-versions/powershell/scripting/powershell-4.0/toc.json",
         "referenceTocUrl": "/previous-versions/powershell/module/psdocs/toc.json",
         "modules": {
             "CimCmdlets": {},
@@ -45,7 +45,7 @@
     "powershell-5.0": {
         "conceptualToc": "docs-conceptual/TOC.yml",
         "packageRoot": "5.0",
-        "conceptualTocUrl": "/previous-versions/powershell/concepts/powershell-5.0/toc.json",
+        "conceptualTocUrl": "/previous-versions/powershell/scripting/powershell-5.0/toc.json",
         "referenceTocUrl": "/previous-versions/powershell/module/psdocs/toc.json",
         "modules": {
             "CimCmdlets": {},
