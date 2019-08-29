@@ -14,4 +14,8 @@ This site contains cmdlet reference for the following versions:
 - PowerShell 4.0
 - PowerShell 5.0
 
+Use the version picker in the at the top of the page to select the version of PowerShell you want.
+
+![version picker](../images/picker-v543.png)
+
 For the latest documentation, see the [PowerShell Reference](/powershell/scripting/overview) site.

@@ -2,9 +2,9 @@
   tocHref: /previous-versions/powershell/
   topicHref: /previous-versions/powershell
   items:
-  - name: Concepts
-    tocHref: /previous-versions/powershell/concepts/
-    topicHref: /previous-versions/powershell/concepts/overview
-  - name: Concepts
+  - name: Scripting
+    tocHref: /previous-versions/powershell/scripting/
+    topicHref: /previous-versions/powershell/scripting/overview
+  - name: Scripting
     tocHref: /previous-versions/powershell/module/
-    topicHref: /previous-versions/powershell/concepts/overview
+    topicHref: /previous-versions/powershell/scripting/overview
