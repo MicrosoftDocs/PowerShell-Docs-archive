@@ -369,7 +369,8 @@ being used, and the **ShouldProcess** method adds the **WhatIf** and
 **Confirm** parameters to the cmdlet dynamically.
 
 For more information about the `$PSCmdlet` automatic variable, see
-[about_Functions_Advanced](about_Functions_Advanced.md).
+[about_Functions_CmdletBindingAttribute](about_Functions_CmdletBindingAttribute.md)
+and [about_Functions_Advanced](about_Functions_Advanced.md).
 
 ### $PSCommandPath
 
@@ -417,7 +418,7 @@ selected objects in a pipeline.
 
 Contains the directory from which a script is being run.
 
-In PowerShell 2.0, this variable is valid only in script modules (.psm1).
+In PowerShell 2.0, this variable is valid only in script modules (`.psm1`).
 Beginning in PowerShell 3.0, it's valid in all scripts.
 
 ### $PSSenderInfo
@@ -463,16 +464,6 @@ following items:
 ### $PWD
 
 Contains a path object that represents the full path of the current directory.
-
-### ReportErrorShow variables
-
-The **ReportErrorShow** variables are defined in PowerShell, but they aren't
-implemented. `Get-Variable` gets them, but they don't contain valid data.
-
-- `$ReportErrorShowExceptionClass`
-- `$ReportErrorShowInnerException`
-- `$ReportErrorShowSource`
-- `$ReportErrorShowStackTrace`
 
 ### $Sender
 
@@ -852,6 +843,18 @@ Default (Current): End
 ```
 
 ## See also
+
+[about_Functions](about_Functions.md)
+
+[about_Functions_Advanced](about_Functions_Advanced.md)
+
+[about_Functions_Advanced_Methods](about_Functions_Advanced_Methods.md)
+
+[about_Functions_Advanced_Parameters](about_Functions_Advanced_Parameters.md)
+
+[about_Functions_OutputTypeAttribute](about_Functions_OutputTypeAttribute.md)
+
+[about_Functions_CmdletBindingAttribute](about_Functions_CmdletBindingAttribute.md)
 
 [about_Hash_Tables](about_Hash_Tables.md)
 

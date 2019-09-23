@@ -402,7 +402,7 @@ Microsoft.PowerShell.Utility\Get-Date
 ```
 
 ```Output
-Thursday, August 15, 2019 2:28:31 PM
+Thursday, August 15, 2019 2:26:12 PM
 ```
 
 The first Get-Date` cmdlet returns a **DateTime** object with the current date. After importing the
@@ -726,7 +726,7 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
-Accept wildcard characters: False
+Accept wildcard characters: True
 ```
 
 ### -DisableNameChecking
@@ -806,7 +806,7 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
-Accept wildcard characters: False
+Accept wildcard characters: True
 ```
 
 ### -Global
@@ -819,6 +819,11 @@ scriptblock, all the commands are imported into the global session state.
 
 When invoked from another module, `Import-Module` cmdlet imports the commands in a module, including
 commands from nested modules, into the caller's session state.
+
+> [!TIP]
+> You should avoid calling `Import-Module` from within a module. Instead, declare the target module
+> as a nested module in the parent module's manifest. Declaring nested modules improves the
+> discoverability of dependencies.
 
 The **Global** parameter is equivalent to the **Scope** parameter with a value of Global.
 
@@ -921,7 +926,7 @@ Required: True
 Position: 0
 Default value: None
 Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
+Accept wildcard characters: True
 ```
 
 ### -NoClobber
@@ -1084,7 +1089,7 @@ Accepted values: Local, Global
 
 Required: False
 Position: Named
-Default value: None
+Default value: Current scope
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -1106,7 +1111,7 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
-Accept wildcard characters: False
+Accept wildcard characters: True
 ```
 
 ### CommonParameters
