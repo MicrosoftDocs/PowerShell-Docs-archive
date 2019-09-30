@@ -1,5 +1,5 @@
 - name: PowerShell (Archive)
-  tocHref: /previous-versions/powershell/
+  tocHref: /previous-versions/powershell/scripting/overview
   topicHref: /previous-versions/powershell
   items:
   - name: Scripting

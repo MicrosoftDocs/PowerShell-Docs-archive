@@ -1,5 +1,5 @@
 ---
-ms.date:  08/27/2019
+ms.date:  09/30/2019
 keywords:  powershell,cmdlet
 title:  PowerShell Scripting
 ---
@@ -7,6 +7,8 @@ title:  PowerShell Scripting
 
 This documentation set contains PowerShell cmdlet reference for older versions of PowerShell. The
 documentation for these versions is not actively been updated.
+
+For the latest documentation, see the [PowerShell Reference](/powershell/scripting/overview) site.
 
 This site contains cmdlet reference for the following versions:
 
@@ -17,5 +19,3 @@ This site contains cmdlet reference for the following versions:
 Use the version picker in the at the top of the page to select the version of PowerShell you want.
 
 ![version picker](../images/picker-v543.png)
-
-For the latest documentation, see the [PowerShell Reference](/powershell/scripting/overview) site.
