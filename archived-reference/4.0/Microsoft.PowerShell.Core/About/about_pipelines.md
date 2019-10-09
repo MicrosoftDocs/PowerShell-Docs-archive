@@ -1,9 +1,10 @@
 ---
-ms.date:  09/27/2019
-schema:  2.0.0
-locale:  en-us
-keywords:  powershell,cmdlet
-title:  about_pipelines
+keywords: powershell,cmdlet
+locale: en-us
+ms.date: 09/27/2019
+online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pipelines?view=powershell-4.0&WT.mc_id=ps-gethelp
+schema: 2.0.0
+title: about_pipelines
 ---
 # About Pipelines
 
@@ -522,8 +523,6 @@ enhances readability.
 
 ## See Also
 
-[about_PSReadLine](../../PSReadLine/About/about_PSReadLine.md)
-
 [about_Objects](about_objects.md)
 
 [about_Parameters](about_parameters.md)
@@ -531,4 +530,3 @@ enhances readability.
 [about_Command_Syntax](about_command_syntax.md)
 
 [about_ForEach](about_foreach.md)
-
