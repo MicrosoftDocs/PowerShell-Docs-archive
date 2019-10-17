@@ -6,7 +6,7 @@ title:  PowerShell Scripting
 # PowerShell
 
 This documentation set contains PowerShell cmdlet reference for older versions of PowerShell. The
-documentation for these versions is not actively been updated.
+documentation for these versions is not actively being updated.
 
 For the latest documentation, see the [PowerShell Reference](/powershell/scripting/overview) site.
 
