@@ -52,6 +52,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/previous-versions/powershell/scripting/bread/toc.json",
       "curent_version_url": "https://docs.microsoft.com/powershell/scripting",
+      "docs_archive": "manual",
       "uhfHeaderId": "MSDocsHeader-Archive",
       "is_archived": "true",
       "apiPlatform": "powershell",
