@@ -19,49 +19,49 @@ Gets events from event logs and event tracing log files on local and remote comp
 
 ```
 Get-WinEvent [[-LogName] <string[]>] [-MaxEvents <long>] [-ComputerName <string>]
-[-Credential <pscredential>] [-FilterXPath <string>] [-Force] [-Oldest] [<CommonParameters>]
+ [-Credential <pscredential>] [-FilterXPath <string>] [-Force] [-Oldest] [<CommonParameters>]
 ```
 
 ### ListLogSet
 
 ```
 Get-WinEvent [-ListLog] <string[]> [-ComputerName <string>] [-Credential <pscredential>] [-Force]
-[<CommonParameters>]
+ [<CommonParameters>]
 ```
 
 ### ListProviderSet
 
 ```
 Get-WinEvent [-ListProvider] <string[]> [-ComputerName <string>] [-Credential <pscredential>]
-[<CommonParameters>]
+ [<CommonParameters>]
 ```
 
 ### GetProviderSet
 
 ```
 Get-WinEvent [-ProviderName] <string[]> [-MaxEvents <long>] [-ComputerName <string>]
-[-Credential <pscredential>] [-FilterXPath <string>] [-Force] [-Oldest] [<CommonParameters>]
+ [-Credential <pscredential>] [-FilterXPath <string>] [-Force] [-Oldest] [<CommonParameters>]
 ```
 
 ### FileSet
 
 ```
 Get-WinEvent [-Path] <string[]> [-MaxEvents <long>] [-Credential <pscredential>]
-[-FilterXPath <string>] [-Oldest] [<CommonParameters>]
+ [-FilterXPath <string>] [-Oldest] [<CommonParameters>]
 ```
 
 ### XmlQuerySet
 
 ```
 Get-WinEvent [-FilterXml] <xml> [-MaxEvents <long>] [-ComputerName <string>]
-[-Credential <pscredential>] [-Oldest] [<CommonParameters>]
+ [-Credential <pscredential>] [-Oldest] [<CommonParameters>]
 ```
 
 ### HashQuerySet
 
 ```
 Get-WinEvent [-FilterHashtable] <hashtable[]> [-MaxEvents <long>] [-ComputerName <string>]
-[-Credential <pscredential>] [-Force] [-Oldest] [<CommonParameters>]
+ [-Credential <pscredential>] [-Force] [-Oldest] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
