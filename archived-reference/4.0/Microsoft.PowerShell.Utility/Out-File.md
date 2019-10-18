@@ -19,14 +19,14 @@ Sends output to a file.
 
 ```
 Out-File [-FilePath] <string> [[-Encoding] <string>] [-Append] [-Force] [-NoClobber] [-Width <int>]
-[-InputObject <psobject>] [-WhatIf] [-Confirm] [<CommonParameters>]
+ [-InputObject <psobject>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### ByLiteralPath
 
 ```
 Out-File [[-Encoding] <string>] -LiteralPath <string> [-Append] [-Force] [-NoClobber] [-Width <int>]
-[-InputObject <psobject>] [-WhatIf] [-Confirm] [<CommonParameters>]
+ [-InputObject <psobject>] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
