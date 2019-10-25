@@ -4,7 +4,7 @@ keywords: powershell,cmdlet
 locale: en-us
 Module Name: Microsoft.PowerShell.Management
 ms.date: 5/20/2019
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.management/get-hotfix?view=powershell-4.0&WT.mc_id=ps-gethelp
+online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.management/get-hotfix?view=powershell-4.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Get-HotFix
 ---
