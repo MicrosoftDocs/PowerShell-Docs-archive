@@ -2,7 +2,6 @@
 Download Help Link: https://go.microsoft.com/fwlink/?linkid=210596
 Help Version: 3.1.0.2
 keywords: powershell,cmdlet
-locale: en-us
 Module Guid: ca046f10-ca64-4740-8ff9-2565dba61a4f
 Module Name: Microsoft.PowerShell.Diagnostics
 ms.date: 06/09/2017

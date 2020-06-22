@@ -2,7 +2,6 @@
 Download Help Link: https://go.microsoft.com/fwlink/?linkid=285757
 Help Version: 4.0.4.2
 keywords: powershell,cmdlet
-locale: en-us
 Module Guid: a94c8c7e-9810-47c0-b8af-65089c13a35a
 Module Name: Microsoft.PowerShell.Security
 ms.date: 06/09/2017

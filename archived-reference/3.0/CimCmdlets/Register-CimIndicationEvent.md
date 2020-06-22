@@ -1,7 +1,6 @@
 ---
 external help file: Microsoft.Management.Infrastructure.CimCmdlets.dll-Help.xml
 keywords: powershell,cmdlet
-locale: en-us
 Module Name: CimCmdlets
 ms.date: 02/20/2019
 online version: https://docs.microsoft.com/previous-versions/powershell/module/cimcmdlets/register-cimindicationevent?view=powershell-3.0&WT.mc_id=ps-gethelp

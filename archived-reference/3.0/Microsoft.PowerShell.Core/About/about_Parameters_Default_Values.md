@@ -1,6 +1,5 @@
 ---
 keywords: powershell,cmdlet
-locale: en-us
 ms.date: 5/31/2019
 online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/about/about_parameters_default_values?view=powershell-3.0&WT.mc_id=ps-gethelp
 schema: 2.0.0

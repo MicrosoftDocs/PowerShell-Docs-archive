@@ -1,7 +1,6 @@
 ---
 external help file: Microsoft.PowerShell.Commands.Management.dll-Help.xml
 keywords: powershell,cmdlet
-locale: en-us
 Module Name: Microsoft.PowerShell.Management
 ms.date: 05/15/2019
 online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.management/get-clipboard?view=powershell-5.0&WT.mc_id=ps-gethelp

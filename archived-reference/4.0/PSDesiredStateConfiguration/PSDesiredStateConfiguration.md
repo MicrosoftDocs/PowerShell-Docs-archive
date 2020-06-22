@@ -2,7 +2,6 @@
 Download Help Link: https://go.microsoft.com/fwlink/?LinkId=280237
 Help Version: 4.0.0.2
 keywords: powershell,cmdlet
-locale: en-us
 Module Guid: ced422f3-86a4-4841-9f80-a713eac9522a
 Module Name: PSDesiredStateConfiguration
 ms.date: 06/09/2017

@@ -2,7 +2,6 @@
 Download Help Link: https://go.microsoft.com/fwlink/?Linkid=247510
 Help Version: 3.3.0.2
 keywords: powershell,cmdlet
-locale: en-us
 Module Guid: e40bae2f-9558-479f-939b-e52407a19c86
 Module Name: PSWorkflowUtility
 ms.date: 06/09/2017

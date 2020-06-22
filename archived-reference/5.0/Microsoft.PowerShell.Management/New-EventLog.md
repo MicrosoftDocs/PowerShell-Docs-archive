@@ -1,7 +1,6 @@
 ---
 external help file: Microsoft.PowerShell.Commands.Management.dll-Help.xml
 keywords: powershell,cmdlet
-locale: en-us
 ms.date: 01/22/2019
 online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.management/new-eventlog?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
