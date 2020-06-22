@@ -1,7 +1,6 @@
 ---
 external help file: Microsoft.Management.Infrastructure.CimCmdlets.dll-Help.xml
 keywords: powershell,cmdlet
-locale: en-us
 Module Name: CimCmdlets
 ms.date: 06/09/2017
 online version: https://docs.microsoft.com/previous-versions/powershell/module/cimcmdlets/new-cimsession?view=powershell-5.0&WT.mc_id=ps-gethelp

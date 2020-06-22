@@ -1,7 +1,6 @@
 ---
 external help file: System.Management.Automation.dll-help.xml
 keywords: powershell,cmdlet
-locale: en-us
 ms.date: 09/07/2018
 online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/functions/get-verb?view=powershell-3.0&WT.mc_id=ps-gethelp
 schema: 2.0.0

@@ -1,7 +1,6 @@
 ---
 external help file: PSModule-help.xml
 keywords: powershell,cmdlet
-locale: en-us
 Module Name: PowerShellGet
 ms.date: 05/23/2019
 online version: https://docs.microsoft.com/previous-versions/powershell/module/powershellget/get-installedmodule?view=powershell-5.0&WT.mc_id=ps-gethelp

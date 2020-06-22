@@ -1,7 +1,6 @@
 ---
 description: Describes how you can use classes to create your own custom types.
 keywords: powershell,cmdlet
-locale: en-us
 ms.date: 08/15/2019
 online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/about/about_classes?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0

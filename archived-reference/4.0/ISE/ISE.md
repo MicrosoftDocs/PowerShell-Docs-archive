@@ -2,7 +2,6 @@
 Download Help Link: https://go.microsoft.com/fwlink/?LinkID=285549
 Help Version: 4.0.3.2
 keywords: powershell,cmdlet
-locale: en-us
 Module Guid: bae93d8e-782c-4a23-b87f-8699bfc17ee0
 Module Name: ISE
 ms.date: 06/09/2017

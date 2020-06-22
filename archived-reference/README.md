@@ -1,8 +1,5 @@
 ---
 ms.date:  07/10/2019
-schema:  2.0.0
-locale:  en-us
-keywords:  powershell,cmdlet
 title:  README
 ---
 # PowerShell reference archive

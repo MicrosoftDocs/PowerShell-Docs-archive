@@ -1,6 +1,5 @@
 ---
 keywords: powershell,cmdlet
-locale: en-us
 ms.date: 01/03/2018
 online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/about/about_run_with_powershell?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0

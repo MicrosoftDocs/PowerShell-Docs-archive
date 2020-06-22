@@ -1,7 +1,6 @@
 ---
 external help file: Microsoft.Windows.DSC.CoreConfProviders.dll-Help.xml
 keywords: powershell,cmdlet
-locale: en-us
 Module Name: PSDesiredStateConfiguration
 ms.date: 06/09/2017
 online version: https://docs.microsoft.com/previous-versions/powershell/module/psdesiredstateconfiguration/update-dscconfiguration?view=powershell-5.0&WT.mc_id=ps-gethelp

@@ -1,7 +1,6 @@
 ---
 external help file: Microsoft.PowerShell.Commands.Management.dll-Help.xml
 keywords: powershell,cmdlet
-locale: en-us
 ms.date: 5/14/2019
 online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.management/set-content?view=powershell-4.0&WT.mc_id=ps-gethelp
 schema: 2.0.0

@@ -2,7 +2,6 @@
 Download Help Link: https://go.microsoft.com/fwlink/?LinkId=528806
 Help Version: 5.0.4.2
 keywords: powershell
-locale: en-US
 Module Guid: 5714753b-2afd-4492-a5fd-01d9e2cff8b5
 Module Name: PSReadLine
 ms.date: 12/07/2018
