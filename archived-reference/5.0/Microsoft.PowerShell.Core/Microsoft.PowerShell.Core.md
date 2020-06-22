@@ -2,7 +2,6 @@
 Download Help Link: https://go.microsoft.com/fwlink/?linkid=390782
 Help Version: 5.0.7.4
 keywords: powershell,cmdlet
-locale: en-us
 Module Guid: 00000000-0000-0000-0000-000000000000
 Module Name: Microsoft.PowerShell.Core
 ms.date: 02/28/2019

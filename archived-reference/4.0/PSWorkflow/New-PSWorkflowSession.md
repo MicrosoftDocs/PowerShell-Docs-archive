@@ -1,7 +1,6 @@
 ---
 external help file: Microsoft.Powershell.Workflow.ServiceCore.dll-help.xml
 keywords: powershell,cmdlet
-locale: en-us
 Module Name: PSWorkflow
 ms.date: 07/10/2019
 online version: https://docs.microsoft.com/previous-versions/powershell/module/psworkflow/new-psworkflowsession?view=powershell-4.0&WT.mc_id=ps-gethelp

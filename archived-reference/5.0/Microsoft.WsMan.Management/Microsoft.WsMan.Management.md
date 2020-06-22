@@ -2,7 +2,6 @@
 Download Help Link: https://go.microsoft.com/fwlink/?linkid=390788
 Help Version: 5.0.4.2
 keywords: powershell,cmdlet
-locale: en-us
 Module Guid: 766204A6-330E-4263-A7AB-46C87AFC366C
 Module Name: Microsoft.WsMan.Management
 ms.date: 06/09/2017

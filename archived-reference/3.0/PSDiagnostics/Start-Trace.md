@@ -1,7 +1,6 @@
 ---
 external help file: PSDiagnostics-help.xml
 keywords: powershell,cmdlet
-locale: en-us
 Module Name: PSDiagnostics
 ms.date: 11/27/2018
 online version: https://docs.microsoft.com/previous-versions/powershell/module/psdiagnostics/start-trace?view=powershell-3.0&WT.mc_id=ps-gethelp

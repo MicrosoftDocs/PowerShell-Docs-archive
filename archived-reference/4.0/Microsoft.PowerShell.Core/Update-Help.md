@@ -1,7 +1,6 @@
 ---
 external help file: System.Management.Automation.dll-Help.xml
 keywords: powershell,cmdlet
-locale: en-us
 Module Name: Microsoft.PowerShell.Core
 ms.date: 5/16/2019
 online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/update-help?view=powershell-4.0&WT.mc_id=ps-gethelp

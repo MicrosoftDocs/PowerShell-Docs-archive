@@ -1,7 +1,6 @@
 ---
 external help file: Microsoft.PowerShell.Commands.Diagnostics.dll-Help.xml
 keywords: powershell,cmdlet
-locale: en-us
 Module Name: Microsoft.PowerShell.Diagnostics
 ms.date: 6/21/2019
 online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.diagnostics/get-counter?view=powershell-4.0&WT.mc_id=ps-gethelp

@@ -1,7 +1,6 @@
 ---
 external help file: PSDiagnostics-help.xml
 keywords: powershell,cmdlet
-locale: en-us
 Module Name: PSDiagnostics
 ms.date: 11/29/2018
 online version: https://docs.microsoft.com/previous-versions/powershell/module/psdiagnostics/disable-wsmantrace?view=powershell-5.0&WT.mc_id=ps-gethelp

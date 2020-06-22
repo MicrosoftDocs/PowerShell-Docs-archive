@@ -1,7 +1,6 @@
 ---
 external help file: Microsoft.PowerShell.Security.dll-Help.xml
 keywords: powershell,cmdlet
-locale: en-us
 ms.date: 3/22/2019
 online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-4.0&WT.mc_id=ps-gethelp
 schema: 2.0.0

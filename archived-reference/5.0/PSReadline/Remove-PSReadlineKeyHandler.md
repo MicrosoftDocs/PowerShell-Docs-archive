@@ -1,7 +1,6 @@
 ---
 external help file: Microsoft.PowerShell.PSReadLine.dll-Help.xml
 keywords: powershell,cmdlet
-locale: en-us
 Module Name: PSReadLine
 ms.date: 12/07/2018
 online version: https://docs.microsoft.com/previous-versions/powershell/module/psreadline/remove-psreadlinekeyhandler?view=powershell-5.0&WT.mc_id=ps-gethelp
