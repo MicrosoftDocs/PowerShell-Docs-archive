@@ -2,20 +2,20 @@
   href: overview.md
 - name: Components
   items:
-    - name: Web Access
-      items:
-        - name: Authorization rules and security features
-          href: components/web-access/authorization-rules-and-security-features-of-windows-powershell-web-access.md
-        - name: Installation
-          href: components/web-access/install-and-use-windows-powershell-web-access.md
-        - name: Troubleshooting access problems
-          href: components/web-access/troubleshooting-access-problems-in-windows-powershell-web-access.md
-        - name: Uninstall Windows PowerShell web access
-          href: components/web-access/uninstall-windows-powershell-web-access.md
-        - name: Use the web based PowerShell console
-          href: components/web-access/use-the-web-based-windows-powershell-console.md
-    - name: Workflows Guide
-      href: components/workflows-guide.md
+  - name: Web Access
+    items:
+    - name: Authorization rules and security features
+      href: components/web-access/authorization-rules-and-security-features-of-windows-powershell-web-access.md
+    - name: Installation
+      href: components/web-access/install-and-use-windows-powershell-web-access.md
+    - name: Troubleshooting access problems
+      href: components/web-access/troubleshooting-access-problems-in-windows-powershell-web-access.md
+    - name: Uninstall Windows PowerShell web access
+      href: components/web-access/uninstall-windows-powershell-web-access.md
+    - name: Use the web based PowerShell console
+      href: components/web-access/use-the-web-based-windows-powershell-console.md
+  - name: Workflows Guide
+    href: components/workflows-guide.md
 - Legacy Windows PowerShell SDK
   - items:
     - name: Creating a Management OData Web Service
