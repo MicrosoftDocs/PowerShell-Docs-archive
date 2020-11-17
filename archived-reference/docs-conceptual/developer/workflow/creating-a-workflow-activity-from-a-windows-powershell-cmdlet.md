@@ -17,7 +17,7 @@ You can then compile the resulting C# code into an assembly that can be added to
 
 **csc /nologo /out:AssemblyName /target:library /reference:System.Activities.Activity /reference:Microsoft.PowerShell.Activities codefile.cs**
 
-## Example
+## Example 1
 
 The following example demonstrates how to generate C# code for an activity from a Windows PowerShell module.
 
@@ -65,7 +65,7 @@ namespace MakeActivity
 
 ```
 
-## Example
+## Example 2
 
 The following example demonstrates how to generate C# code for an activity from a Windows PowerShell cmdlet.
 

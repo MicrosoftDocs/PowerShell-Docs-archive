@@ -30,9 +30,6 @@ Gets the security descriptor for a resource, such as a file or registry key.
 ### [Get-AuthenticodeSignature](Get-AuthenticodeSignature.md)
 Gets information about the Authenticode signature for a file.
 
-### [Get-CmsMessage](Get-CmsMessage.md)
-Gets content that has been encrypted by using the Cryptographic Message Syntax format.
-
 ### [Get-Credential](Get-Credential.md)
 Gets a credential object based on a user name and password.
 
@@ -42,9 +39,6 @@ Gets the execution policies for the current session.
 ### [Get-PfxCertificate](Get-PfxCertificate.md)
 Gets information about .pfx certificate files on the computer.
 
-### [Protect-CmsMessage](Protect-CmsMessage.md)
-Encrypts content by using the Cryptographic Message Syntax format.
-
 ### [Set-Acl](Set-Acl.md)
 Changes the security descriptor of a specified item, such as a file or a registry key.
 
@@ -53,6 +47,3 @@ Adds an Authenticode signature to a PowerShell script or other file.
 
 ### [Set-ExecutionPolicy](Set-ExecutionPolicy.md)
 Changes the user preference for the PowerShell execution policy.
-
-### [Unprotect-CmsMessage](Unprotect-CmsMessage.md)
-Decrypts content that has been encrypted by using the Cryptographic Message Syntax format.
