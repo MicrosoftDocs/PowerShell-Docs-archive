@@ -94,6 +94,7 @@
         "**/PSScheduledJob/**.md": "SteveL-MSFT",
         "**/PSWorkflow/**.md": "SteveL-MSFT",
         "**/PSWorkflowUtility/**.md": "SteveL-MSFT",
+        "**/ThreadJob/**.md": "SteveL-MSFT",
         "docs-conceptual/**.md": "joeyaiello"
       },
       "ms.author": {
@@ -118,6 +119,7 @@
         "**/PSScheduledJob/**.md": "slee",
         "**/PSWorkflow/**.md": "slee",
         "**/PSWorkflowUtility/**.md": "slee",
+        "**/ThreadJob/**.md": "slee",
         "docs-conceptual/**.md": "jaiello"
       }
     },

@@ -4,6 +4,7 @@ Module Name: Microsoft.PowerShell.Utility
 online version: https://docs.microsoft.com/powershell/module/Microsoft.PowerShell.Utility/Get-MarkdownOption?view=powershell-6&WT.mc_id=ps-gethelp
 ms.date: 01/30/2020
 schema: 2.0.0
+title: Get-MarkdownOption
 ---
 
 # Get-MarkdownOption
