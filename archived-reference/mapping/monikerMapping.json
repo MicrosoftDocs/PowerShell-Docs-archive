@@ -7,6 +7,7 @@
         "modules": {
             "CimCmdlets": {},
             "ISE": {},
+            "Microsoft.PowerShell.Archive": {},
             "Microsoft.PowerShell.Core": {},
             "Microsoft.PowerShell.Diagnostics": {},
             "Microsoft.PowerShell.Host": {},
@@ -28,6 +29,7 @@
         "modules": {
             "CimCmdlets": {},
             "ISE": {},
+            "Microsoft.PowerShell.Archive": {},
             "Microsoft.PowerShell.Core": {},
             "Microsoft.PowerShell.Diagnostics": {},
             "Microsoft.PowerShell.Host": {},
