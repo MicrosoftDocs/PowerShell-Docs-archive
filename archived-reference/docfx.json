@@ -1,18 +1,25 @@
 {
   "build": {
-    "content": [
+    "groups": {
+      "powershell-3.0": { "moniker_range": "powershell-3.0" },
+      "powershell-4.0": { "moniker_range": "powershell-4.0" },
+      "powershell-5.0": { "moniker_range": "powershell-5.0" },
+      "powershell-6": { "moniker_range": "powershell-6" },
+      "conceptual": { "moniker_range": ">=powershell-3.0" }
+  },
+  "content": [
       { "files": [ "bread/toc.yml" ], "dest": "scripting" },
 
       { "files": ["**/*.md", "**/**.yml"], "group": "conceptual", "src": "docs-conceptual", "dest": "scripting"},
 
       { "files": ["toc.yml"], "src": "3.0", "group": "powershell-6", "dest": "module/psdocs" },
-      { "files": ["**/*.yml", "**/About/*.md"], "src": "6", "group": "powershell-3.0", "exclude": ["docs-conceptual/**"], "dest": "module" },
+      { "files": ["**/*.yml", "**/About/*.md"], "src": "3.0", "group": "powershell-3.0", "exclude": ["docs-conceptual/**"], "dest": "module" },
 
       { "files": ["toc.yml"], "src": "4.0", "group": "powershell-6", "dest": "module/psdocs" },
-      { "files": ["**/*.yml", "**/About/*.md"], "src": "6", "group": "powershell-4.0", "exclude": ["docs-conceptual/**"], "dest": "module" },
+      { "files": ["**/*.yml", "**/About/*.md"], "src": "4.0", "group": "powershell-4.0", "exclude": ["docs-conceptual/**"], "dest": "module" },
 
       { "files": ["toc.yml"], "src": "5.0", "group": "powershell-6", "dest": "module/psdocs" },
-      { "files": ["**/*.yml", "**/About/*.md"], "src": "6", "group": "powershell-5.0", "exclude": ["docs-conceptual/**"], "dest": "module" },
+      { "files": ["**/*.yml", "**/About/*.md"], "src": "5.0", "group": "powershell-5.0", "exclude": ["docs-conceptual/**"], "dest": "module" },
 
       { "files": ["toc.yml"], "src": "6", "group": "powershell-6", "dest": "module/psdocs" },
       { "files": ["**/*.yml", "**/About/*.md"], "src": "6", "group": "powershell-6", "exclude": ["docs-conceptual/**"], "dest": "module" },
