@@ -14,7 +14,7 @@ caps.latest.revision: 7
 You can create a XAML workflow by adding activities exposed by Windows PowerShell assemblies to the Workflow designer in Visual Studio. The following Windows PowerShell assemblies expose workflow-enabled activities.
 
 > [!IMPORTANT]
-> A XAML workflow must be packaged as a module if you want to provide help for the workflow. For information about modules, see [Writing a Windows PowerShell Module](../module/writing-a-windows-powershell-module.md).
+> A XAML workflow must be packaged as a module if you want to provide help for the workflow. For information about modules, see [Writing a Windows PowerShell Module](/powershell/scripting/developer/module/writing-a-windows-powershell-module)
 
 - [Microsoft.Powershell.Activities](/dotnet/api/Microsoft.PowerShell.Activities)
 

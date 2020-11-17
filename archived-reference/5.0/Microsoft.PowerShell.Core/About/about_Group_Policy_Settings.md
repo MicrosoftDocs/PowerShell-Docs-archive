@@ -18,15 +18,17 @@ consistent option values for servers in an enterprise environment.
 The Windows PowerShell Group Policy settings are in the following
 Group Policy paths:
 
-    Computer Configuration\
-      Administrative Templates\
-        Windows Components\
-          Windows PowerShell
+```
+Computer Configuration\
+  Administrative Templates\
+    Windows Components\
+      Windows PowerShell
 
-    User Configuration\
-      Administrative Templates\
-        Windows Components\
-          Windows PowerShell
+User Configuration\
+  Administrative Templates\
+    Windows Components\
+      Windows PowerShell
+```
 
 Group policy settings in the User Configuration path take precedence
 over Group Policy settings in the Computer Configuration path.
