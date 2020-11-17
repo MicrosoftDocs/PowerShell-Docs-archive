@@ -20,4 +20,4 @@ This site contains cmdlet reference for the following versions:
 
 Use the version picker in the at the top of the page to select the version of PowerShell you want.
 
-![version picker](../images/picker-v543.png)
+![version picker](../media/picker-v543.png)

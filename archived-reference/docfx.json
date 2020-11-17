@@ -28,23 +28,28 @@
     ],
     "resource": [
       {
-        "files": [ "**/images/**", "**/*.png", "**/*.gif", "**/*.jpeg", "**/*.jpg", "**/*.svg" ],
+        "files": [ "**/media/**", "**/*.png", "**/*.gif", "**/*.jpeg", "**/*.jpg", "**/*.svg" ],
         "exclude": [ "**/obj/**", "**/includes/**", "_themes/**", "_themes.pdf/**", "**/docfx.json" ]
       },
       {
-        "files": ["**/images/**", "**/*.png", "**/*.gif", "**/*.jpeg", "**/*.jpg", "**/*.svg"],
+        "files": ["**/media/**", "**/*.png", "**/*.gif", "**/*.jpeg", "**/*.jpg", "**/*.svg"],
         "exclude": ["**/obj/**", "**/includes/**"],
         "version": "powershell-3.0"
       },
       {
-        "files": ["**/images/**", "**/*.png", "**/*.gif", "**/*.jpeg", "**/*.jpg", "**/*.svg"],
+        "files": ["**/media/**", "**/*.png", "**/*.gif", "**/*.jpeg", "**/*.jpg", "**/*.svg"],
         "exclude": ["**/obj/**", "**/includes/**"],
         "version": "powershell-4.0"
       },
       {
-        "files": ["**/images/**", "**/*.png", "**/*.gif", "**/*.jpeg", "**/*.jpg", "**/*.svg"],
+        "files": ["**/media/**", "**/*.png", "**/*.gif", "**/*.jpeg", "**/*.jpg", "**/*.svg"],
         "exclude": ["**/obj/**", "**/includes/**"],
         "version": "powershell-5.0"
+      },
+      {
+        "files": ["**/media/**", "**/*.png", "**/*.gif", "**/*.jpeg", "**/*.jpg", "**/*.svg"],
+        "exclude": ["**/obj/**", "**/includes/**"],
+        "version": "powershell-6"
       }
     ],
     "versions": {
