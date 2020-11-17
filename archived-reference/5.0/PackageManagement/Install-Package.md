@@ -625,7 +625,7 @@ and includes the provider's parameter set.
 
 [about_PackageManagement](../Microsoft.PowerShell.Core/About/about_PackageManagement.md)
 
-[Find-DscResource](../PowershellGet/Find-DscResource)
+[Find-DscResource](../PowershellGet/Find-DscResource.md)
 
 [Get-Help](../Microsoft.PowerShell.Core/Get-Help.md)
 

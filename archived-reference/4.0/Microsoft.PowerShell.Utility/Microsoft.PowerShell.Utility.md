@@ -178,9 +178,6 @@ Creates a new alias.
 ### [New-Event](New-Event.md)
 Creates a new event.
 
-### [New-Guid](New-Guid.md)
-Creates a GUID.
-
 ### [New-Object](New-Object.md)
 Creates an instance of a Microsoft .NET Framework or COM object.
 

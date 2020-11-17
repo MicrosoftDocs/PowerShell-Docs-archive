@@ -68,5 +68,28 @@
             "PSWorkflow": {},
             "PSWorkflowUtility": {}
         }
+    },
+    "powershell-6": {
+        "conceptualToc": "docs-conceptual/TOC.yml",
+        "packageRoot": "6",
+        "conceptualTocUrl": "/previous-versions/powershell/scripting/powershell-6/toc.json",
+        "referenceTocUrl": "/previous-versions/powershell/module/psdocs/toc.json",
+        "modules": {
+            "CimCmdlets": {},
+            "Microsoft.PowerShell.Archive": {},
+            "Microsoft.PowerShell.Core": {},
+            "Microsoft.PowerShell.Diagnostics": {},
+            "Microsoft.PowerShell.Host": {},
+            "Microsoft.PowerShell.Management": {},
+            "Microsoft.PowerShell.Security": {},
+            "Microsoft.PowerShell.Utility": {},
+            "Microsoft.WsMan.Management": {},
+            "PackageManagement": {},
+            "PowershellGet": {},
+            "PSDesiredStateConfiguration": {},
+            "PSDiagnostics": {},
+            "PSReadline": {},
+            "ThreadJob": {}
+        }
     }
 }

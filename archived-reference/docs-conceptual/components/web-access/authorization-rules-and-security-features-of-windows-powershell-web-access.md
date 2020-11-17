@@ -37,7 +37,7 @@ PSCredential object that contains credentials you want to pass to a remote
 computer, run the [Get-Credential](/powershell/module/microsoft.powershell.security/Get-Credential)
 cmdlet.
 
-Windows PowerShell Web Access authentication rules are whitelist rules. Each
+Windows PowerShell Web Access authentication rules are *allow* rules. Each
 rule is a definition of an allowed connection between users, target computers,
 and particular Windows PowerShell [session configurations](/powershell/module/microsoft.powershell.core/about/about_session_configurations?view=powershell-5.1)
 (also referred to as endpoints or *runspaces*) on specified target computers.
