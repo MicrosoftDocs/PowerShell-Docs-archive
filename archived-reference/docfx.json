@@ -18,6 +18,11 @@
       { "files": [ "toc.yml" ], "src": "5.0", "version": "powershell-5.0", "dest": "module/psdocs" },
       { "files": [ "**/*.md" ], "src": "5.0", "version": "powershell-5.0", "dest": "module" },
 
+      { "files": [ "toc.yml" ], "src": "docs-conceptual", "version": "powershell-6", "dest": "scripting/powershell-6" },
+      { "files": [ "**/*.md" ], "src": "docs-conceptual", "version": "powershell-6", "dest": "scripting" },
+      { "files": [ "toc.yml" ], "src": "6", "version": "powershell-6", "dest": "module/psdocs" },
+      { "files": [ "**/*.md" ], "src": "6", "version": "powershell-6", "dest": "module" },
+
       { "files": [ "**/*.md" ], "src": "virtual-directory", "dest": "scripting" },
       { "files": [ "**/*.md" ], "src": "virtual-directory-module", "dest": "module" }
     ],
@@ -45,7 +50,8 @@
     "versions": {
       "powershell-3.0": { "dest": "powershell-3.0" },
       "powershell-4.0": { "dest": "powershell-4.0" },
-      "powershell-5.0": { "dest": "powershell-5.0" }
+      "powershell-5.0": { "dest": "powershell-5.0" },
+      "powershell-6": { "dest": "powershell-6" }
     },
     "overwrite": [],
     "externalReference": [],
