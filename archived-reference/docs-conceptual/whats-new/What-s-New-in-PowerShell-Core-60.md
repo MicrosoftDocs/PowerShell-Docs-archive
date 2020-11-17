@@ -487,7 +487,7 @@ find out more about how we use this data in this [blog post][telemetry-blog].
 [github]: https://github.com/PowerShell/PowerShell
 [os_log]: https://developer.apple.com/documentation/os/logging
 [semi-annual]: /windows-server/get-started/semi-annual-channel-overview
-[ssh-remoting]: ../learn/remoting/SSH-Remoting-in-PowerShell-Core.md
+[ssh-remoting]: /powershell/scripting/learn/remoting/SSH-Remoting-in-PowerShell-Core
 [Syslog]: https://en.wikipedia.org/wiki/Syslog
 [telemetry-blog]: https://devblogs.microsoft.com/powershell/powershell-open-source-community-dashboard/
 [windowspsmodulepath]: https://www.powershellgallery.com/packages/WindowsPSModulePath/

@@ -125,7 +125,7 @@ The work for WSMan-based remoting is being done in the
 
 PowerShell Core also supports PowerShell Remoting (PSRP) over SSH on all platforms (Windows, macOS,
 and Linux). While this is not currently supported in production, you can learn more about setting
-this up [here](../learn/remoting/SSH-Remoting-in-PowerShell-Core.md).
+this up [here](/powershell/scripting/learn/remoting/SSH-Remoting-in-PowerShell-Core).
 
 ### Just-Enough-Administration (JEA) Support
 
