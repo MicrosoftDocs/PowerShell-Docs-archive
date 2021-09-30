@@ -413,7 +413,7 @@ Accept wildcard characters: False
 Specifies an application. This cmdlet connects only to sessions that use the specified application.
 
 Enter the application name segment of the connection URI. For example, in the following connection
-URI, WSMan is the application name: `http://localhost:5985/WSMAN`.
+URI, WSMan is the application name: `https://localhost:5985/WSMAN`.
 
 The application name of a session is stored in the **Runspace.ConnectionInfo.AppName** property of
 the session.
@@ -524,7 +524,7 @@ specified session configuration.
 Enter a configuration name or the fully qualified resource URI for a session configuration. If you
 specify only the configuration name, the following schema URI is prepended:
 
-`http://schemas.microsoft.com/powershell`.
+`https://schemas.microsoft.com/powershell`.
 
 The configuration name of a session is stored in the **ConfigurationName** property of the session.
 
@@ -557,7 +557,7 @@ The URI must be fully qualified. The string's format is as follows:
 
 The default value is as follows:
 
-`http://localhost:5985/WSMAN`
+`https://localhost:5985/WSMAN`
 
 If you don't specify a connection URI, you can use the **UseSSL**, **ComputerName**, **Port**, and
 **ApplicationName** parameters to specify the connection URI values.
@@ -577,7 +577,7 @@ Aliases: URI, CU
 
 Required: True
 Position: 0
-Default value: http://localhost:5985/WSMAN
+Default value: https://localhost:5985/WSMAN
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```

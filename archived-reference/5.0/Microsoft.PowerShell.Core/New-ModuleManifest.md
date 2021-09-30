@@ -205,7 +205,7 @@ the module.
 
 ```powershell
 $moduleSettings = @{
-  HelpInfoUri = 'http://https://go.microsoft.com/fwlink/?LinkID=603'
+  HelpInfoUri = 'https://https://go.microsoft.com/fwlink/?LinkID=603'
   Path = 'C:\ps-test\ManifestTest.psd1'
 }
 New-ModuleManifest @moduleSettings

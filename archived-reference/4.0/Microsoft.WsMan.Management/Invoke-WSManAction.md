@@ -45,7 +45,7 @@ Invoke-WSManAction -Action startservice -ResourceURI wmicimv2/win32_service  -Se
 
 ```Output
 xsi         : http://www.w3.org/2001/XMLSchema-instance
-p           : http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service
+p           : https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service
 cim         : http://schemas.dmtf.org/wbem/wscim/1/common
 lang        : en-US
 ReturnValue : 0
@@ -65,7 +65,7 @@ Invoke-WSManAction -Action stopservice -ResourceURI wmicimv2/Win32_Service -Sele
 
 ```Output
 xsi         : http://www.w3.org/2001/XMLSchema-instance
-p           : http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service
+p           : https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service
 cim         : http://schemas.dmtf.org/wbem/wscim/1/common
 lang        : en-US
 ReturnValue : 0
@@ -74,7 +74,7 @@ ReturnValue : 0
 This command calls the StopService method on the Spooler service by using input from a file.
 The file, Input.xml, contains the following content:
 
-`<p:StopService_INPUT xmlns:p="http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service" />`
+`<p:StopService_INPUT xmlns:p="https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service" />`
 
 The return value indicates whether the action was successful.
 In this case, a return value of 0 indicates success.
@@ -88,7 +88,7 @@ Invoke-WSManAction -Action create -ResourceURI wmicimv2/win32_process -ValueSet 
 
 ```Output
 xsi         : http://www.w3.org/2001/XMLSchema-instance
-p           : http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Process
+p           : https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Process
 cim         : http://schemas.dmtf.org/wbem/wscim/1/common
 lang        : en-US
 ProcessId   : 6356
@@ -107,7 +107,7 @@ Invoke-WSManAction -Action startservice -ResourceURI wmicimv2/win32_service  -Se
 
 ```Output
 xsi         : http://www.w3.org/2001/XMLSchema-instance
-p           : http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service
+p           : https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service
 cim         : http://schemas.dmtf.org/wbem/wscim/1/common
 lang        : en-US
 ReturnValue : 0
@@ -294,7 +294,7 @@ invoke-wsmanaction -action stopservice -resourceuri wmicimv2/Win32_Service -Sele
 This command calls the StopService method on the Spooler service by using input from a file.
 The file, Input.xml, contains the following content:
 
-`<p:StopService_INPUT xmlns:p="http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service" />`
+`<p:StopService_INPUT xmlns:p="https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service" />`
 
 ```yaml
 Type: String
@@ -359,7 +359,7 @@ The URI is used to identify a specific type of resource, such as disks or proces
 A URI consists of a prefix and a path to a resource.
 For example:
 
-`http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_LogicalDisk`
+`https://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_LogicalDisk`
 
 `http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_NumericSensor`
 

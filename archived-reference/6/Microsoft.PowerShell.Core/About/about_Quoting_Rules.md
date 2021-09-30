@@ -286,9 +286,9 @@ example, the following here-string assigns a page of XML to the $page variable.
 
 ```powershell
 $page = [XML] @"
-<command:command xmlns:maml="http://schemas.microsoft.com/maml/2004/10"
-xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10"
-xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10">
+<command:command xmlns:maml="https://schemas.microsoft.com/maml/2004/10"
+xmlns:command="https://schemas.microsoft.com/maml/dev/command/2004/10"
+xmlns:dev="https://schemas.microsoft.com/maml/dev/2004/10">
 <command:details>
         <command:name>
                Format-Table
