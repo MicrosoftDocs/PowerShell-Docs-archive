@@ -292,7 +292,7 @@ The format of this string is as follows:
 <Transport>://<ComputerName>:<Port>/<ApplicationName>
 ```
 
-The default value is `http://localhost:5985/WSMAN`.
+The default value is `https://localhost:5985/WSMAN`.
 
 If you do not specify a PSConnectionURI, you can use the PSUseSSL,
 PSComputerName, PSPort, and PSApplicationName parameters to specify the

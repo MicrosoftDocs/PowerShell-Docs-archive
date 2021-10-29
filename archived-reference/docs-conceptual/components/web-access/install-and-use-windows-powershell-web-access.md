@@ -618,8 +618,8 @@ valid SSL certificate from a CA.
      [GeoTrust](https://www.geotrust.com/). The certificate's common name must match the host header
      in the request.
 
-     For example, if the client browser requests `http://www.contoso.com/`, then the common name
-     must also be `http://www.contoso.com/`. This is the most secure and recommended option for
+     For example, if the client browser requests `https://www.contoso.com/`, then the common name
+     must also be `https://www.contoso.com/`. This is the most secure and recommended option for
      providing the Windows PowerShell Web Access gateway with a certificate.
 
    - Click **Create a Self-Signed Certificate** to create a certificate that you can use

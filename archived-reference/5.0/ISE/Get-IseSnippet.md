@@ -55,7 +55,7 @@ PS C:\> #Parse-Snippet Function
 function Parse-Snippet
 {
   $A = Get-ISESnippet
-  $SnippetNamespace = @{x="http://schemas.microsoft.com/PowerShell/Snippets"}
+  $SnippetNamespace = @{x="https://schemas.microsoft.com/PowerShell/Snippets"}
   foreach ($SnippetFile in $A)
    {
      Write-Host ""

@@ -67,7 +67,7 @@ Write-Host "Installing Management OData Service..."
 Write-Host "Setting up web service endpoint..."
 .\SetupIISConfig.ps1 -site MODataSvc -path $env:HOMEDRIVE\inetpub\wwwroot\Modata -cfgfile .\Web.config -port 7000 -app MODataSvc -svc .\Microsoft.Management.Odata.svc -schema .\Schema.mof -dispatchXml .\Schema.xml -rbac .\RbacConfiguration.xml -customPluginAssembly $customPluginAssembly
 
-Write-Host "Web Service endpoint is setup. The source root URI is http://localhost:7000/MODataSvc/Microsoft.Management.Odata.svc"
+Write-Host "Web Service endpoint is setup. The source root URI is https://localhost:7000/MODataSvc/Microsoft.Management.Odata.svc"
 ```
 
 ```powershell

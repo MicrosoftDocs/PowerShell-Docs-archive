@@ -53,7 +53,7 @@ Enable-WSManCredSSP -Role "Client" -DelegateComputer "Server02.fabrikam.com"
 ```
 
 ```Output
-cfg         : http://schemas.microsoft.com/wbem/wsman/1/config/client/auth
+cfg         : https://schemas.microsoft.com/wbem/wsman/1/config/client/auth
 lang        : en-US
 Basic       : true
 Digest      : true
@@ -77,7 +77,7 @@ Enable-WSManCredSSP -Role "Client" -DelegateComputer "*.fabrikam.com"
 ```
 
 ```Output
-cfg         : http://schemas.microsoft.com/wbem/wsman/1/config/client/auth
+cfg         : https://schemas.microsoft.com/wbem/wsman/1/config/client/auth
 lang        : en-US
 Basic       : true
 Digest      : true
@@ -97,7 +97,7 @@ Enable-WSManCredSSP -Role "Client" -DelegateComputer $servers
 ```
 
 ```Output
-cfg         : http://schemas.microsoft.com/wbem/wsman/1/config/client/auth
+cfg         : https://schemas.microsoft.com/wbem/wsman/1/config/client/auth
 lang        : en-US
 Basic       : true
 Digest      : true
