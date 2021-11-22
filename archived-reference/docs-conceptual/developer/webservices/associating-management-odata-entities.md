@@ -174,25 +174,25 @@ The client can retrieve a list of the instances associated with an entity by cre
 - A client can request the details of a category without retrieving its associated products. For example, the following request gets details of the `food` category.
 
   ```
-  http://localhost:7000/MODataSvc/sample.svc/Category('food')
+  https://localhost:7000/MODataSvc/sample.svc/Category('food')
   ```
 
   To get the associated products of the category (but not details of the category itself, the client specifies the navigation property in the request.
 
   ```
-  http://localhost:7000/MODataSvc/sample.svc/Category('food')/AssociatedProducts
+  https://localhost:7000/MODataSvc/sample.svc/Category('food')/AssociatedProducts
   ```
 
 - To retrieve only URLs of the products, use the `$links` qualifier in the request.
 
   ```
-  http://localhost:7000/MODataSvc/sample.svc/Category('food')/$links/AssociatedProducts
+  https://localhost:7000/MODataSvc/sample.svc/Category('food')/$links/AssociatedProducts
   ```
 
 - The client can get both the category details and its associated products by using the `$expand` qualifier.
 
   ```
-  http://localhost:7000/MODataSvc/sample.svc/Category('food')?$expand=AssociatedProducts
+  https://localhost:7000/MODataSvc/sample.svc/Category('food')?$expand=AssociatedProducts
   ```
 
 ## See Also

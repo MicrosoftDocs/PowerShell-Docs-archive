@@ -355,7 +355,7 @@ Specifies the session configuration that is used for the interactive session.
 
 Enter a configuration name or the fully qualified resource URI for a session configuration. If you
 specify only the configuration name, the following schema URI is prepended:
-`http://schemas.microsoft.com/powershell`.
+`https://schemas.microsoft.com/powershell`.
 
 When used with SSH, this specifies the subsystem to use on the target as defined in sshd_config. The
 default value for SSH is the `powershell` subsystem.
@@ -388,7 +388,7 @@ qualified. The format of this string is as follows:
 
 The default value is as follows:
 
-`http://localhost:5985/WSMAN`
+`https://localhost:5985/WSMAN`
 
 If you do not specify a **ConnectionURI**, you can use the **UseSSL**, **ComputerName**, **Port**,
 and **ApplicationName** parameters to specify the **ConnectionURI** values.

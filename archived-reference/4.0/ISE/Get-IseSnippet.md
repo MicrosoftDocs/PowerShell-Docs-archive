@@ -56,7 +56,7 @@ A pipeline operator (|) sends the snippet files to the Copy-Item cmdlet, which c
 function Parse-Snippet
 {
   $a = Get-ISESnippet
-  $snippetNamespace = @{x="http://schemas.microsoft.com/PowerShell/Snippets"}
+  $snippetNamespace = @{x="https://schemas.microsoft.com/PowerShell/Snippets"}
   foreach ($snippetFile in $a)
    {
      Write-Host ""

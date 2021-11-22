@@ -306,7 +306,7 @@ Specifies the name of an application. This cmdlet connects only to sessions that
 application.
 
 Enter the application name segment of the connection URI. For example, in the following connection
-URI, the application name is WSMan: `http://localhost:5985/WSMAN`. The application name of a session
+URI, the application name is WSMan: `https://localhost:5985/WSMAN`. The application name of a session
 is stored in the **Runspace.ConnectionInfo.AppName** property of the session.
 
 The value of this parameter is used to select and filter sessions. It does not change the
@@ -431,7 +431,7 @@ session configuration.
 
 Enter a configuration name or the fully qualified resource URI for a session configuration. If you
 specify only the configuration name, the following schema URI is prepended:
-`http://schemas.microsoft.com/powershell`. The configuration name of a session is stored in the
+`https://schemas.microsoft.com/powershell`. The configuration name of a session is stored in the
 **ConfigurationName** property of the session.
 
 The value of this parameter is used to select and filter sessions. It does not change the session
@@ -464,7 +464,7 @@ The format of this string is:
 
 `<Transport>://<ComputerName>:<Port\>/<ApplicationName>`
 
-The default value is: `http://localhost:5985/WSMAN`.
+The default value is: `https://localhost:5985/WSMAN`.
 
 If you do not specify a **ConnectionUri**, you can use the **UseSSL**, **ComputerName**, **Port**,
 and **ApplicationName** parameters to specify the **ConnectionURI** values. Valid values for the

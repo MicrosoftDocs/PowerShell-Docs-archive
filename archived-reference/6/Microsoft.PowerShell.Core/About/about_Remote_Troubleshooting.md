@@ -222,7 +222,7 @@ A configuration error in the policy results in an empty value for the
 ```powershell
 PS> Get-WSManInstance winrm/config/listener -Enumerate
 
-cfg                   : http://schemas.microsoft.com/wbem/wsman/1/config/listener
+cfg                   : https://schemas.microsoft.com/wbem/wsman/1/config/listener
 xsi                   : http://www.w3.org/2001/XMLSchema-instance
 Source                : GPO
 lang                  : en-US
