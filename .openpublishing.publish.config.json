@@ -24,6 +24,10 @@
       },
       "monikerPath": [
         "mapping/monikerMapping.json"
+      ],
+      "xref_query_tags": [
+        "/dotnet",
+        "/uwp/api"
       ]
     }
   ],
