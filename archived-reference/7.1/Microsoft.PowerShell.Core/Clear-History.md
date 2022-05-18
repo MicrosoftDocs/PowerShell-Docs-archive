@@ -25,7 +25,8 @@ Clear-History [[-Id] <int[]>] [[-Count] <int>] [-Newest] [-WhatIf] [-Confirm] [<
 
 ```
 Clear-History [[-Count] <int>] [-CommandLine <string[]>] [-Newest] [-WhatIf] [-Confirm]
-[<CommonParameters>]
+ [<CommonParameters>]
+
 ```
 
 ## DESCRIPTION
