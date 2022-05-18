@@ -198,6 +198,7 @@ version must match a valid release version of PowerShell.
 
 The effective values for this parameter are:
 
+
 - `1.0`
   - Prohibits references to uninitialized variables, except for uninitialized variables in strings.
 - `2.0`

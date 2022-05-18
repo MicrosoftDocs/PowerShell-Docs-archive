@@ -735,6 +735,7 @@ The properties of a session configuration object vary with the options set for t
 configuration and the values of those options. Also, session configurations that use a session
 configuration file have additional properties.
 
+
 You can use commands in the `WSMan:` drive to change the properties of session configurations.
 However, you cannot use the `WSMan:` drive in PowerShell 2.0 to change session configuration
 properties that are introduced in PowerShell 3.0, such as **OutputBufferingMode**. Windows

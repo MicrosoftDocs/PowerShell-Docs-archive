@@ -240,6 +240,7 @@ Id Name            ComputerName    State         ConfigurationName     Availabil
 ```
 
 The ninth command disconnects from the session in the `$s` variable. The administrator closes
+nd disconnects from the session in the `$s` variable.The administrator closes
 PowerShell and closes the computer. She can reconnect to the session on the next day and check the
 script status from her work computer.
 

@@ -171,7 +171,6 @@ comparable classes, you need to implement [System.IEquatable\<T>][2] in your
 class. The following example demonstrates the partial implementation of a
 **MyFileInfoSet** class that implements [System.IEquatable\<T>][2] and has two
 properties, **File** and **Size**. The `Equals()` method returns **True** if
-the File and Size properties of two **MyFileInfoSet** objects are the same.
 
 ```powershell
 class MyFileInfoSet : System.IEquatable[Object] {
@@ -598,6 +597,7 @@ The following example replaces each sequence of three digits with the character
 equivalents. The script block runs for each set of three digits that needs to
 be replaced.
 
+
 ```powershell
 "072101108108111" -replace "\d{3}", {return [char][int]$_.Value}
 ```
@@ -614,6 +614,7 @@ are similar to the equality operators, except that they always return a
 comparing as soon as they detect the first match, whereas the equality
 operators evaluate all input members. In a very large collection, these
 operators return quicker than the equality operators.
+
 
 Syntax:
 
