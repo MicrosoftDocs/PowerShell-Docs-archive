@@ -1,6 +1,6 @@
 ---
 description: Reference documentation for older and retired versions of PowerShell.
-ms.date: 11/17/2020
+ms.date: 05/19/2022
 keywords:  powershell,cmdlet
 title:  PowerShell Scripting
 ---
@@ -13,10 +13,11 @@ For the latest documentation, see the [PowerShell Reference](/powershell/scripti
 
 This site contains cmdlet reference for the following versions:
 
-- PowerShell 3.0
-- PowerShell 4.0
-- PowerShell 5.0
+- PowerShell 7.1 (out of support)
 - PowerShell 6 (out of support)
+- PowerShell 5.0 (based on WMF 5.0, which is out of support)
+- PowerShell 4.0
+- PowerShell 3.0
 
 Use the version picker in the at the top of the page to select the version of PowerShell you want.
 
