@@ -1,7 +1,7 @@
 ---
 keywords: PowerShell,cmdlet
 ms.date: 12/01/2017
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/about/about_redirection?view=powershell-3.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/about/about_redirection?view=powershell-3.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Redirection
 ---
@@ -125,7 +125,7 @@ If the file has a different encoding, the output might not be formatted
 correctly. To redirect content to non-Unicode files, use the `Out-File` cmdlet
 with its `Encoding` parameter.
 
-### Potential confusion with comparison operators 
+### Potential confusion with comparison operators
 
 The `>` operator is not to be confused with the
 [greater-than](about_Comparison_Operators.md#-gt) comparison operator often
@@ -153,7 +153,7 @@ PS> Get-Content 42
 36
 ```
 
-Attempting a *less-than* comparison using `<` yields the following error: 
+Attempting a *less-than* comparison using `<` yields the following error:
 
 ```powershell
 PS> if (36 < 42) { "true" } else { "false" }

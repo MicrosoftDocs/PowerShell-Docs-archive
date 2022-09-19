@@ -1,9 +1,9 @@
 ---
-description:  Describes a keyword that handles a terminating error. 
+description:  Describes a keyword that handles a terminating error.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 06/04/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_trap?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_trap?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Trap
 ---

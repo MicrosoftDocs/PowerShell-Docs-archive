@@ -1,9 +1,9 @@
 ---
-description: Explains how to sign scripts so that they comply with the PowerShell execution policies. 
+description: Explains how to sign scripts so that they comply with the PowerShell execution policies.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 07/31/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_signing?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_signing?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Signing
 ---

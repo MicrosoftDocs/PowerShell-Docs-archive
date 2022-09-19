@@ -1,9 +1,9 @@
 ---
-description: Describes the PowerShell debugger. 
+description: Describes the PowerShell debugger.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 08/06/2019
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_debuggers?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_debuggers?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Debuggers
 ---

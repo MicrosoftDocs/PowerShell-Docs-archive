@@ -4,7 +4,7 @@ keywords: powershell,cmdlet
 Locale: en-US
 Module Name: CimCmdlets
 ms.date: 5/15/2019
-online version: https://docs.microsoft.com/powershell/module/cimcmdlets/set-ciminstance?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/cimcmdlets/set-ciminstance?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Set-CimInstance
 ---

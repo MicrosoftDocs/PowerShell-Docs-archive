@@ -1,9 +1,9 @@
 ---
-description:  Describes the parameters that can be used with any cmdlet. 
+description:  Describes the parameters that can be used with any cmdlet.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 04/08/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_commonparameters?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_CommonParameters
 ---

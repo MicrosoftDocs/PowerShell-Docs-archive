@@ -3,7 +3,7 @@ description: Provides details about background jobs on local and remote computer
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 10/16/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_job_details?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_job_details?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Job_Details
 ---

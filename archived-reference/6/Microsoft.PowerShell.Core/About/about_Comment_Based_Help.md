@@ -2,7 +2,7 @@
 description: Describes how to write comment-based help topics for functions and scripts.
 keywords: powershell,cmdlet
 ms.date: 06/18/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_comment_based_help?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_comment_based_help?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Comment_Based_Help
 ---

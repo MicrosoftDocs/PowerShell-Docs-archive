@@ -1,8 +1,8 @@
 ---
-description: Describes the syntax diagrams that are used in PowerShell. 
+description: Describes the syntax diagrams that are used in PowerShell.
 keywords: powershell,cmdlet
 ms.date: 06/27/2017
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_command_syntax?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_command_syntax?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Command_Syntax
 ---

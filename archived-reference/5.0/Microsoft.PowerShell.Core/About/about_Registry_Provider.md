@@ -1,7 +1,7 @@
 ---
 keywords: powershell,cmdlet
 ms.date: 10/18/2018
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/about/about_registry_provider?view=powershell-5.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/about/about_registry_provider?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Registry Provider
 ---
@@ -53,7 +53,7 @@ in this article.
 ## Types exposed by this provider
 
 Registry keys are represented as instances of the
-[Microsoft.Win32.RegistryKey](https://docs.microsoft.com/dotnet/api/microsoft.win32.registrykey)
+[Microsoft.Win32.RegistryKey](https://learn.microsoft.com/dotnet/api/microsoft.win32.registrykey)
 class. Registry entries are represented as instances of the
 [PSCustomObject](/dotnet/api/system.management.automation.pscustomobject)
 class.

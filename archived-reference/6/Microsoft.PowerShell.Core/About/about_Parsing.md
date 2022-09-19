@@ -1,9 +1,9 @@
 ---
-description:  Describes how PowerShell parses commands. 
+description:  Describes how PowerShell parses commands.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 09/14/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_parsing?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_parsing?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Parsing
 ---
@@ -47,18 +47,18 @@ Expression mode is intended for combining expressions, required for value
 manipulation in a scripting language. Expressions are representations of values
 in PowerShell syntax, and can be simple or composite, for example:
 
-Literal expressions are direct representations of their values: 
+Literal expressions are direct representations of their values:
 
 ```powershell
 'hello', 32
 ```
 
-Variable expressions carry the value of the variable they reference: 
+Variable expressions carry the value of the variable they reference:
 
 ```powershell
 $x, $script:path
 ```
-Operators combine other expressions for evaluation: 
+Operators combine other expressions for evaluation:
 
 ```powershell
 - 12, -not $Quiet, 3 + 7, $input.Length -gt 1

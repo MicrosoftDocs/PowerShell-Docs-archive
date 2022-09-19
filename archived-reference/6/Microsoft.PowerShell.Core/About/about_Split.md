@@ -1,9 +1,9 @@
 ---
-description: Explains how to use the Split operator to split one or more strings into substrings. 
+description: Explains how to use the Split operator to split one or more strings into substrings.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 12/20/2017
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_split?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_split?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Split
 ---

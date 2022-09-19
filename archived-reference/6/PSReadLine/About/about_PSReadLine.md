@@ -3,7 +3,7 @@ description: PSReadLine provides an improved command-line editing experience in 
 keywords: powershell
 Locale: en-US
 ms.date: 11/16/2020
-online version: https://docs.microsoft.com/powershell/module/psreadline/about/about_psreadline?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/psreadline/about/about_psreadline?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: About PSReadLine
 ---

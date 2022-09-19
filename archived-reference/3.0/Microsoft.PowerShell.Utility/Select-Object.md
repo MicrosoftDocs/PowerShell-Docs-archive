@@ -3,7 +3,7 @@ external help file: Microsoft.PowerShell.Commands.Utility.dll-Help.xml
 keywords: powershell,cmdlet
 Module Name: Microsoft.PowerShell.Utility
 ms.date: 06/09/2017
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.utility/select-object?view=powershell-3.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.utility/select-object?view=powershell-3.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Select-Object
 ---

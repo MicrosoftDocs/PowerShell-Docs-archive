@@ -1,9 +1,9 @@
 ---
-description: Describes the operators that compare values in PowerShell. 
+description: Describes the operators that compare values in PowerShell.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 01/16/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Comparison_Operators
 ---

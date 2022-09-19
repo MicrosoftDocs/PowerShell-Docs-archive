@@ -3,7 +3,7 @@ external help file: PSDiagnostics-help.xml
 keywords: powershell,cmdlet
 Module Name: PSDiagnostics
 ms.date: 11/27/2018
-online version: https://docs.microsoft.com/previous-versions/powershell/module/psdiagnostics/stop-trace?view=powershell-4.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/psdiagnostics/stop-trace?view=powershell-4.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Stop-Trace
 ---

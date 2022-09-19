@@ -3,7 +3,7 @@ description: The Experimental Features support in PowerShell provides a mechanis
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 03/13/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_experimental_features?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_experimental_features?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: About experimental features
 ---

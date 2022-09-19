@@ -1,9 +1,9 @@
 ---
-description: Describes how to access Windows environment variables in PowerShell. 
+description: Describes how to access Windows environment variables in PowerShell.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 08/20/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Environment_Variables
 ---

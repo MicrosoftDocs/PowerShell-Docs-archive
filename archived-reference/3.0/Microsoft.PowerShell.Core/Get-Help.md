@@ -3,7 +3,7 @@ external help file: System.Management.Automation.dll-Help.xml
 keywords: powershell,cmdlet
 Module Name: Microsoft.PowerShell.Core
 ms.date: 08/23/2019
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/get-help?view=powershell-3.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/get-help?view=powershell-3.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Get-Help
 ---

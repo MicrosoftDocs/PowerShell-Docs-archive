@@ -2,7 +2,7 @@
 external help file: Microsoft.PowerShell.Commands.Utility.dll-Help.xml
 keywords: powershell,cmdlet
 ms.date: 02/19/2019
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.utility/write-progress?view=powershell-4.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.utility/write-progress?view=powershell-4.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Write-Progress
 ---
