@@ -3,7 +3,7 @@ external help file: Microsoft.PowerShell.Commands.Management.dll-Help.xml
 keywords: powershell,cmdlet
 Module Name: Microsoft.PowerShell.Management
 ms.date: 06/09/2017
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.management/get-process?view=powershell-3.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.management/get-process?view=powershell-3.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Get-Process
 ---
@@ -421,7 +421,7 @@ If you use the **Module** parameter, without the **FileVersionInfo** parameter, 
 - You can use the properties and methods of the Windows Management Instrumentation (WMI)
   Win32_Process object in PowerShell. For information, see `Get-WmiObject` and the WMI SDK.
 - The default display of a process is a table that includes the following columns. For a description
-  of all of the properties of process objects, see [Process Properties](https://docs.microsoft.com/dotnet/api/system.diagnostics.process) in the MSDN library.
+  of all of the properties of process objects, see [Process Properties](https://learn.microsoft.com/dotnet/api/system.diagnostics.process) in the MSDN library.
   - Handles: The number of handles that the process has opened.
   - NPM(K): The amount of non-paged memory that the process is using, in kilobytes.
   - PM(K): The amount of pageable memory that the process is using, in kilobytes.

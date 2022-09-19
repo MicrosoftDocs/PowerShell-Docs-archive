@@ -1,7 +1,7 @@
 ---
 keywords: powershell,cmdlet
 ms.date: 06/09/2017
-online version: https://docs.microsoft.com/previous-versions/powershell/module/psscheduledjob/about/about_scheduled_jobs_troubleshooting?view=powershell-5.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/psscheduledjob/about/about_scheduled_jobs_troubleshooting?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Scheduled_Jobs_Troubleshooting
 ---
@@ -430,7 +430,7 @@ Check the Task Scheduler event log for errors. To check the log, use Event
 Viewer or a PowerShell command such as the following:
 
 ```powershell
-Get-WinEvent -LogName Microsoft-Windows-TaskScheduler/Operational | 
+Get-WinEvent -LogName Microsoft-Windows-TaskScheduler/Operational |
  Where {$_.Message -like "fail"}
 ```
 

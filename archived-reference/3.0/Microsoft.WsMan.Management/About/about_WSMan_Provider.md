@@ -1,7 +1,7 @@
 ---
 keywords: powershell,cmdlet
 ms.date: 10/18/2018
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.wsman.management/about/about_wsman_provider?view=powershell-3.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.wsman.management/about/about_wsman_provider?view=powershell-3.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: WSMan Provider
 ---

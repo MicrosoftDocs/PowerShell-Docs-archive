@@ -1,9 +1,9 @@
 ---
-description:  Explains how to use local and remote variables in remote commands. 
+description:  Explains how to use local and remote variables in remote commands.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 03/13/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_variables?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_variables?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Remote_Variables
 ---

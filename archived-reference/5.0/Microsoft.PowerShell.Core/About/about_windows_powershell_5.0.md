@@ -1,7 +1,7 @@
 ---
 keywords: powershell,cmdlet
 ms.date: 01/04/2018
-online version: https://docs.microsoft.com/previous-versions/powershell/module/?view=powershell-5.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Windows_PowerShell_5.0
 ---

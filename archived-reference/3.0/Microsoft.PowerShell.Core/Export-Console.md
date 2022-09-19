@@ -2,7 +2,7 @@
 external help file: System.Management.Automation.dll-Help.xml
 keywords: powershell,cmdlet
 ms.date: 06/09/2017
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/export-console?view=powershell-3.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/export-console?view=powershell-3.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Export-Console
 ---
@@ -234,7 +234,7 @@ Export-Console creates a file that contains the exported aliases.
   You can also save Windows PowerShell snap-ins for future sessions by adding an Add-PSSnapin command to your Windows PowerShell profile.
 For more information, see [about_Profiles](./About/about_profiles.md).
 
-- 
+-
 
 ## RELATED LINKS
 

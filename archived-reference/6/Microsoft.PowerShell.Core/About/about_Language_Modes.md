@@ -3,7 +3,7 @@ description: Explains language modes and their effect on PowerShell sessions.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 09/09/2019
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_language_modes?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_language_modes?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Language_Modes
 ---

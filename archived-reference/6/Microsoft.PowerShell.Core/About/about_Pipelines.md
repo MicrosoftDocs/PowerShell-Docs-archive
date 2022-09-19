@@ -1,9 +1,9 @@
 ---
-description:  Combining commands into pipelines in the PowerShell 
+description:  Combining commands into pipelines in the PowerShell
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 09/27/2019
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pipelines?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pipelines?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Pipelines
 ---

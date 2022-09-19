@@ -1,7 +1,7 @@
 ---
 keywords: powershell,cmdlet
 ms.date: 12/01/2017
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/about/about_throw?view=powershell-3.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/about/about_throw?view=powershell-3.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Throw
 ---

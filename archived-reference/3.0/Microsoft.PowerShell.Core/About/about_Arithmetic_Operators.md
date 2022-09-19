@@ -1,7 +1,7 @@
 ---
 keywords: powershell,cmdlet
 ms.date: 11/27/2017
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/about/about_arithmetic_operators?view=powershell-3.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/about/about_arithmetic_operators?view=powershell-3.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Arithmetic_Operators
 ---

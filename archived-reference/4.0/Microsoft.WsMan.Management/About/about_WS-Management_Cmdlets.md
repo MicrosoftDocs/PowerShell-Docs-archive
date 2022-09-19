@@ -1,7 +1,7 @@
 ---
 keywords: powershell,cmdlet
 ms.date: 06/09/2017
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.wsman.management/about/about_ws-management_cmdlets?view=powershell-4.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.wsman.management/about/about_ws-management_cmdlets?view=powershell-4.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_WS Management_Cmdlets
 ---

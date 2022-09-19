@@ -2,7 +2,7 @@
 external help file: System.Management.Automation.dll-Help.xml
 keywords: powershell,cmdlet
 ms.date: 5/15/2019
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/connect-pssession?view=powershell-4.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/connect-pssession?view=powershell-4.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Connect-PSSession
 ---
@@ -366,7 +366,7 @@ Accept wildcard characters: False
 Connects only to sessions that use the specified session configuration.
 
 Enter a configuration name or the fully qualified resource URI for a session configuration.
-If you specify only the configuration name, the following schema URI is prepended: 
+If you specify only the configuration name, the following schema URI is prepended:
 `https://schemas.microsoft.com/powershell`.
 The configuration name of a session is stored in the **ConfigurationName** property of the session.
 
@@ -514,7 +514,7 @@ Accept wildcard characters: False
 Parameter Sets: Name, ComputerName, ConnectionUri
 Required: True (Name), False (ComputerName, ConnectionUri)
 Default value: None
-Aliases: 
+Aliases:
 Type: String[]
 ```
 
@@ -699,10 +699,10 @@ use the **Availability** property.
 A value of **Busy** indicates that you cannot connect to the PSSession because it is connected to
 another session.
 
-  For more information about the values of the **State** property of sessions, see 
+  For more information about the values of the **State** property of sessions, see
 [RunspaceState Enumeration](https://msdn.microsoft.com/library/system.management.automation.runspaces.runspacestate) in the MSDN library.
 
-  For more information about the values of the **Availability** property of sessions, see 
+  For more information about the values of the **Availability** property of sessions, see
 [RunspaceAvailability Enumeration](https://msdn.microsoft.com/library/system.management.automation.runspaces.runspaceavailability) in the MSDN library.
 
 - You cannot change the idle timeout value of a PSSession when you connect to the PSSession. The

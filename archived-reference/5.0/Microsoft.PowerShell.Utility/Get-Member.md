@@ -2,7 +2,7 @@
 external help file: Microsoft.PowerShell.Commands.Utility.dll-Help.xml
 keywords: powershell,cmdlet
 ms.date: 06/09/2017
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.utility/get-member?view=powershell-5.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.utility/get-member?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Get-Member
 ---
@@ -232,7 +232,7 @@ Close                     Method        System.Void Close()
 Continue                  Method        System.Void Continue()
 CreateObjRef              Method        System.Runtime.Remoting.ObjRef CreateObjRef(type requestedTy
 Dispose                   Method        System.Void Dispose()
-... 
+...
 PS> Get-Member -InputObject $S
 TypeName: System.Object[]
 Name           MemberType    Definition

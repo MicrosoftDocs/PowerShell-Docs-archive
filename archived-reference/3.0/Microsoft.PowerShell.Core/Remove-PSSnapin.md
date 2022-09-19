@@ -2,7 +2,7 @@
 external help file: System.Management.Automation.dll-Help.xml
 keywords: powershell,cmdlet
 ms.date: 06/09/2017
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/remove-pssnapin?view=powershell-3.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/remove-pssnapin?view=powershell-3.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Remove-PSSnapin
 ---
@@ -156,7 +156,7 @@ If a snap-in cannot be removed, a warning appears and the command fails.
 If you have added an Add-PSSnapin command to your Windows PowerShell profile, you should delete the command to remove the snap-in from future sessions.
 For instructions, see [about_Profiles](./About/about_profiles.md).
 
-- 
+-
 
 ## RELATED LINKS
 

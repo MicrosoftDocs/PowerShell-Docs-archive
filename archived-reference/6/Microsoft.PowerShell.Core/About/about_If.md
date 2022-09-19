@@ -1,9 +1,9 @@
 ---
-description: Describes a language command you can use to run statement lists based on the results of one or more conditional tests. 
+description: Describes a language command you can use to run statement lists based on the results of one or more conditional tests.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 06/09/2017
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_if?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_if?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_If
 ---

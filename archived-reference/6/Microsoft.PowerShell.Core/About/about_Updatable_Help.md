@@ -1,9 +1,9 @@
 ---
-description: Describes the updatable help system in PowerShell. 
+description: Describes the updatable help system in PowerShell.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 08/04/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_updatable_help?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_updatable_help?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Updatable_Help
 ---

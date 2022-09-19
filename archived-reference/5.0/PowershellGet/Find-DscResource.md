@@ -2,7 +2,7 @@
 external help file: PSGet-help.xml
 keywords: powershell,cmdlet
 ms.date: 06/04/2019
-online version: https://docs.microsoft.com/previous-versions/powershell/module/powershellget/find-dscresource?view=powershell-5.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/powershellget/find-dscresource?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Find-DscResource
 ---

@@ -3,7 +3,7 @@ external help file: Microsoft.Management.Infrastructure.CimCmdlets.dll-Help.xml
 keywords: powershell,cmdlet
 Module Name: CimCmdlets
 ms.date: 06/09/2017
-online version: https://docs.microsoft.com/previous-versions/powershell/module/cimcmdlets/get-cimclass?view=powershell-3.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/cimcmdlets/get-cimclass?view=powershell-3.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Get-CimClass
 ---
@@ -118,7 +118,7 @@ Accept wildcard characters: False
 ```
 
 ### -ClassName
-Specifies the name of the CIM class for which to perform the operation. 
+Specifies the name of the CIM class for which to perform the operation.
 NOTE: You can use tab completion to browse the list of classes, because Windows PowerShell gets a list of classes from the local WMI server to provide a list of class names.
 
 ```yaml
@@ -175,7 +175,7 @@ Accept wildcard characters: True
 ### -Namespace
 Specifies the namespace for CIM operation.
 
-The default namespace is root/cimv2. 
+The default namespace is root/cimv2.
 NOTE: You can use tab completion to browse the list of namespaces, because Windows PowerShell gets a list of namespaces from the local WMI server to provide the list of namespaces.
 
 ```yaml

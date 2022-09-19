@@ -2,7 +2,7 @@
 external help file: System.Management.Automation.dll-Help.xml
 keywords: powershell,cmdlet
 ms.date: 5/15/2019
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/receive-pssession?view=powershell-4.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/receive-pssession?view=powershell-4.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Receive-PSSession
 ---
@@ -97,7 +97,7 @@ cmdlet, or unintentionally, such as by a network interruption.
 If you use the **Receive-PSSession** cmdlet to connect to a session in which no commands are running
 or suspended, **Receive-PSSession** connects to the session, but returns no output or errors.
 
-For more information about the Disconnected Sessions feature, see 
+For more information about the Disconnected Sessions feature, see
 [about_Remote_Disconnected_Sessions](./About/about_Remote_Disconnected_Sessions.md).
 
 This cmdlet was introduced in Windows PowerShell 3.0.
@@ -548,7 +548,7 @@ Accept wildcard characters: False
 Parameter Sets: ComputerInstanceId, ConnectionUriInstanceId, InstanceId
 Required: True
 Default value: None
-Aliases: 
+Aliases:
 Type: Guid
 ```
 
@@ -593,7 +593,7 @@ Accept wildcard characters: False
 Parameter Sets: ComputerSessionName, ConnectionUriSessionName, SessionName
 Required: True
 Default value: None
-Aliases: 
+Aliases:
 Type: String
 ```
 
@@ -857,11 +857,11 @@ To determine whether you can connect or reconnect to the session, use the **Avai
 A value of **Busy** indicates that you cannot connect to the PSSession because it is connected to
 another session.
 
-  For more information about the values of the **State** property of sessions, see 
+  For more information about the values of the **State** property of sessions, see
 [RunspaceState Enumeration](/dotnet/api/system.management.automation.runspaces.runspacestate) in the
 MSDN library.
 
-  For more information about the values of the **Availability** property of sessions, see 
+  For more information about the values of the **Availability** property of sessions, see
 [RunspaceAvailability Enumeration](/dotnet/api/system.management.automation.runspaces.runspaceavailability) in the MSDN library.
 
 ## RELATED LINKS

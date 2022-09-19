@@ -2,7 +2,7 @@
 external help file: Get-DscConfigurationStatus.cdxml-help.xml
 keywords: powershell,cmdlet
 ms.date: 06/09/2017
-online version: https://docs.microsoft.com/previous-versions/powershell/module/psdesiredstateconfiguration/get-dscconfigurationstatus?view=powershell-5.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/psdesiredstateconfiguration/get-dscconfigurationstatus?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Get-DscConfigurationStatus
 ---
@@ -93,7 +93,7 @@ Accept wildcard characters: False
 
 ### -CimSession
 Runs the cmdlet in a remote session or on a remote computer.
-Enter a computer name or a session object, such as the output of a [New-CimSession](https://docs.microsoft.com/powershell/module/cimcmdlets/new-cimsession) or [Get-CimSession](https://docs.microsoft.com/powershell/module/cimcmdlets/get-cimsession) cmdlet.
+Enter a computer name or a session object, such as the output of a [New-CimSession](https://learn.microsoft.com/powershell/module/cimcmdlets/new-cimsession) or [Get-CimSession](https://learn.microsoft.com/powershell/module/cimcmdlets/get-cimsession) cmdlet.
 The default is the current session on the local computer.
 
 ```yaml

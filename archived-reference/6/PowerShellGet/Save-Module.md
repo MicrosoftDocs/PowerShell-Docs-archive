@@ -4,7 +4,7 @@ keywords: powershell,cmdlet
 Locale: en-US
 Module Name: PowerShellGet
 ms.date: 11/11/2019
-online version: https://docs.microsoft.com/powershell/module/powershellget/save-module?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/powershellget/save-module?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Save-Module
 ---

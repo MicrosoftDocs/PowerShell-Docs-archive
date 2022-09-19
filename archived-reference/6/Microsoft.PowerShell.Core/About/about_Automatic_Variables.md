@@ -1,9 +1,9 @@
 ---
-description:  Describes variables that store state information for PowerShell. These variables are created and maintained by PowerShell. 
+description:  Describes variables that store state information for PowerShell. These variables are created and maintained by PowerShell.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 08/14/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_automatic_variables?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_automatic_variables?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Automatic_Variables
 ---

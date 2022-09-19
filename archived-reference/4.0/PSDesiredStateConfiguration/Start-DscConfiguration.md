@@ -2,7 +2,7 @@
 external help file: Microsoft.Windows.DSC.CoreConfProviders.dll-Help.xml
 keywords: powershell,cmdlet
 ms.date: 06/09/2017
-online version: https://docs.microsoft.com/previous-versions/powershell/module/psdesiredstateconfiguration/start-dscconfiguration?view=powershell-4.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/psdesiredstateconfiguration/start-dscconfiguration?view=powershell-4.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Start-DscConfiguration
 ---
@@ -91,7 +91,7 @@ The command creates **Job** objects for each configured computer.
 
 ### -CimSession
 Runs the cmdlet in a remote session or on a remote computer.
-Enter a computer name or a session object, such as the output of a [New-CimSession](https://docs.microsoft.com/powershell/module/cimcmdlets/new-cimsession) or [Get-CimSession](https://docs.microsoft.com/powershell/module/cimcmdlets/get-cimsession) cmdlet.
+Enter a computer name or a session object, such as the output of a [New-CimSession](https://learn.microsoft.com/powershell/module/cimcmdlets/new-cimsession) or [Get-CimSession](https://learn.microsoft.com/powershell/module/cimcmdlets/get-cimsession) cmdlet.
 The default is the current session on the local computer.
 
 ```yaml
@@ -211,7 +211,7 @@ Accept wildcard characters: False
 ### -UseExisting
 Indicates that this cmdlet applies the existing configuration.
 
-Before you specify this parameter for this cmdlet, review the information in [What's New in Windows PowerShell 5.0](https://docs.microsoft.com/powershell/scripting/whats-new/what-s-new-in-windows-powershell-50)
+Before you specify this parameter for this cmdlet, review the information in [What's New in Windows PowerShell 5.0](https://learn.microsoft.com/powershell/scripting/whats-new/what-s-new-in-windows-powershell-50)
 
 
 ```yaml

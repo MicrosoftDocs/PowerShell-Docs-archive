@@ -1,7 +1,7 @@
 ---
 keywords: powershell,cmdlet
 ms.date: 5/31/2019
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/about/about_parameters_default_values?view=powershell-5.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/about/about_parameters_default_values?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Parameters_Default_Values
 ---

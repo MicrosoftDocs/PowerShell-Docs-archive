@@ -2,7 +2,7 @@
 external help file: System.Management.Automation.dll-Help.xml
 keywords: powershell,cmdlet
 ms.date: 06/09/2017
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/out-null?view=powershell-3.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/out-null?view=powershell-3.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Out-Null
 ---
@@ -74,7 +74,7 @@ You can pipe any object to **Out-Null**.
 
 - The cmdlets that contain the Out verb (the Out cmdlets) do not have parameters for names or file paths. To send data to an Out cmdlet, use a pipeline operator (|) to send the output of a Windows PowerShell command to the cmdlet. You can also store data in a variable and use the InputObject parameter to pass the data to the cmdlet. For more information, see the examples.
 
-- 
+-
 
   **Out-Null** does not return any output objects.
 If you pipe the output of **Out-Null** to the Get-Member cmdlet, **Get-Member** reports that no objects have been specified.

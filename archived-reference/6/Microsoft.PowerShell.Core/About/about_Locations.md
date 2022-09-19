@@ -1,9 +1,9 @@
 ---
-description: Describes how to access items from the working location in PowerShell. 
+description: Describes how to access items from the working location in PowerShell.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 06/09/2017
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_locations?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_locations?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Locations
 ---

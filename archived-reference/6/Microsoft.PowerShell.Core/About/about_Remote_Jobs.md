@@ -3,7 +3,7 @@ description: Describes how to run jobs on remote computers.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 11/11/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_jobs?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_jobs?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Remote_Jobs
 ---
