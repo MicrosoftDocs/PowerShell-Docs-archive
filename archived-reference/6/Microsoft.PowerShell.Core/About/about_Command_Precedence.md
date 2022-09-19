@@ -1,8 +1,8 @@
 ---
-description: Describes how PowerShell determines which command to run. 
+description: Describes how PowerShell determines which command to run.
 keywords: powershell,cmdlet
 ms.date: 02/13/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_command_precedence?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_command_precedence?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Command_Precedence
 ---

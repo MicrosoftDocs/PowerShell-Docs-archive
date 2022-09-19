@@ -3,7 +3,7 @@ title: about_Character_Encoding
 description: Describes how PowerShell uses character encoding for input and output of string data.
 ms.date: 10/21/2020
 Locale: en-US
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_character_encoding?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_character_encoding?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 ---
 # about_Character_Encoding

@@ -1,9 +1,9 @@
 ---
-description: Describes the PowerShell execution policies and explains how to manage them. 
+description: Describes the PowerShell execution policies and explains how to manage them.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 08/10/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Execution_Policies
 ---

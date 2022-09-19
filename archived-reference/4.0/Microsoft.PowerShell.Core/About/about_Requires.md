@@ -1,7 +1,7 @@
 ---
 keywords: powershell,cmdlet
 ms.date: 07/01/2019
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/about/about_requires?view=powershell-4.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/about/about_requires?view=powershell-4.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Requires
 ---

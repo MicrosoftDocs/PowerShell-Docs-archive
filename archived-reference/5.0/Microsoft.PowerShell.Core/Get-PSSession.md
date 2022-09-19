@@ -2,7 +2,7 @@
 external help file: System.Management.Automation.dll-Help.xml
 keywords: powershell,cmdlet
 ms.date: 5/15/2019
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/get-pssession?view=powershell-5.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/get-pssession?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Get-PSSession
 ---
@@ -523,7 +523,7 @@ Accept wildcard characters: False
 Parameter Sets: ComputerInstanceId, ConnectionUriInstanceId, InstanceId
 Required: True (ComputerInstanceId, ConnectionUriInstanceId), False (InstanceId)
 Default value: All sessions
-Aliases: 
+Aliases:
 Type: Guid[]
 ```
 
@@ -542,7 +542,7 @@ Accept wildcard characters: True
 Parameter Sets: Name, ComputerName, ConnectionUri
 Required: False
 Default value: All sessions
-Aliases: 
+Aliases:
 Type: String[]
 ```
 

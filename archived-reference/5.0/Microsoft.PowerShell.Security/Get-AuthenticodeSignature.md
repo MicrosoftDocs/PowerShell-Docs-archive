@@ -2,7 +2,7 @@
 external help file: Microsoft.PowerShell.Security.dll-Help.xml
 keywords: powershell,cmdlet
 ms.date: 11/02/2018
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.security/get-authenticodesignature?view=powershell-5.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.security/get-authenticodesignature?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Get-AuthenticodeSignature
 ---

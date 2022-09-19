@@ -1,9 +1,9 @@
 ---
-description: Describes the keywords in the PowerShell scripting language. 
+description: Describes the keywords in the PowerShell scripting language.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 10/06/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_language_keywords?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_language_keywords?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Language_Keywords
 ---

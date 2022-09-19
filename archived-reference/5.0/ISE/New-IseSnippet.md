@@ -2,7 +2,7 @@
 external help file: ISE-help.xml
 keywords: powershell,cmdlet
 ms.date: 06/09/2017
-online version: https://docs.microsoft.com/previous-versions/powershell/module/ise/new-isesnippet?view=powershell-5.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/ise/new-isesnippet?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: New-IseSnippet
 ---

@@ -1,9 +1,9 @@
 ---
-description:  Describes how to use wildcard characters in PowerShell. 
+description:  Describes how to use wildcard characters in PowerShell.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 3/28/2019
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_wildcards?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_wildcards?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Wildcards
 ---

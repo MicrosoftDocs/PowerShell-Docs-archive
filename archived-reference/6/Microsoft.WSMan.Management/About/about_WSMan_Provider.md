@@ -1,9 +1,9 @@
 ---
-description:  WSMan 
+description:  WSMan
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 10/18/2018
-online version: https://docs.microsoft.com/powershell/module/microsoft.wsman.management/about/about_wsman_provider?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.wsman.management/about/about_wsman_provider?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: WSMan Provider
 ---

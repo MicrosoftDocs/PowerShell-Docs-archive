@@ -1,9 +1,9 @@
 ---
-description:  Variables that customize the behavior of PowerShell. 
+description:  Variables that customize the behavior of PowerShell.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 04/22/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_preference_variables?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_preference_variables?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Preference_Variables
 ---

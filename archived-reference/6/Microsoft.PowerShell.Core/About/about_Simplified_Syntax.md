@@ -1,9 +1,9 @@
 ---
-description: Describes easier, more natural-language ways of scripting filters for collections of objects. 
+description: Describes easier, more natural-language ways of scripting filters for collections of objects.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 06/09/2017
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_simplified_syntax?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_simplified_syntax?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Simplified_Syntax
 ---
@@ -59,10 +59,10 @@ processes.
 Get-Process | foreach Description
 ```
 
-In this example, the `DirectoryInfo` method `GetFiles` is passed as the member name 
-parameter of the `ForEach-Object` command.  
-The method is called with the search pattern parameter `.*`.  
-The results are `FileInfo` records for all Unix-style hidden files in user home directories. 
+In this example, the `DirectoryInfo` method `GetFiles` is passed as the member name
+parameter of the `ForEach-Object` command.
+The method is called with the search pattern parameter `.*`.
+The results are `FileInfo` records for all Unix-style hidden files in user home directories.
 
 ```powershell
 Get-ChildItem /home -Directory | foreach GetFiles .*

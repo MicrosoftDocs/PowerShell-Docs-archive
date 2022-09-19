@@ -1,9 +1,9 @@
 ---
-description:  Describes the special character sequences that control how PowerShell interprets the next characters in the sequence. 
+description:  Describes the special character sequences that control how PowerShell interprets the next characters in the sequence.
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 04/04/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_special_characters?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_special_characters?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Special_Characters
 ---

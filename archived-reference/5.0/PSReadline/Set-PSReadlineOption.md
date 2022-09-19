@@ -3,7 +3,7 @@ external help file: Microsoft.PowerShell.PSReadLine.dll-Help.xml
 keywords: powershell,cmdlet
 Module Name: PSReadLine
 ms.date: 09/23/2019
-online version: https://docs.microsoft.com/previous-versions/powershell/module/psreadline/set-psreadlineoption?view=powershell-5.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/psreadline/set-psreadlineoption?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Set-PSReadLineOption
 ---

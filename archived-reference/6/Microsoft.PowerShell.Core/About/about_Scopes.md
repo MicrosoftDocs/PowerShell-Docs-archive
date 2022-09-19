@@ -3,7 +3,7 @@ description: Explains the concept of scope in PowerShell and shows how to set an
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 11/04/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_scopes?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_scopes?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_scopes
 ---

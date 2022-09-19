@@ -3,7 +3,7 @@ external help file: Microsoft.PowerShell.Commands.Diagnostics.dll-Help.xml
 keywords: powershell,cmdlet
 Module Name: Microsoft.PowerShell.Diagnostics
 ms.date: 6/21/2019
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.diagnostics/get-counter?view=powershell-3.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.diagnostics/get-counter?view=powershell-3.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Get-Counter
 ---

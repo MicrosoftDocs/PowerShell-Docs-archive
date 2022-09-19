@@ -1,7 +1,7 @@
 ---
 keywords: powershell,cmdlet
 ms.date: 1/11/2019
-online version: https://docs.microsoft.com/previous-versions/powershell/module/psdesiredstateconfiguration/about/about_classes_and_dsc?view=powershell-5.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/psdesiredstateconfiguration/about/about_classes_and_dsc?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Classes_and_DSC
 ---

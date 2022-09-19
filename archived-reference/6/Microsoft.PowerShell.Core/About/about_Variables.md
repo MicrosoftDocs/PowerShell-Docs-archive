@@ -3,7 +3,7 @@ description:  Describes how variables store values that can be used in PowerShel
 keywords: powershell,cmdlet
 Locale: en-US
 ms.date: 11/09/2020
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_variables?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_variables?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about_Variables
 ---

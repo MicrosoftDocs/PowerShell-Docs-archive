@@ -3,7 +3,7 @@ external help file: Microsoft.PowerShell.Commands.Utility.dll-Help.xml
 keywords: powershell,cmdlet
 Module Name: Microsoft.PowerShell.Utility
 ms.date: 04/04/2019
-online version: https://docs.microsoft.com/previous-versions/powershell/module/microsoft.powershell.utility/write-debug?view=powershell-5.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.utility/write-debug?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Write-Debug
 ---

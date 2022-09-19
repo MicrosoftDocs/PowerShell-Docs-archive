@@ -2,7 +2,7 @@
 description: Prevents a script from running without the required elements.
 Locale: en-US
 ms.date: 10/22/2021
-online version: https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_requires?view=powershell-7.1&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_requires?view=powershell-7.1&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: about Requires
 ---
