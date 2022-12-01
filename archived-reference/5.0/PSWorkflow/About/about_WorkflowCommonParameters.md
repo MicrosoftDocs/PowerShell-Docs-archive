@@ -349,5 +349,5 @@ the port used for the command, the command fails.
 - [about_ActivityCommonParameters](about_ActivityCommonParameters.md)
 - [about_Workflows](about_Workflows.md)
 - [Invoke-AsWorkflow](xref:PSWorkflowUtility.Invoke-AsWorkflow)
-- [New-PSWorkflowExecutionOption](xref:Microsoft.PowerShell.Core.New-PSWorkflowExecutionOption)
-- [New-PSWorkflowSession](xref:Microsoft.PowerShell.Core.New-PSWorkflowSession)
+- [New-PSWorkflowExecutionOption](xref:PSWorkflow.New-PSWorkflowExecutionOption)
+- [New-PSWorkflowSession](xref:PSWorkflow.New-PSWorkflowSession)

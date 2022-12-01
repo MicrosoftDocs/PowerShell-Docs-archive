@@ -506,7 +506,7 @@ on the CIM server.
 
 ## RELATED LINKS
 
-[Format-Table](../microsoft.powershell.utility/format-table.md)
+[Format-Table](../Microsoft.PowerShell.Utility/format-table.md)
 
 [Get-CimAssociatedInstance](Get-CimAssociatedInstance.md)
 

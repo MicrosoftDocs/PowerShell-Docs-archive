@@ -208,8 +208,8 @@ You can learn more about this feature in
 ## Web cmdlet improvements
 
 Thanks to [@markekraus](https://github.com/markekraus), a whole slew of improvements have been made to our web cmdlets:
-[`Invoke-WebRequest`](/powershell/module/microsoft.powershell.utility/invoke-webrequest)
-and [`Invoke-RestMethod`](/powershell/module/microsoft.powershell.utility/invoke-restmethod).
+[`Invoke-WebRequest`](/powershell/module/Microsoft.PowerShell.Utility/invoke-webrequest)
+and [`Invoke-RestMethod`](/powershell/module/Microsoft.PowerShell.Utility/invoke-restmethod).
 
 - [PR #6109](https://github.com/PowerShell/PowerShell/pull/6109) - default encoding set to UTF-8 for
   `application-json` responses

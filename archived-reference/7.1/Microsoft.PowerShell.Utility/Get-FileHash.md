@@ -3,7 +3,7 @@ external help file: Microsoft.PowerShell.Commands.Utility.dll-Help.xml
 Locale: en-US
 Module Name: Microsoft.PowerShell.Utility
 ms.date: 05/16/2020
-online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.1&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/Microsoft.PowerShell.Utility/get-filehash?view=powershell-7.1&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Get-FileHash
 ---
@@ -226,7 +226,7 @@ You can pipe a string to the `Get-FileHash` cmdlet that contains a path to one o
 
 ## OUTPUTS
 
-### Microsoft.Powershell.Utility.FileHash
+### Microsoft.PowerShell.Utility.FileHash
 
 `Get-FileHash` returns an object that represents the path to the specified file, the value of the
 computed hash, and the algorithm used to compute the hash.

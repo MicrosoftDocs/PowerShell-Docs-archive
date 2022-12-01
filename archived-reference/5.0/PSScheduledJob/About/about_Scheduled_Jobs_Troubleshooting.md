@@ -413,7 +413,7 @@ MultipleInstancePolicy : IgnoreNew
 JobDefinition          : Microsoft.PowerShell.ScheduledJob.ScheduledJobDefinition
 ```
 
-For descriptions of the scheduled job options, see [New-ScheduledJobOption](xref:Microsoft.PowerShell.Core.New-ScheduledJobOption).
+For descriptions of the scheduled job options, see [New-ScheduledJobOption](xref:PSScheduledJob.New-ScheduledJobOption).
 
 ### The scheduled job instance might have failed
 

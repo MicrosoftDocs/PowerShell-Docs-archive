@@ -118,7 +118,7 @@ file called `script.log`
 ```
 
 This example suppresses all information stream data. To read more about
-**Information** stream cmdlets, see [Write-Host](xref:microsoft.powershell.utility.Write-Host) and [Write-Information](xref:microsoft.powershell.utility.Write-Information)
+**Information** stream cmdlets, see [Write-Host](xref:Microsoft.PowerShell.Utility.Write-Host) and [Write-Information](xref:Microsoft.PowerShell.Utility.Write-Information)
 
 ## Notes
 
@@ -178,9 +178,9 @@ If numeric comparison is the required operation, `-lt` and `-gt` should be used.
 
 ## See also
 
-[Out-File](xref:Microsoft.Powershell.Utility.Out-File)
+[Out-File](xref:Microsoft.PowerShell.Utility.Out-File)
 
-[Tee-Object](xref:Microsoft.Powershell.Utility.Tee-Object)
+[Tee-Object](xref:Microsoft.PowerShell.Utility.Tee-Object)
 
 [about_Operators](about_Operators.md)
 

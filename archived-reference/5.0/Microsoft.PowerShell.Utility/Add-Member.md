@@ -3,7 +3,7 @@ external help file: Microsoft.PowerShell.Commands.Utility.dll-help.xml
 keywords: powershell,cmdlet
 Module Name: Microsoft.PowerShell.Utility
 ms.date: 4/26/2019
-online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.utility/add-member?view=powershell-5.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/Microsoft.PowerShell.Utility/add-member?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Add-Member
 ---

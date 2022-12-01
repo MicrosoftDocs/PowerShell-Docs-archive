@@ -163,26 +163,26 @@ MSDN (Microsoft Developer Network) library.
 
 ## SEE ALSO
 
-[Connect-WSMan](xref:Microsoft.PowerShell.Core.Connect-WSMan)
+[Connect-WSMan](xref:Microsoft.WsMan.Management.Connect-WSMan)
 
-[Disable-WSManCredSSP](xref:Microsoft.PowerShell.Core.Disable-WSManCredSSP)
+[Disable-WSManCredSSP](xref:Microsoft.WsMan.Management.Disable-WSManCredSSP)
 
-[Disconnect-WSMan](xref:Microsoft.PowerShell.Core.Disconnect-WSMan)
+[Disconnect-WSMan](xref:Microsoft.WsMan.Management.Disconnect-WSMan)
 
-[Enable-WSManCredSSP](xref:Microsoft.PowerShell.Core.Enable-WSManCredSSP)
+[Enable-WSManCredSSP](xref:Microsoft.WsMan.Management.Enable-WSManCredSSP)
 
-[Get-WSManCredSSP](xref:Microsoft.PowerShell.Core.Get-WSManCredSSP)
+[Get-WSManCredSSP](xref:Microsoft.WsMan.Management.Get-WSManCredSSP)
 
-[Get-WSManInstance](xref:Microsoft.PowerShell.Core.Get-WSManInstance)
+[Get-WSManInstance](xref:Microsoft.WsMan.Management.Get-WSManInstance)
 
-[Invoke-WSManAction](xref:Microsoft.PowerShell.Core.Invoke-WSManAction)
+[Invoke-WSManAction](xref:Microsoft.WsMan.Management.Invoke-WSManAction)
 
-[New-WSManInstance](xref:Microsoft.PowerShell.Core.New-WSManInstance)
+[New-WSManInstance](xref:Microsoft.WsMan.Management.New-WSManInstance)
 
-[Remove-WSManInstance](xref:Microsoft.PowerShell.Core.Remove-WSManInstance)
+[Remove-WSManInstance](xref:Microsoft.WsMan.Management.Remove-WSManInstance)
 
-[Set-WSManInstance](xref:Microsoft.PowerShell.Core.Set-WSManInstance)
+[Set-WSManInstance](xref:Microsoft.WsMan.Management.Set-WSManInstance)
 
-[Set-WSManQuickConfig](xref:Microsoft.PowerShell.Core.Set-WSManQuickConfig)
+[Set-WSManQuickConfig](xref:Microsoft.WsMan.Management.Set-WSManQuickConfig)
 
-[Test-WSMan](xref:Microsoft.PowerShell.Core.Test-WSMan)
+[Test-WSMan](xref:Microsoft.WsMan.Management.Test-WSMan)

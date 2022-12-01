@@ -4,7 +4,7 @@ keywords: powershell,cmdlet
 Locale: en-US
 Module Name: Microsoft.PowerShell.Utility
 ms.date: 04/27/2020
-online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-typedata?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/Microsoft.PowerShell.Utility/get-typedata?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Get-TypeData
 ---

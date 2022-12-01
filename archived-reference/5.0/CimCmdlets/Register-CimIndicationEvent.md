@@ -384,13 +384,13 @@ This cmdlet outputs an **EventSubscription** object.
 
 ## RELATED LINKS
 
-[Get-Event](../microsoft.powershell.utility/get-event.md)
+[Get-Event](../Microsoft.PowerShell.Utility/get-event.md)
 
-[Remove-Event](../microsoft.powershell.utility/remove-event.md)
+[Remove-Event](../Microsoft.PowerShell.Utility/remove-event.md)
 
-[Unregister-Event](../microsoft.powershell.utility/unregister-event.md)
+[Unregister-Event](../Microsoft.PowerShell.Utility/unregister-event.md)
 
-[Write-Host](../microsoft.powershell.utility/write-host.md)
+[Write-Host](../Microsoft.PowerShell.Utility/write-host.md)
 
 [Get-CimSession](Get-CimSession.md)
 
