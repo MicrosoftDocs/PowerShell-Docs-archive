@@ -510,9 +510,9 @@ indicates that the debugger has exited and returned control to the command
 processor.
 
 Now, run the debugger again. First, to delete the current breakpoint, use the
-`Get-PsBreakpoint` and `Remove-PsBreakpoint` cmdlets. (If you think you might
-reuse the breakpoint, use the `Disable-PsBreakpoint` cmdlet instead of
-`Remove-PsBreakpoint`.)
+`Get-PSBreakpoint` and `Remove-PSBreakpoint` cmdlets. (If you think you might
+reuse the breakpoint, use the `Disable-PSBreakpoint` cmdlet instead of
+`Remove-PSBreakpoint`.)
 
 ```powershell
 PS C:\ps-test> Get-PSBreakpoint| Remove-PSBreakpoint
@@ -600,7 +600,7 @@ standard command prompt.
 C:\ps-test>
 ```
 
-To delete the breakpoints, use the `Get-PsBreakpoint` and `Remove-PsBreakpoint`
+To delete the breakpoints, use the `Get-PSBreakpoint` and `Remove-PSBreakpoint`
 cmdlets.
 
 ```powershell
@@ -636,7 +636,7 @@ the breakpoint or to perform preparatory or diagnostic tasks, such as starting
 a log or invoking a diagnostic or security script.
 
 To set an action, use a Continue command (c) to exit the script, and a
-`Remove-PsBreakpoint` command to delete the current breakpoint. (Breakpoints
+`Remove-PSBreakpoint` command to delete the current breakpoint. (Breakpoints
 are read-only, so you cannot add an action to the current breakpoint.)
 
 ```powershell
