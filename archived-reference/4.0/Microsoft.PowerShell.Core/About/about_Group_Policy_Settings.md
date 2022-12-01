@@ -165,12 +165,12 @@ about_GroupPolicy
 
 [about_Updatable_Help](about_Updatable_Help.md)
 
-[Get-ExecutionPolicy](../../Microsoft.PowerShell.Security/Get-ExecutionPolicy.md)
+[Get-ExecutionPolicy](xref:Microsoft.PowerShell.Security.Get-ExecutionPolicy)
 
-[Set-ExecutionPolicy](../../Microsoft.PowerShell.Security/Set-ExecutionPolicy.md)
+[Set-ExecutionPolicy](xref:Microsoft.PowerShell.Security.Set-ExecutionPolicy)
 
-[Get-Module](../Get-Module.md)
+[Get-Module](xref:Micrsoft.PowerShell.Core.Get-Module)
 
-[Update-Help](../Update-Help.md)
+[Update-Help](xref:Micrsoft.PowerShell.Core.Update-Help)
 
-[Save-Help](../Save-Help.md)
+[Save-Help](xref:Micrsoft.PowerShell.Core.Save-Help)

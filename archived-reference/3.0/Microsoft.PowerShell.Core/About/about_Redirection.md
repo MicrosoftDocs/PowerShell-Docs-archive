@@ -170,9 +170,9 @@ For more information, see about_Comparison_Operators](about_Comparison_Operators
 
 ## See also
 
-[Out-File](../../microsoft.powershell.utility/Out-File.md)
+[Out-File](xref:microsoft.powershell.utility.Out-File)
 
-[Tee-Object](../../microsoft.powershell.utility/Tee-Object.md)
+[Tee-Object](xref:microsoft.powershell.utility.Tee-Object)
 
 [about_Operators](about_Operators.md)
 

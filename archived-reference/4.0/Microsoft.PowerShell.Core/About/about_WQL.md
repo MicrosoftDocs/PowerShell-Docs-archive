@@ -445,7 +445,7 @@ create simple, yet powerful filters.
 
 ### LIKE OPERATOR EXAMPLES
 
-#### EXAMPLE 1: [<range>]
+#### EXAMPLE 1: [`<range>`]
 
 The following commands start Notepad and then search for an instance of the
 Win32_Process class that has a name that starts with a letter between "H" and

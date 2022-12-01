@@ -229,7 +229,7 @@ You cannot pipe input to this cmdlet.
 
 ## RELATED LINKS
 
-[Clear-Host](../Microsoft.PowerShell.Core/Functions/Clear-Host.md)
+[Clear-Host](../Microsoft.PowerShell.Core/Clear-Host.md)
 
 [Out-Host](../Microsoft.PowerShell.Core/Out-Host.md)
 

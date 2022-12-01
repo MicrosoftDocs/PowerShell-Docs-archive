@@ -2,7 +2,7 @@
 external help file: System.Management.Automation.dll-help.xml
 keywords: powershell,cmdlet
 ms.date: 09/07/2018
-online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/functions/get-verb?view=powershell-5.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/Microsoft.PowerShell.Core/get-verb?view=powershell-4.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Get-Verb
 ---

@@ -32,19 +32,19 @@ The **Certificate** drive is a hierarchical namespace containing the cerificate 
 The **Certificate** provider supports the following cmdlets, which are covered
 in this article.
 
-- [Get-Location](../../Microsoft.PowerShell.Management/Get-Location.md)
-- [Set-Location](../../Microsoft.PowerShell.Management/Set-Location.md)
-- [Get-Item](../../Microsoft.PowerShell.Management/Get-Item.md)
-- [Get-ChildItem](../../Microsoft.PowerShell.Management/Get-ChildItem.md)
-- [Invoke-Item](../../Microsoft.PowerShell.Management/Invoke-Item.md)
-- [Move-Item](../../Microsoft.PowerShell.Management/Move-Item.md)
-- [New-Item](../../Microsoft.PowerShell.Management/New-Item.md)
-- [Remove-Item](../../Microsoft.PowerShell.Management/Remove-Item.md)
-- [Get-ItemProperty](../../Microsoft.PowerShell.Management/Get-ItemProperty.md)
-- [Set-ItemProperty](../../Microsoft.PowerShell.Management/Set-ItemProperty.md)
-- [Clear-ItemProperty](../../Microsoft.PowerShell.Management/Set-ItemProperty.md)
-- [Get-AuthenticodeSignature](../Get-AuthenticodeSignature.md)
-- [Set-AuthenticodeSignature](../Set-AuthenticodeSignature.md)
+- [Get-Location](xref:Microsoft.PowerShell.Management.Get-Location)
+- [Set-Location](xref:Microsoft.PowerShell.Management.Set-Location)
+- [Get-Item](xref:Microsoft.PowerShell.Management.Get-Item)
+- [Get-ChildItem](xref:Microsoft.PowerShell.Management.Get-ChildItem)
+- [Invoke-Item](xref:Microsoft.PowerShell.Management.Invoke-Item)
+- [Move-Item](xref:Microsoft.PowerShell.Management.Move-Item)
+- [New-Item](xref:Microsoft.PowerShell.Management.New-Item)
+- [Remove-Item](xref:Microsoft.PowerShell.Management.Remove-Item)
+- [Get-ItemProperty](xref:Microsoft.PowerShell.Management.Get-ItemProperty)
+- [Set-ItemProperty](xref:Microsoft.PowerShell.Management.Set-ItemProperty)
+- [Clear-ItemProperty](xref:Microsoft.PowerShell.Management.Set-ItemProperty)
+- [Get-AuthenticodeSignature](xref:Micrsoft.PowerShell.Core.Get-AuthenticodeSignature)
+- [Set-AuthenticodeSignature](xref:Micrsoft.PowerShell.Core.Set-AuthenticodeSignature)
 
 ## Types exposed by this provider
 
@@ -90,9 +90,9 @@ Set-Location C:
 > [!NOTE]
 > PowerShell uses aliases to allow you a familiar way to work with provider
 > paths. Commands such as `dir` and `ls` are now aliases for
-> [Get-ChildItem](../../Microsoft.PowerShell.Management/Get-ChildItem.md),
-> `cd` is an alias for [Set-Location](../../Microsoft.PowerShell.Management/Set-Location.md). and `pwd` is
-> an alias for [Get-Location](../../Microsoft.PowerShell.Management/Get-Location.md).
+> [Get-ChildItem](xref:Microsoft.PowerShell.Management.Get-ChildItem),
+> `cd` is an alias for [Set-Location](xref:Microsoft.PowerShell.Management.Set-Location). and `pwd` is
+> an alias for [Get-Location](xref:Microsoft.PowerShell.Management.Get-Location).
 
 ## Displaying the Contents of the Cert: drive
 
@@ -427,15 +427,15 @@ In a `Certificate` drive, the following values are allowed:
 
 ### Cmdlets Supported
 
-- [New-Item](../../Microsoft.PowerShell.Management/New-Item.md)
+- [New-Item](xref:Microsoft.PowerShell.Management.New-Item)
 
 ### CodeSigningCert <System.Management.Automation.SwitchParameter>
 
 #### Cmdlets supported
 
-- [Get-Item](../../Microsoft.PowerShell.Management/Get-Item.md)
+- [Get-Item](xref:Microsoft.PowerShell.Management.Get-Item)
 
-- [Get-ChildItem](../../Microsoft.PowerShell.Management/Get-ChildItem.md)
+- [Get-ChildItem](xref:Microsoft.PowerShell.Management.Get-ChildItem)
 
 This parameter gets certificates that have "Code Signing" in their
 **EnhancedKeyUsageList** property value.
@@ -444,7 +444,7 @@ This parameter gets certificates that have "Code Signing" in their
 
 #### Cmdlets supported
 
-- [Get-ChildItem](../../Microsoft.PowerShell.Management/Get-ChildItem.md)
+- [Get-ChildItem](xref:Microsoft.PowerShell.Management.Get-ChildItem)
 
 This parameter gets certificates that have the specified domain name or name
 pattern in the **DNSNameList** property of the certificate. The value of this
@@ -457,7 +457,7 @@ This parameter was introduced in Windows PowerShell 3.0.
 
 #### Cmdlets supported
 
-- [Get-ChildItem](../../Microsoft.PowerShell.Management/Get-ChildItem.md)
+- [Get-ChildItem](xref:Microsoft.PowerShell.Management.Get-ChildItem)
 
 This parameter gets certificates that have the specified text or text pattern
 in the `EnhancedKeyUsageList` property of the certificate. Wildcard characters
@@ -470,7 +470,7 @@ This parameter was introduced in Windows PowerShell 3.0.
 
 #### Cmdlets supported
 
-- [Get-ChildItem](../../Microsoft.PowerShell.Management/Get-ChildItem.md)
+- [Get-ChildItem](xref:Microsoft.PowerShell.Management.Get-ChildItem)
 
 This parameter gets certificates that are expiring in or before the specified
 number of days. A value of 0 (zero) gets certificates that have expired.
@@ -481,7 +481,7 @@ This parameter was introduced in Windows PowerShell 3.0.
 
 #### Cmdlets supported
 
-- [Get-ChildItem](../../Microsoft.PowerShell.Management/Get-ChildItem.md)
+- [Get-ChildItem](xref:Microsoft.PowerShell.Management.Get-ChildItem)
 
 Gets only server certificates for SSL web hosting. This parameter gets
 certificates that have "Server Authentication" in their `EnhancedKeyUsageList`
@@ -493,7 +493,7 @@ This parameter was introduced in Windows PowerShell 3.0.
 
 #### Cmdlets supported
 
-- [Remove-Item](../../Microsoft.PowerShell.Management/Remove-Item.md)
+- [Remove-Item](xref:Microsoft.PowerShell.Management.Remove-Item)
 
 This parameter deletes the associated private key when it deletes the certificate.
 
@@ -543,8 +543,8 @@ Beginning in Windows PowerShell 3.0, you can get customized help topics for
 provider cmdlets that explain how those cmdlets behave in a file system drive.
 
 To get the help topics that are customized for the file system drive, run a
-[Get-Help](../../Microsoft.PowerShell.Core/Get-Help.md) command in a file system drive or use the `-Path`
-parameter of [Get-Help](../../Microsoft.PowerShell.Core/Get-Help.md) to specify a file system drive.
+[Get-Help](xref:Microsoft.PowerShell.Core.Get-Help) command in a file system drive or use the `-Path`
+parameter of [Get-Help](xref:Microsoft.PowerShell.Core.Get-Help) to specify a file system drive.
 
 ```powershell
 Get-Help Get-ChildItem
@@ -560,8 +560,8 @@ Get-Help Get-ChildItem -Path cert:
 
 [about_Signing](../../Microsoft.PowerShell.Core/About/about_Signing.md)
 
-[Get-AuthenticodeSignature](../Get-AuthenticodeSignature.md)
+[Get-AuthenticodeSignature](xref:Micrsoft.PowerShell.Core.Get-AuthenticodeSignature)
 
-[Set-AuthenticodeSignature](../Set-AuthenticodeSignature.md)
+[Set-AuthenticodeSignature](xref:Micrsoft.PowerShell.Core.Set-AuthenticodeSignature)
 
-[Get-PfxCertificate](../Get-PfxCertificate.md)
+[Get-PfxCertificate](xref:Micrsoft.PowerShell.Core.Get-PfxCertificate)

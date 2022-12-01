@@ -349,20 +349,20 @@ Invoke-Command -Session $s -ScriptBlock {
 
 [about_Remote_Variables](about_Remote_Variables.md)
 
-[Invoke-Command](../Invoke-Command.md)
+[Invoke-Command](xref:Micrsoft.PowerShell.Core.Invoke-Command)
 
-[Start-Job](../Start-Job.md)
+[Start-Job](xref:Micrsoft.PowerShell.Core.Start-Job)
 
-[Get-Job](../Get-Job.md)
+[Get-Job](xref:Micrsoft.PowerShell.Core.Get-Job)
 
-[Wait-Job](../Wait-Job.md)
+[Wait-Job](xref:Micrsoft.PowerShell.Core.Wait-Job)
 
-[Stop-Job](../Stop-Job.md)
+[Stop-Job](xref:Micrsoft.PowerShell.Core.Stop-Job)
 
-[Remove-Job](../Remove-Job.md)
+[Remove-Job](xref:Micrsoft.PowerShell.Core.Remove-Job)
 
-[New-PSSession](../New-PSSession.md)
+[New-PSSession](xref:Micrsoft.PowerShell.Core.New-PSSession)
 
-[Enter-PSSession](../Enter-PSSession.md)
+[Enter-PSSession](xref:Micrsoft.PowerShell.Core.Enter-PSSession)
 
-[Exit-PSSession](../Exit-PSSession.md)
+[Exit-PSSession](xref:Micrsoft.PowerShell.Core.Exit-PSSession)

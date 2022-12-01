@@ -236,7 +236,7 @@ until it times out.
 
 You can also use the **IdleTimeout** parameter of the `New-PSSessionOption`
 cmdlet to set an expiration time for an idle PSSession. For more information,
-see [New-PSSessionOption](../New-PSSessionOption.md).
+see [New-PSSessionOption](xref:Micrsoft.PowerShell.Core.New-PSSessionOption).
 
 ## The PSSession Cmdlets
 
@@ -268,18 +268,18 @@ For more information about PSSessions, see [about_PSSession_Details](about_PSSes
 
 [about_Remote_Requirements](about_Remote_Requirements.md)
 
-[Connect-PSSession](../Connect-PSSession.md)
+[Connect-PSSession](xref:Micrsoft.PowerShell.Core.Connect-PSSession)
 
-[Disconnect-PSSession](../Disconnect-PSSession.md)
+[Disconnect-PSSession](xref:Micrsoft.PowerShell.Core.Disconnect-PSSession)
 
-[Enter-PSSession](../Enter-PSSession.md)
+[Enter-PSSession](xref:Micrsoft.PowerShell.Core.Enter-PSSession)
 
-[Exit-PSSession](../Exit-PSSession.md)
+[Exit-PSSession](xref:Micrsoft.PowerShell.Core.Exit-PSSession)
 
-[Get-PSSession](../Get-PSSession.md)
+[Get-PSSession](xref:Micrsoft.PowerShell.Core.Get-PSSession)
 
-[Invoke-Command](../Invoke-Command.md)
+[Invoke-Command](xref:Micrsoft.PowerShell.Core.Invoke-Command)
 
-[New-PSSession](../New-PSSession.md)
+[New-PSSession](xref:Micrsoft.PowerShell.Core.New-PSSession)
 
-[Remove-PSSession](../Remove-PSSession.md)
+[Remove-PSSession](xref:Micrsoft.PowerShell.Core.Remove-PSSession)

@@ -49,7 +49,7 @@ Runs the workflow as a workflow job. The workflow command immediately returns
 an object that represents a parent job. The parent job contains the child jobs
 that are running on each of the target computers. To manage the job, use the
 Job cmdlets. To get the job results, use
-[Receive-Job](../../Microsoft.PowerShell.Core/Receive-Job.md).
+[Receive-Job](xref:Microsoft.PowerShell.Core.Receive-Job).
 
 #### -JobName \<String\>
 
@@ -78,7 +78,7 @@ setting the `MaximumConnectionRedirectionCount` property of the
 `MaximumConnectionRedirectionCount` property of the value of the
 `PSSessionOption parameter`. The default value is 5. For more information, see
 the description of the `PSSessionOption` parameter and
-[New-PSSessionOption](../../Microsoft.PowerShell.Core/New-PSSessionOption.md).
+[New-PSSessionOption](xref:Microsoft.PowerShell.Core.New-PSSessionOption).
 
 #### -PSApplicationName \<String\>
 
@@ -154,8 +154,8 @@ Certificates are used in client certificate-based authentication. They can only
 be mapped to local user accounts; they do not work with domain accounts.
 
 To get a certificate, use the
-[Get-Item](../../Microsoft.PowerShell.Management/Get-Item.md) or [Get-ChildItem]
-(../../Microsoft.PowerShell.Management/Get-Childitem.md) cmdlets in the Windows
+[Get-Item](xref:Microsoft.PowerShell.Management.Get-Item) or [Get-ChildItem]
+(xref:Microsoft.PowerShell.Management.Get-Childitem) cmdlets in the Windows
 PowerShell Cert: drive.
 
 #### -PSComputerName \<String[]\>
@@ -331,7 +331,7 @@ uses the values specified in the session configuration.
 
 For a description of the session options, including the default values, see the
 help topic for the `New-PSSessionOption` cmdlet
-(../../Microsoft.PowerShell.Core/New-PSSessionOption.md). For information about the
+(xref:Microsoft.PowerShell.Core.New-PSSessionOption). For information about the
 `$PSSessionOption` preference variable, see [about_Preference_Variables](../../Microsoft.PowerShell.Core/About/about_Preference_Variables.md).
 
 #### -PSUseSSL \<SwitchParameter\>
@@ -348,6 +348,6 @@ the port used for the command, the command fails.
 
 - [about_ActivityCommonParameters](about_ActivityCommonParameters.md)
 - [about_Workflows](about_Workflows.md)
-- [Invoke-AsWorkflow](../../PSWorkflowUtility/Invoke-AsWorkflow.md)
-- [New-PSWorkflowExecutionOption](../New-PSWorkflowExecutionOption.md)
-- [New-PSWorkflowSession](../New-PSWorkflowSession.md)
+- [Invoke-AsWorkflow](xref:PSWorkflowUtility.Invoke-AsWorkflow)
+- [New-PSWorkflowExecutionOption](xref:Micrsoft.PowerShell.Core.New-PSWorkflowExecutionOption)
+- [New-PSWorkflowSession](xref:Micrsoft.PowerShell.Core.New-PSWorkflowSession)

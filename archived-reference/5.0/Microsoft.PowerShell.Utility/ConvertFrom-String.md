@@ -313,16 +313,17 @@ Accept wildcard characters: False
 
 ### -PropertyNames
 
-Specifies an array of property names to which to assign split values in the resulting object.
-Every line of text that you split or parse generates elements that represent property values.
-If the element is the result of a capture group, and that capture group is named (for example, (?<name>) or (?'name') ),
-then the name of that capture group is assigned to the property.
+Specifies an array of property names to which to assign split values in the resulting object. Every
+line of text that you split or parse generates elements that represent property values. If the
+element is the result of a capture group, and that capture group is named (for example, `(?<name>)`
+or `(?'name')` ), then the name of that capture group is assigned to the property.
 
-If you provide any elements in the *PropertyName* array, those names are assigned to properties that have not yet been named.
+If you provide any elements in the *PropertyName* array, those names are assigned to properties that
+have not yet been named.
 
-If you provide more property names than there are fields, Windows PowerShell ignores the extra property names.
-If you do not specify enough property names to name all fields,
-Windows PowerShell automatically assigns numerical property names to any properties that are not named: P1, P2, etc.
+If you provide more property names than there are fields, Windows PowerShell ignores the extra
+property names. If you do not specify enough property names to name all fields, Windows PowerShell
+automatically assigns numerical property names to any properties that are not named: P1, P2, etc.
 
 ```yaml
 Type: String[]

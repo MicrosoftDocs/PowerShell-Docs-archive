@@ -454,8 +454,8 @@ Preinstallation Environment (Windows PE).
 
 ## SEE ALSO
 
-[Get-Help](../Get-Help.md)
+[Get-Help](xref:Micrsoft.PowerShell.Core.Get-Help)
 
-[Save-Help](../Save-Help.md)
+[Save-Help](xref:Micrsoft.PowerShell.Core.Save-Help)
 
-[Update-Help](../Update-Help.md)
+[Update-Help](xref:Micrsoft.PowerShell.Core.Update-Help)
