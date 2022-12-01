@@ -307,7 +307,7 @@ You cannot pipe objects to **Get-PSDrive**.
 
 [Get-Help](../Microsoft.PowerShell.Core/Get-Help.md)
 
-[Get-Member](../microsoft.powershell.utility/get-member.md)
+[Get-Member](../Microsoft.PowerShell.Utility/get-member.md)
 
 [New-PSDrive](New-PSDrive.md)
 

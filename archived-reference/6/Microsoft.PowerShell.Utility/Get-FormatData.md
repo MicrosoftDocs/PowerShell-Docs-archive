@@ -4,7 +4,7 @@ keywords: powershell,cmdlet
 Locale: en-US
 Module Name: Microsoft.PowerShell.Utility
 ms.date: 01/27/2020
-online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-formatdata?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/Microsoft.PowerShell.Utility/get-formatdata?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Get-FormatData
 ---
@@ -148,11 +148,11 @@ This example shows how to use `Get-FormatData` to get format data for a specifie
 PowerShell version.
 
 ```powershell
-Get-FormatData -TypeName 'Microsoft.Powershell.Utility.FileHash' -PowerShellVersion $PSVersionTable.PSVersion
+Get-FormatData -TypeName 'Microsoft.PowerShell.Utility.FileHash' -PowerShellVersion $PSVersionTable.PSVersion
 
 TypeNames                               FormatViewDefinition
 ---------                               --------------------
-{Microsoft.Powershell.Utility.FileHash} {Microsoft.Powershell.Utility.FileHash}
+{Microsoft.PowerShell.Utility.FileHash} {Microsoft.PowerShell.Utility.FileHash}
 ```
 
 ## PARAMETERS

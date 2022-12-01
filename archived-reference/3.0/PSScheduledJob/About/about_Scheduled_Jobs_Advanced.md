@@ -15,9 +15,6 @@ underlies scheduled jobs.
 
 ## Long description
 
-For more information about the cmdlets contained in the **PSScheduledJob**
-module, see [PSScheduledJob](../PSScheduledJob.md).
-
 ## Scheduled job directories and files
 
 PowerShell scheduled jobs are both PowerShell jobs and Task Scheduler tasks.
@@ -260,7 +257,5 @@ Get-ScheduledJob |
 [about_Scheduled_Jobs](about_Scheduled_Jobs.md)
 
 [about_Splatting.md](../../Microsoft.PowerShell.Core/About/about_Splatting.md)
-
-[PSScheduledJob](../PSScheduledJob.md) module cmdlets
 
 [Task Scheduler](/windows/desktop/TaskSchd/task-scheduler-reference)

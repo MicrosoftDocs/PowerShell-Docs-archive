@@ -3,7 +3,7 @@ external help file: Microsoft.PowerShell.Commands.Utility.dll-Help.xml
 keywords: powershell,cmdlet
 Module Name: Microsoft.PowerShell.Utility
 ms.date: 10/09/2019
-online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.utility/enable-psbreakpoint?view=powershell-5.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/Microsoft.PowerShell.Utility/enable-psbreakpoint?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Enable-PSBreakpoint
 ---

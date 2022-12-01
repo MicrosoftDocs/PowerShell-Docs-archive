@@ -275,7 +275,7 @@ add the new format file to the current session.
 
 This example uses the **PrependPath** parameter to place the new file in a
 higher precedence order than the original file. For more information, see
-[Update-FormatData](../../Microsoft.PowerShell.Utility/Update-FormatData.md).
+[Update-FormatData](xref:Microsoft.PowerShell.Utility.Update-FormatData).
 
 ```powershell
 Update-FormatData -PrependPath $PSHOME\MyDotNetTypes.format.ps1xml
@@ -397,8 +397,8 @@ value of the **Name** parameter:
 - UpdateFormatData
 
 For more information,
-see [Trace-Command](../../Microsoft.PowerShell.Utility/Trace-Command.md)
-and [Get-TraceSource](../../Microsoft.PowerShell.Utility/Get-TraceSource.md).
+see [Trace-Command](xref:Microsoft.PowerShell.Utility.Trace-Command)
+and [Get-TraceSource](xref:Microsoft.PowerShell.Utility.Get-TraceSource).
 
 ## Signing a Format.ps1xml File
 
@@ -407,10 +407,10 @@ signature. For more information, see [about_Signing](about_Signing.md).
 
 ## See Also
 
-[Update-FormatData](../../Microsoft.PowerShell.Utility/Update-FormatData.md)
+[Update-FormatData](xref:Microsoft.PowerShell.Utility.Update-FormatData)
 
-[Trace-Command](../../Microsoft.PowerShell.Utility/Trace-Command.md)
+[Trace-Command](xref:Microsoft.PowerShell.Utility.Trace-Command)
 
-[Get-TraceSource](../../Microsoft.PowerShell.Utility/Get-TraceSource.md)
+[Get-TraceSource](xref:Microsoft.PowerShell.Utility.Get-TraceSource)
 
 [Format Schema XML Reference](/powershell/developer/format/format-schema-xml-reference)

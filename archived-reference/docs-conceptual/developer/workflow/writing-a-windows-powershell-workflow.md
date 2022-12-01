@@ -26,7 +26,7 @@ You can create a XAML workflow by adding activities exposed by Windows PowerShel
 
 - [Microsoft.Powershell.Security.Activities](/dotnet/api/Microsoft.PowerShell.Security.Activities)
 
-- [Microsoft.Powershell.Utility.Activities](/dotnet/api/Microsoft.PowerShell.Utility.Activities)
+- [Microsoft.PowerShell.Utility.Activities](/dotnet/api/Microsoft.PowerShell.Utility.Activities)
 
   The following topics describe how to create a Workflow by using Windows PowerShell activities.
 

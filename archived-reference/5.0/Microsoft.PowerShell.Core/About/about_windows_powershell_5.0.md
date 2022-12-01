@@ -266,7 +266,7 @@ You can also read about changes to Windows PowerShell 5.0 in
 - You can now edit remote Windows PowerShell scripts and files in a local copy
   of Windows PowerShell ISE, by running Enter-PSSession to start a remote
   session on the computer that's storing the files you want to edit, and then
-  running PSEdit <path and file name on the remote computer>. This feature eases
+  running `PSEdit <path and file name on the remote computer>`. This feature eases
   editing Windows PowerShell files that are stored on the Server Core
   installation option of Windows Server, where Windows PowerShell ISE cannot
   run.
@@ -303,37 +303,37 @@ sites:
 
 [about_Updatable_Help](about_Updatable_Help.md)
 
-[Save-Help](../Save-Help.md)
+[Save-Help](xref:Microsoft.PowerShell.Core.Save-Help)
 
-[Get-Module](../Get-Module.md)
+[Get-Module](xref:Microsoft.PowerShell.Core.Get-Module)
 
-[Debug-Job](../Debug-Job.md)
+[Debug-Job](xref:Microsoft.PowerShell.Core.Debug-Job)
 
-[Update-Help](../Update-Help.md)
+[Update-Help](xref:Microsoft.PowerShell.Core.Update-Help)
 
-[Get-Process](../../Microsoft.PowerShell.Management/Get-Process.md)
+[Get-Process](xref:Microsoft.PowerShell.Management.Get-Process)
 
-[Remove-Computer](../../Microsoft.PowerShell.Management/Remove-Computer.md)
+[Remove-Computer](xref:Microsoft.PowerShell.Management.Remove-Computer)
 
-[Set-ExecutionPolicy](../../Microsoft.PowerShell.Security/Set-ExecutionPolicy.md)
+[Set-ExecutionPolicy](xref:Microsoft.PowerShell.Security.Set-ExecutionPolicy)
 
-[Add-Computer](../../Microsoft.PowerShell.Management/Add-Computer.md)
+[Add-Computer](xref:Microsoft.PowerShell.Management.Add-Computer)
 
-[ConvertFrom-String](../../Microsoft.PowerShell.Utility/ConvertFrom-String.md)
+[ConvertFrom-String](xref:Microsoft.PowerShell.Utility.ConvertFrom-String)
 
-[Invoke-RestMethod](../../Microsoft.PowerShell.Utility/Invoke-RestMethod.md)
+[Invoke-RestMethod](xref:Microsoft.PowerShell.Utility.Invoke-RestMethod)
 
-[Set-JobTrigger](../../PSScheduledJob/Set-JobTrigger.md)
+[Set-JobTrigger](xref:PSScheduledJob.Set-JobTrigger)
 
-[Set-ScheduledJob](../../PSScheduledJob/Set-ScheduledJob.md)
+[Set-ScheduledJob](xref:PSScheduledJob.Set-ScheduledJob)
 
-[New-JobTrigger](../../PSScheduledJob/New-JobTrigger.md)
+[New-JobTrigger](xref:PSScheduledJob.New-JobTrigger)
 
-[Register-ScheduledJob](../../PSScheduledJob/Register-ScheduledJob.md)
+[Register-ScheduledJob](xref:PSScheduledJob.Register-ScheduledJob)
 
-[Enable-JobTrigger](../../PSScheduledJob/Enable-JobTrigger.md)
+[Enable-JobTrigger](xref:PSScheduledJob.Enable-JobTrigger)
 
-[Disable-JobTrigger](../../PSScheduledJob/Disable-JobTrigger.md)
+[Disable-JobTrigger](xref:PSScheduledJob.Disable-JobTrigger)
 
 ## KEYWORDS
 

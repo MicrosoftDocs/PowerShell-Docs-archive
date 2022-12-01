@@ -2,7 +2,7 @@
 external help file: Microsoft.PowerShell.Commands.Utility.dll-Help.xml
 keywords: powershell,cmdlet
 ms.date: 06/09/2017
-online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.utility/read-host?view=powershell-5.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/Microsoft.PowerShell.Utility/read-host?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Read-Host
 ---
@@ -104,7 +104,7 @@ Otherwise, it returns a string.
 
 ## RELATED LINKS
 
-[Clear-Host](../Microsoft.PowerShell.Core/Functions/Clear-Host.md)
+[Clear-Host](../Microsoft.PowerShell.Core/Clear-Host.md)
 
 [ConvertFrom-SecureString](../Microsoft.PowerShell.Security/ConvertFrom-SecureString.md)
 

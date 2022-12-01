@@ -3,7 +3,7 @@ external help file: Microsoft.PowerShell.Commands.Utility.dll-Help.xml
 keywords: powershell,cmdlet
 Module Name: Microsoft.PowerShell.Utility
 ms.date: 5/28/2019
-online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.utility/get-variable?view=powershell-4.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/Microsoft.PowerShell.Utility/get-variable?view=powershell-4.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Get-Variable
 ---
