@@ -21,9 +21,6 @@ these problems.
 Before using PowerShell scheduled jobs, see [about_Scheduled_Jobs](about_Scheduled_Jobs.md)
 and the related scheduled jobs about topics.
 
-For more information about the cmdlets contained in the **PSScheduledJob**
-module, see [PSScheduledJob](../PSScheduledJob.md).
-
 ## Can't find job results
 
 ### Basic method for getting job results in PowerShell
@@ -546,7 +543,5 @@ imports the **PSScheduledJob** module, and then runs the command.
 [about_Scheduled_Jobs_Advanced](about_Scheduled_Jobs_Advanced.md)
 
 [about_Scheduled_Jobs](about_Scheduled_Jobs.md)
-
-[PSScheduledJob](../PSScheduledJob.md) module cmdlets
 
 [Task Scheduler](/windows/desktop/TaskSchd/task-scheduler-reference)

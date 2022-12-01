@@ -465,7 +465,7 @@ Name                                ProcessID
 notepad.exe                              1740
 ```
 
-#### EXAMPLE 2: [<range>] and %
+#### EXAMPLE 2: [`<range>`] and %
 
 The following commands select all process that have a name that begins with a
 letter between A and P (case-insensitive) followed by zero or more letters in

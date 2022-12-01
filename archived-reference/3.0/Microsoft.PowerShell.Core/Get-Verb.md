@@ -149,4 +149,4 @@ unapproved verbs. These cmdlets are historic exceptions and their verbs are clas
 
 ## RELATED LINKS
 
-[Import-Module](../import-module.md)
+[Import-Module](import-module.md)

@@ -17,9 +17,6 @@ Explains how to create and manage scheduled jobs.
 This document shows how to perform basic tasks of creating and managing
 scheduled jobs. For information about more advanced tasks, see [about_Scheduled_Jobs_Advanced](about_Scheduled_Jobs_Advanced.md).
 
-For more information about the cmdlets contained in the **PSScheduledJob**
-module, see [PSScheduledJob](../PSScheduledJob.md).
-
 ## How to create a scheduled job
 
 To create a scheduled job, use the `Register-ScheduledJob` cmdlet. The cmdlet
@@ -311,7 +308,5 @@ window.
 [about_Scheduled_Jobs](about_Scheduled_Jobs.md)
 
 [about_Splatting.md](../../Microsoft.PowerShell.Core/About/about_Splatting.md)
-
-[PSScheduledJob](../PSScheduledJob.md) module cmdlets
 
 [Task Scheduler](/windows/desktop/TaskSchd/task-scheduler-reference)
