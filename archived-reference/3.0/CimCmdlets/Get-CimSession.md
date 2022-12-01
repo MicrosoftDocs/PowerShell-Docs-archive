@@ -236,7 +236,7 @@ For more information, see [about_CommonParameters](https://go.microsoft.com/fwli
 
 ## RELATED LINKS
 
-[Format-Table](../microsoft.powershell.utility/format-table.md)
+[Format-Table](../Microsoft.PowerShell.Utility/format-table.md)
 
 [New-CimSession](New-CimSession.md)
 

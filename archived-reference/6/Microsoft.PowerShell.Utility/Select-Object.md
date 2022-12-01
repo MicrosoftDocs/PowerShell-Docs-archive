@@ -4,7 +4,7 @@ keywords: powershell,cmdlet
 Locale: en-US
 Module Name: Microsoft.PowerShell.Utility
 ms.date: 09/25/2020
-online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-object?view=powershell-6&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/Microsoft.PowerShell.Utility/select-object?view=powershell-6&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Select-Object
 ---

@@ -472,7 +472,7 @@ LastName, FirstName
 
 ## SEE ALSO
 
-[Split-Path](../../Microsoft.PowerShell.Management/Split-Path.md)
+[Split-Path](xref:Microsoft.PowerShell.Management.Split-Path)
 
 [about_Operators](about_Operators.md)
 

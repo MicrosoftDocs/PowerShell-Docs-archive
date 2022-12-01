@@ -165,9 +165,9 @@ If numeric comparison is the required operation, `-lt` and `-gt` should be used.
 
 ## See also
 
-[Out-File](../../microsoft.powershell.utility/Out-File.md)
+[Out-File](xref:Microsoft.PowerShell.Utility.Out-File)
 
-[Tee-Object](../../microsoft.powershell.utility/Tee-Object.md)
+[Tee-Object](xref:Microsoft.PowerShell.Utility.Tee-Object)
 
 [about_Operators](about_Operators.md)
 

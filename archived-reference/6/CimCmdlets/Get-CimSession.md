@@ -241,7 +241,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## RELATED LINKS
 
-[Format-Table](../microsoft.powershell.utility/format-table.md)
+[Format-Table](../Microsoft.PowerShell.Utility/format-table.md)
 
 [New-CimSession](New-CimSession.md)
 

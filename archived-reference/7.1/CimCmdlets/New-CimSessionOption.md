@@ -485,7 +485,7 @@ This cmdlet returns an object that contains CIM session options information.
 
 [Get-Credential](../microsoft.powershell.security/get-credential.md)
 
-[Get-Culture](../microsoft.powershell.utility/get-culture.md)
+[Get-Culture](../Microsoft.PowerShell.Utility/get-culture.md)
 
 [Get-Item](../microsoft.powershell.management/get-item.md)
 

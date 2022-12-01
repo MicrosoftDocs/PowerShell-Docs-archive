@@ -3,7 +3,7 @@ external help file: Microsoft.PowerShell.Commands.Utility.dll-Help.xml
 Locale: en-US
 Module Name: Microsoft.PowerShell.Utility
 ms.date: 10/19/2020
-online version: https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/convertfrom-json?view=powershell-7.1&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/powershell/module/Microsoft.PowerShell.Utility/convertfrom-json?view=powershell-7.1&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: ConvertFrom-Json
 ---

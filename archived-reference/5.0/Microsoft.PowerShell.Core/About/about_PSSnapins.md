@@ -82,7 +82,7 @@ Get-PSSnapin -registered
 
 ### ADDING THE SNAP-IN TO THE CURRENT SESSION
 
-To add a registered snap-in to the current session, use the Add-PsSnapin
+To add a registered snap-in to the current session, use the Add-PSSnapin
 cmdlet. For example, to add the Microsoft SQL Server snap-in to the session,
 type:
 
@@ -96,7 +96,7 @@ session unless you save them.
 
 ### SAVING THE SNAP-INS
 
-To use a snap-in in future Windows PowerShell sessions, add the Add-PsSnapin
+To use a snap-in in future Windows PowerShell sessions, add the Add-PSSnapin
 command to your Windows PowerShell profile. Or, export the snap-in names to a
 console file.
 
@@ -104,7 +104,7 @@ If you add the Add-PSSnapin command to your profile, it is available in all
 future Windows PowerShell sessions. If you export the names of the snap-ins in
 your session, you can use the export file only when you need the snap-ins.
 
-To add the Add-PsSnapin command to your Windows PowerShell profile, open your
+To add the Add-PSSnapin command to your Windows PowerShell profile, open your
 profile, paste or type the command, and then save the profile. For more
 information, see about_Profiles.
 
@@ -136,7 +136,7 @@ The providers and cmdlets in the snapin are now available for use in the session
 ### REMOVING A SNAP-IN
 
 To remove a Windows PowerShell snap-in from the current session, use the
-Remove-PsSnapin cmdlet. For example, to remove the SQL Server snap-in from the
+Remove-PSSnapin cmdlet. For example, to remove the SQL Server snap-in from the
 current session, type:
 
 ```powershell
@@ -197,15 +197,15 @@ information, see [about_EventLogs](about_EventLogs.md).
 
 ## SEE ALSO
 
-[Add-PsSnapin](../Add-PsSnapin.md)
+[Add-PSSnapin](xref:Microsoft.PowerShell.Core.Add-PSSnapin)
 
-[Get-PsSnapin](../Get-PsSnapin.md)
+[Get-PSSnapin](xref:Microsoft.PowerShell.Core.Get-PSSnapin)
 
-[Remove-PsSnapin](../Remove-PsSnapin.md)
+[Remove-PSSnapin](xref:Microsoft.PowerShell.Core.Remove-PSSnapin)
 
-[Export-Console](../Export-Console.md)
+[Export-Console](xref:Microsoft.PowerShell.Core.Export-Console)
 
-[Get-Command](../Get-Command.md)
+[Get-Command](xref:Microsoft.PowerShell.Core.Get-Command)
 
 [about_Profiles](about_Profiles.md)
 
