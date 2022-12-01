@@ -71,7 +71,7 @@ or edit an existing job. You can change the job trigger of a scheduled job at
 any time.
 
 PowerShell uses some of the same job triggers that Task Scheduler uses. For
-detailed information about job triggers, see the help topic for the [New-JobTrigger](xref:Micrsoft.PowerShell.Core.New-JobTrigger)
+detailed information about job triggers, see the help topic for the [New-JobTrigger](xref:Microsoft.PowerShell.Core.New-JobTrigger)
 cmdlet.
 
 The following example uses splatting to create `$JobParms` which are parameter
@@ -127,7 +127,7 @@ prevent a job from running at the scheduled time, it is important to understand
 the job options and use them carefully.
 
 PowerShell uses the same job options that Task Scheduler uses. For detailed
-information about the job options, see the help topic for [New-ScheduledJobOption](xref:Micrsoft.PowerShell.Core.New-ScheduledJobOption).
+information about the job options, see the help topic for [New-ScheduledJobOption](xref:Microsoft.PowerShell.Core.New-ScheduledJobOption).
 
 Job options are stored in the scheduled job XML file. You can set job options
 when you create a scheduled job or change them at any time.

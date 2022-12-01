@@ -382,20 +382,20 @@ working with an empty session.
 
 [about_Session_Configurations](about_Session_Configurations.md)
 
-[New-PSSession](xref:Micrsoft.PowerShell.Core.New-PSSession)
+[New-PSSession](xref:Microsoft.PowerShell.Core.New-PSSession)
 
-[Disable-PSSessionConfiguration](xref:Micrsoft.PowerShell.Core.Disable-PSSessionConfiguration)
+[Disable-PSSessionConfiguration](xref:Microsoft.PowerShell.Core.Disable-PSSessionConfiguration)
 
-[Enable-PSSessionConfiguration](xref:Micrsoft.PowerShell.Core.Enable-PSSessionConfiguration)
+[Enable-PSSessionConfiguration](xref:Microsoft.PowerShell.Core.Enable-PSSessionConfiguration)
 
-[Get-PSSessionConfiguration](xref:Micrsoft.PowerShell.Core.Get-PSSessionConfiguration)
+[Get-PSSessionConfiguration](xref:Microsoft.PowerShell.Core.Get-PSSessionConfiguration)
 
-[New-PSSessionConfigurationFile](xref:Micrsoft.PowerShell.Core.New-PSSessionConfigurationFile)
+[New-PSSessionConfigurationFile](xref:Microsoft.PowerShell.Core.New-PSSessionConfigurationFile)
 
-[Register-PSSessionConfiguration](xref:Micrsoft.PowerShell.Core.Register-PSSessionConfiguration)
+[Register-PSSessionConfiguration](xref:Microsoft.PowerShell.Core.Register-PSSessionConfiguration)
 
-[Set-PSSessionConfiguration](xref:Micrsoft.PowerShell.Core.Set-PSSessionConfiguration)
+[Set-PSSessionConfiguration](xref:Microsoft.PowerShell.Core.Set-PSSessionConfiguration)
 
-[Test-PSSessionConfigurationFile](xref:Micrsoft.PowerShell.Core.Test-PSSessionConfigurationFile)
+[Test-PSSessionConfigurationFile](xref:Microsoft.PowerShell.Core.Test-PSSessionConfigurationFile)
 
-[Unregister-PSSessionConfiguration](xref:Micrsoft.PowerShell.Core.Unregister-PSSessionConfiguration)
+[Unregister-PSSessionConfiguration](xref:Microsoft.PowerShell.Core.Unregister-PSSessionConfiguration)

@@ -44,8 +44,8 @@ in this article.
 - [Get-ItemProperty](xref:Microsoft.PowerShell.Management.Get-ItemProperty)
 - [Set-ItemProperty](xref:Microsoft.PowerShell.Management.Set-ItemProperty)
 - [Clear-ItemProperty](xref:Microsoft.PowerShell.Management.Set-ItemProperty)
-- [Get-AuthenticodeSignature](xref:Micrsoft.PowerShell.Core.Get-AuthenticodeSignature)
-- [Set-AuthenticodeSignature](xref:Micrsoft.PowerShell.Core.Set-AuthenticodeSignature)
+- [Get-AuthenticodeSignature](xref:Microsoft.PowerShell.Core.Get-AuthenticodeSignature)
+- [Set-AuthenticodeSignature](xref:Microsoft.PowerShell.Core.Set-AuthenticodeSignature)
 
 ## Types exposed by this provider
 
@@ -561,8 +561,8 @@ Get-Help Get-ChildItem -Path cert:
 
 [about_Signing](../../Microsoft.PowerShell.Core/About/about_Signing.md)
 
-[Get-AuthenticodeSignature](xref:Micrsoft.PowerShell.Core.Get-AuthenticodeSignature)
+[Get-AuthenticodeSignature](xref:Microsoft.PowerShell.Core.Get-AuthenticodeSignature)
 
-[Set-AuthenticodeSignature](xref:Micrsoft.PowerShell.Core.Set-AuthenticodeSignature)
+[Set-AuthenticodeSignature](xref:Microsoft.PowerShell.Core.Set-AuthenticodeSignature)
 
-[Get-PfxCertificate](xref:Micrsoft.PowerShell.Core.Get-PfxCertificate)
+[Get-PfxCertificate](xref:Microsoft.PowerShell.Core.Get-PfxCertificate)

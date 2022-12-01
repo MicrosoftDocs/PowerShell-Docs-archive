@@ -144,7 +144,7 @@ Get-Module
 ```
 
 For more information about the `Get-Module` cmdlet, see
-[Get-Module](xref:Micrsoft.PowerShell.Core.Get-Module).
+[Get-Module](xref:Microsoft.PowerShell.Core.Get-Module).
 
 ## How to Find the Commands in a Module
 
@@ -165,7 +165,7 @@ Get-Command -Module BitsTransfer
 ```
 
 For more information about the `Get-Command` cmdlet, see
-[Get-Command](xref:Micrsoft.PowerShell.Core.Get-Command).
+[Get-Command](xref:Microsoft.PowerShell.Core.Get-Command).
 
 ## How to Get Help for the Commands in a Module
 
@@ -194,8 +194,8 @@ To download and install the help files for the commands in a module, type:
 Update-Help -Module <module-name>
 ```
 
-For more information, see [Get-Help](xref:Micrsoft.PowerShell.Core.Get-Help) and
-[Update-Help](xref:Micrsoft.PowerShell.Core.Update-Help).
+For more information, see [Get-Help](xref:Microsoft.PowerShell.Core.Get-Help) and
+[Update-Help](xref:Microsoft.PowerShell.Core.Update-Help).
 
 ## How to Import a Module
 
@@ -248,7 +248,7 @@ Import-Module C:\ps-test\TestCmdlets.dll
 ```
 
 For more information about adding modules to your session, see
-[Import-Module](xref:Micrsoft.PowerShell.Core.Import-Module).
+[Import-Module](xref:Microsoft.PowerShell.Core.Import-Module).
 
 ## How to Import a Module into Every Session
 
@@ -279,7 +279,7 @@ Remove-Module BitsTransfer
 
 Removing a module reverses the operation of importing a module. Removing
 a module does not uninstall the module. For more information, see
-[Remove-Module](xref:Micrsoft.PowerShell.Core.Remove-Module).
+[Remove-Module](xref:Microsoft.PowerShell.Core.Remove-Module).
 
 ## Module and DSC Resource Locations, and PSModulePath
 
@@ -524,12 +524,12 @@ about_DesiredStateConfiguration
 
 [about_PSSnapins](about_PSSnapins.md)
 
-[Get-Command](xref:Micrsoft.PowerShell.Core.Get-Command)
+[Get-Command](xref:Microsoft.PowerShell.Core.Get-Command)
 
-[Get-Help](xref:Micrsoft.PowerShell.Core.Get-Help)
+[Get-Help](xref:Microsoft.PowerShell.Core.Get-Help)
 
-[Get-Module](xref:Micrsoft.PowerShell.Core.Get-Module)
+[Get-Module](xref:Microsoft.PowerShell.Core.Get-Module)
 
-[Import-Module](xref:Micrsoft.PowerShell.Core.Import-Module)
+[Import-Module](xref:Microsoft.PowerShell.Core.Import-Module)
 
-[Remove-Module](xref:Micrsoft.PowerShell.Core.Remove-Module)
+[Remove-Module](xref:Microsoft.PowerShell.Core.Remove-Module)

@@ -849,10 +849,10 @@ features that you can use to debug scripts and functions.
 
 ## SEE ALSO
 
-- [Disable-PSBreakpoint](xref:Microsoft.PowerShell.Utility.Disable-PsBreakpoint)
-- [Enable-PSBreakpoint](xref:Microsoft.PowerShell.Utility.Enable-PsBreakpoint)
-- [Get-PSBreakpoint](xref:Microsoft.PowerShell.Utility.Get-PsBreakpoint)
-- [Get-PSCallStack](xref:Microsoft.PowerShell.Utility.Get-PsCallStack)
+- [Disable-PSBreakpoint](xref:Microsoft.PowerShell.Utility.Disable-PSBreakpoint)
+- [Enable-PSBreakpoint](xref:Microsoft.PowerShell.Utility.Enable-PSBreakpoint)
+- [Get-PSBreakpoint](xref:Microsoft.PowerShell.Utility.Get-PSBreakpoint)
+- [Get-PSCallStack](xref:Microsoft.PowerShell.Utility.Get-PSCallStack)
 - [Remove-PSBreakpoint](xref:Microsoft.PowerShell.Utility.Remove-PsBreakpoint)
 - [Set-PSBreakpoint](xref:Microsoft.PowerShell.Utility.Set-PSBreakpoint)
 - [Write-Debug](xref:Microsoft.PowerShell.Utility.Write-Debug)

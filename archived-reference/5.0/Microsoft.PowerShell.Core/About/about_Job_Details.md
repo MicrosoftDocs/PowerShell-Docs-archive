@@ -356,27 +356,27 @@ Id         Name            JobTriggers     Command       Enabled
 
 [about_Scheduled_Jobs](../../psscheduledjob/about/about_scheduled_jobs.md)
 
-[Invoke-Command](xref:Micrsoft.PowerShell.Core.Invoke-Command)
+[Invoke-Command](xref:Microsoft.PowerShell.Core.Invoke-Command)
 
-[Start-Job](xref:Micrsoft.PowerShell.Core.Start-Job)
+[Start-Job](xref:Microsoft.PowerShell.Core.Start-Job)
 
-[Get-Job](xref:Micrsoft.PowerShell.Core.Get-Job)
+[Get-Job](xref:Microsoft.PowerShell.Core.Get-Job)
 
-[Wait-Job](xref:Micrsoft.PowerShell.Core.Wait-Job)
+[Wait-Job](xref:Microsoft.PowerShell.Core.Wait-Job)
 
-[Stop-Job](xref:Micrsoft.PowerShell.Core.Stop-Job)
+[Stop-Job](xref:Microsoft.PowerShell.Core.Stop-Job)
 
-[Remove-Job](xref:Micrsoft.PowerShell.Core.Remove-Job)
+[Remove-Job](xref:Microsoft.PowerShell.Core.Remove-Job)
 
-[Suspend-Job](xref:Micrsoft.PowerShell.Core.Suspend-Job)
+[Suspend-Job](xref:Microsoft.PowerShell.Core.Suspend-Job)
 
-[Resume-Job](xref:Micrsoft.PowerShell.Core.Resume-Job)
+[Resume-Job](xref:Microsoft.PowerShell.Core.Resume-Job)
 
-[New-PSSession](xref:Micrsoft.PowerShell.Core.New-PSSession)
+[New-PSSession](xref:Microsoft.PowerShell.Core.New-PSSession)
 
-[Enter-PSSession](xref:Micrsoft.PowerShell.Core.Enter-PSSession)
+[Enter-PSSession](xref:Microsoft.PowerShell.Core.Enter-PSSession)
 
-[Exit-PSSession](xref:Micrsoft.PowerShell.Core.Exit-PSSession)
+[Exit-PSSession](xref:Microsoft.PowerShell.Core.Exit-PSSession)
 
 [Register-ScheduledJob](xref:PSScheduledJob.Register-ScheduledJob)
 

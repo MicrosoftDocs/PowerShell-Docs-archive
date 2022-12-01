@@ -233,8 +233,8 @@ connection, the policies on the remote computer are in effect.
 
 [about_PSSessions](about_PSSessions.md)
 
-[Invoke-Command](xref:Micrsoft.PowerShell.Core.Invoke-Command)
+[Invoke-Command](xref:Microsoft.PowerShell.Core.Invoke-Command)
 
-[Enter-PSSession](xref:Micrsoft.PowerShell.Core.Enter-PSSession)
+[Enter-PSSession](xref:Microsoft.PowerShell.Core.Enter-PSSession)
 
-[New-PSSession](xref:Micrsoft.PowerShell.Core.New-PSSession)
+[New-PSSession](xref:Microsoft.PowerShell.Core.New-PSSession)

@@ -627,5 +627,5 @@ True
 - [about_Regular_Expressions](about_Regular_Expressions.md)
 - [about_Wildcards](about_Wildcards.md)
 - [Compare-Object](xref:Microsoft.PowerShell.Utility.Compare-Object)
-- [Foreach-Object](xref:Micrsoft.PowerShell.Core.ForEach-Object)
-- [Where-Object](xref:Micrsoft.PowerShell.Core.Where-Object)
+- [Foreach-Object](xref:Microsoft.PowerShell.Core.ForEach-Object)
+- [Where-Object](xref:Microsoft.PowerShell.Core.Where-Object)

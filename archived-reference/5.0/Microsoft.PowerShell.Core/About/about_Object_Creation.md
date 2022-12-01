@@ -35,7 +35,7 @@ There are many ways to create objects, this list is not definitive:
 - [Add-Type](xref:Microsoft.PowerShell.Utility.Add-Type): Allows you to
   define a class in your PowerShell session that you can instantiate with
   `New-Object`.
-- [New-Module](xref:Micrsoft.PowerShell.Core.New-Module): The **AsCustomObject** parameter creates a
+- [New-Module](xref:Microsoft.PowerShell.Core.New-Module): The **AsCustomObject** parameter creates a
   custom object you define using script block.
 - [Add-Member](xref:Microsoft.PowerShell.Utility.Add-Member): Adds
   properties to existing objects. You can use `Add-Member` to create a custom

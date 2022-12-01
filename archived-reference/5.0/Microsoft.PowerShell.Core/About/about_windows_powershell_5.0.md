@@ -303,13 +303,13 @@ sites:
 
 [about_Updatable_Help](about_Updatable_Help.md)
 
-[Save-Help](xref:Micrsoft.PowerShell.Core.Save-Help)
+[Save-Help](xref:Microsoft.PowerShell.Core.Save-Help)
 
-[Get-Module](xref:Micrsoft.PowerShell.Core.Get-Module)
+[Get-Module](xref:Microsoft.PowerShell.Core.Get-Module)
 
-[Debug-Job](xref:Micrsoft.PowerShell.Core.Debug-Job)
+[Debug-Job](xref:Microsoft.PowerShell.Core.Debug-Job)
 
-[Update-Help](xref:Micrsoft.PowerShell.Core.Update-Help)
+[Update-Help](xref:Microsoft.PowerShell.Core.Update-Help)
 
 [Get-Process](xref:Microsoft.PowerShell.Management.Get-Process)
 

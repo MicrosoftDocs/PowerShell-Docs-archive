@@ -163,26 +163,26 @@ MSDN (Microsoft Developer Network) library.
 
 ## SEE ALSO
 
-[Connect-WSMan](xref:Micrsoft.PowerShell.Core.Connect-WSMan)
+[Connect-WSMan](xref:Microsoft.PowerShell.Core.Connect-WSMan)
 
-[Disable-WSManCredSSP](xref:Micrsoft.PowerShell.Core.Disable-WSManCredSSP)
+[Disable-WSManCredSSP](xref:Microsoft.PowerShell.Core.Disable-WSManCredSSP)
 
-[Disconnect-WSMan](xref:Micrsoft.PowerShell.Core.Disconnect-WSMan)
+[Disconnect-WSMan](xref:Microsoft.PowerShell.Core.Disconnect-WSMan)
 
-[Enable-WSManCredSSP](xref:Micrsoft.PowerShell.Core.Enable-WSManCredSSP)
+[Enable-WSManCredSSP](xref:Microsoft.PowerShell.Core.Enable-WSManCredSSP)
 
-[Get-WSManCredSSP](xref:Micrsoft.PowerShell.Core.Get-WSManCredSSP)
+[Get-WSManCredSSP](xref:Microsoft.PowerShell.Core.Get-WSManCredSSP)
 
-[Get-WSManInstance](xref:Micrsoft.PowerShell.Core.Get-WSManInstance)
+[Get-WSManInstance](xref:Microsoft.PowerShell.Core.Get-WSManInstance)
 
-[Invoke-WSManAction](xref:Micrsoft.PowerShell.Core.Invoke-WSManAction)
+[Invoke-WSManAction](xref:Microsoft.PowerShell.Core.Invoke-WSManAction)
 
-[New-WSManInstance](xref:Micrsoft.PowerShell.Core.New-WSManInstance)
+[New-WSManInstance](xref:Microsoft.PowerShell.Core.New-WSManInstance)
 
-[Remove-WSManInstance](xref:Micrsoft.PowerShell.Core.Remove-WSManInstance)
+[Remove-WSManInstance](xref:Microsoft.PowerShell.Core.Remove-WSManInstance)
 
-[Set-WSManInstance](xref:Micrsoft.PowerShell.Core.Set-WSManInstance)
+[Set-WSManInstance](xref:Microsoft.PowerShell.Core.Set-WSManInstance)
 
-[Set-WSManQuickConfig](xref:Micrsoft.PowerShell.Core.Set-WSManQuickConfig)
+[Set-WSManQuickConfig](xref:Microsoft.PowerShell.Core.Set-WSManQuickConfig)
 
-[Test-WSMan](xref:Micrsoft.PowerShell.Core.Test-WSMan)
+[Test-WSMan](xref:Microsoft.PowerShell.Core.Test-WSMan)

@@ -647,7 +647,7 @@ The `Wait-Job` cmdlet waits until a job completes and then returns to the
 command prompt or the next command. By default, `Wait-Job` returns if the
 session in which a job is running is disconnected. To direct the `Wait-Job`
 cmdlet to wait until the session is reconnected, in the **Opened** state, use
-the **Force** parameter. For more information, see [Wait-Job](xref:Micrsoft.PowerShell.Core.Wait-Job).
+the **Force** parameter. For more information, see [Wait-Job](xref:Microsoft.PowerShell.Core.Wait-Job).
 
 ## Robust sessions and unintentional disconnection
 
@@ -681,12 +681,12 @@ PowerShell doesn't attempt to maintain the PSSession.
 
 [about_Session_Configurations](about_Session_Configurations.md)
 
-[Connect-PSSession](xref:Micrsoft.PowerShell.Core.Connect-PSSession)
+[Connect-PSSession](xref:Microsoft.PowerShell.Core.Connect-PSSession)
 
-[Disconnect-PSSession](xref:Micrsoft.PowerShell.Core.Disconnect-PSSession)
+[Disconnect-PSSession](xref:Microsoft.PowerShell.Core.Disconnect-PSSession)
 
-[Get-PSSession](xref:Micrsoft.PowerShell.Core.Get-PSSession)
+[Get-PSSession](xref:Microsoft.PowerShell.Core.Get-PSSession)
 
-[Receive-PSSession](xref:Micrsoft.PowerShell.Core.Receive-PSSession)
+[Receive-PSSession](xref:Microsoft.PowerShell.Core.Receive-PSSession)
 
-[Invoke-Command](xref:Micrsoft.PowerShell.Core.Invoke-Command)
+[Invoke-Command](xref:Microsoft.PowerShell.Core.Invoke-Command)

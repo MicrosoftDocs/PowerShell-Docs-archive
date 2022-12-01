@@ -131,8 +131,8 @@ Invoke-Command -ComputerName S1 -ScriptBlock {
 
 [about_Splatting](about_Splatting.md)
 
-[Enter-PSSession](xref:Micrsoft.PowerShell.Core.Enter-PSSession)
+[Enter-PSSession](xref:Microsoft.PowerShell.Core.Enter-PSSession)
 
-[Invoke-Command](xref:Micrsoft.PowerShell.Core.Invoke-Command)
+[Invoke-Command](xref:Microsoft.PowerShell.Core.Invoke-Command)
 
-[New-PSSession](xref:Micrsoft.PowerShell.Core.New-PSSession)
+[New-PSSession](xref:Microsoft.PowerShell.Core.New-PSSession)

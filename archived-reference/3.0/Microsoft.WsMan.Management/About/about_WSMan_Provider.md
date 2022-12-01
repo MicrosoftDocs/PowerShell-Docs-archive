@@ -112,7 +112,7 @@ WSMan:\localhost
 The directory hierarchy of the WSMan provider for a remote computer is the same
 as a local computer. However, in order to access the configuration settings of
 a remote computer, you need to make a connection to the remote computer using
-[Connect-WSMan](xref:Micrsoft.PowerShell.Core.Connect-WSMan). Once a connection is made to a remote
+[Connect-WSMan](xref:Microsoft.PowerShell.Core.Connect-WSMan). Once a connection is made to a remote
 computer, the name of the remote computer shows up in the provider.
 
 ```

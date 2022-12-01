@@ -289,7 +289,7 @@ commands that the profiles add are not present in the remote session. In
 addition, the `$PROFILE` automatic variable is not populated in remote
 sessions.
 
-To run a profile in a session, use the [Invoke-Command](xref:Micrsoft.PowerShell.Core.Invoke-Command)
+To run a profile in a session, use the [Invoke-Command](xref:Microsoft.PowerShell.Core.Invoke-Command)
 cmdlet.
 
 For example, the following command runs the "Current user, Current Host"

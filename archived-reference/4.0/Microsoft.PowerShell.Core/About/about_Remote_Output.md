@@ -217,7 +217,7 @@ computers are interspersed.
 
 [Get-WmiObject](xref:Microsoft.PowerShell.Management.Get-WmiObject)
 
-[Invoke-Command](xref:Micrsoft.PowerShell.Core.Invoke-Command)
+[Invoke-Command](xref:Microsoft.PowerShell.Core.Invoke-Command)
 
 [Out-GridView](xref:Microsoft.PowerShell.Utility.Out-GridView)
 

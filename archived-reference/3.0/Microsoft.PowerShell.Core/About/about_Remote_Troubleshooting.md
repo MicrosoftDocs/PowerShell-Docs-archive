@@ -94,7 +94,7 @@ To suppress all user prompts, type:
 
 `Enable-PSRemoting -Force`
 
-For more information, see [Enable-PSRemoting](xref:Micrsoft.PowerShell.Core.Enable-PSRemoting).
+For more information, see [Enable-PSRemoting](xref:Microsoft.PowerShell.Core.Enable-PSRemoting).
 
 ### HOW TO ENABLE REMOTING IN AN ENTERPRISE
 
@@ -308,8 +308,8 @@ Administrator.
 Invoke-Command -ComputerName Server01 -Credential Domain01\Admin01
 ```
 
-For more information about the **Credential** parameter, see [New-PSSession](xref:Micrsoft.PowerShell.Core.New-PSSession),
-[Enter-PSSession](xref:Micrsoft.PowerShell.Core.Enter-PSSession) or [Invoke-Command](xref:Micrsoft.PowerShell.Core.Invoke-Command).
+For more information about the **Credential** parameter, see [New-PSSession](xref:Microsoft.PowerShell.Core.New-PSSession),
+[Enter-PSSession](xref:Microsoft.PowerShell.Core.Enter-PSSession) or [Invoke-Command](xref:Microsoft.PowerShell.Core.Invoke-Command).
 
 ### HOW TO ENABLE REMOTING FOR NON-ADMINISTRATIVE USERS
 
@@ -597,7 +597,7 @@ New-PSSession -ConnectionURI https://www.fabrikam.com
 ```
 
 For more information about the `New-PSSessionOption` cmdlet, see
-[New-PSSessionOption](xref:Micrsoft.PowerShell.Core.New-PSSessionOption).
+[New-PSSessionOption](xref:Microsoft.PowerShell.Core.New-PSSessionOption).
 
 To set these options for all remote commands in the current session, use
 the option object that `New-PSSessionOption` creates in the value of the
@@ -788,7 +788,7 @@ For more information about the WS-Management timeouts, see the Help topic for
 the WSMan provider (type "Get-Help WSMan").
 
 For more information about the `New-PSSessionOption` cmdlet, see
-[New-PSSessionOption](xref:Micrsoft.PowerShell.Core.New-PSSessionOption).
+[New-PSSessionOption](xref:Microsoft.PowerShell.Core.New-PSSessionOption).
 
 ## TROUBLESHOOTING UNRESPONSIVE BEHAVIOR
 

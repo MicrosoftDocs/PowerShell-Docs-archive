@@ -276,9 +276,9 @@ profiles. For more information about profiles, see [about_Profiles](about_Profil
 
 [Get-Location](xref:Microsoft.PowerShell.Management.Get-Location)
 
-[Enter-PSSession](xref:Micrsoft.PowerShell.Core.Enter-PSSession)
+[Enter-PSSession](xref:Microsoft.PowerShell.Core.Enter-PSSession)
 
-[Get-History](xref:Micrsoft.PowerShell.Core.Get-History)
+[Get-History](xref:Microsoft.PowerShell.Core.Get-History)
 
 [Get-Random](xref:Microsoft.PowerShell.Utility.Get-Random)
 

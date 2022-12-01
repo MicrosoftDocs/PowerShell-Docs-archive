@@ -142,10 +142,10 @@ topic.
 ## Create a self-signed certificate
 
 To create a self-signed certificate, use the
-[New-SelfSignedCertificate](xref:pki.New-SelfSignedCertificate) cmdlet in the
-PKI module. This module is introduced in PowerShell 3.0 and is included in
-Windows 8 and Windows Server 2012. For more information, see the help topic for
-the `New-SelfSignedCertificate` cmdlet.
+[New-SelfSignedCertificate](/powershell/module/pki/new-selfsignedcertificate)
+cmdlet in the PKI module. This module is introduced in PowerShell 3.0 and is
+included in Windows 8 and Windows Server 2012. For more information, see the
+help topic for the `New-SelfSignedCertificate` cmdlet.
 
 ```powershell
 $params = @{

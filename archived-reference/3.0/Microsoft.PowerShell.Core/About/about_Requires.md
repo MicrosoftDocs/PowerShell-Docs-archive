@@ -157,4 +157,4 @@ always a snap-in.
 
 [about_PSSnapins](about_PSSnapins.md)
 
-[Get-PSSnapin](xref:Micrsoft.PowerShell.Core.Get-PSSnapin)
+[Get-PSSnapin](xref:Microsoft.PowerShell.Core.Get-PSSnapin)

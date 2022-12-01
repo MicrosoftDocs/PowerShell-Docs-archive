@@ -1054,7 +1054,7 @@ For more information about this preference variable, see [about_Parameters_Defau
 ### \$PSModuleAutoloadingPreference
 
 Enables and disables automatic importing of modules in the session. **All** is
-the default. Regardless of the variable's value, you can use [Import-Module](xref:Micrsoft.PowerShell.Core.Import-Module)
+the default. Regardless of the variable's value, you can use [Import-Module](xref:Microsoft.PowerShell.Core.Import-Module)
 to import a module.
 
 Valid values are:
@@ -1092,8 +1092,8 @@ the connection request. The parameter's value should match the value of the
 
 To override the system default and the value of this variable, and select a
 different application name for a particular session, use the **ConnectionURI**
-or **ApplicationName** parameters of the [New-PSSession](xref:Micrsoft.PowerShell.Core.New-PSSession), [Enter-PSSession](xref:Micrsoft.PowerShell.Core.Enter-PSSession),
-or [Invoke-Command](xref:Micrsoft.PowerShell.Core.Invoke-Command) cmdlets.
+or **ApplicationName** parameters of the [New-PSSession](xref:Microsoft.PowerShell.Core.New-PSSession), [Enter-PSSession](xref:Microsoft.PowerShell.Core.Enter-PSSession),
+or [Invoke-Command](xref:Microsoft.PowerShell.Core.Invoke-Command) cmdlets.
 
 The `$PSSessionApplicationName` preference variable is set on the local
 computer, but it specifies a listener on the remote computer. If the
@@ -1174,7 +1174,7 @@ CancelTimeout                     : 00:01:00
 IdleTimeout                       : -00:00:00.0010000
 ```
 
-For descriptions of these options and more information, see [New-PSSessionOption](xref:Micrsoft.PowerShell.Core.New-PSSessionOption).
+For descriptions of these options and more information, see [New-PSSessionOption](xref:Microsoft.PowerShell.Core.New-PSSessionOption).
 For more information about remote commands and sessions, see [about_Remote](about_Remote.md)
 and [about_PSSessions](about_PSSessions.md).
 

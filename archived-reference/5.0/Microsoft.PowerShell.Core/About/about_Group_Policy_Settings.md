@@ -167,8 +167,8 @@ about_GroupPolicy
 
 [Set-ExecutionPolicy](xref:Microsoft.PowerShell.Security.Set-ExecutionPolicy)
 
-[Get-Module](xref:Micrsoft.PowerShell.Core.Get-Module)
+[Get-Module](xref:Microsoft.PowerShell.Core.Get-Module)
 
-[Update-Help](xref:Micrsoft.PowerShell.Core.Update-Help)
+[Update-Help](xref:Microsoft.PowerShell.Core.Update-Help)
 
-[Save-Help](xref:Micrsoft.PowerShell.Core.Save-Help)
+[Save-Help](xref:Microsoft.PowerShell.Core.Save-Help)

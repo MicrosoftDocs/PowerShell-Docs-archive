@@ -331,16 +331,16 @@ is denied.
 
 [about_PSSessions](about_PSSessions.md)
 
-[Start-Job](xref:Micrsoft.PowerShell.Core.Start-Job)
+[Start-Job](xref:Microsoft.PowerShell.Core.Start-Job)
 
-[Get-Job](xref:Micrsoft.PowerShell.Core.Get-Job)
+[Get-Job](xref:Microsoft.PowerShell.Core.Get-Job)
 
-[Receive-Job](xref:Micrsoft.PowerShell.Core.Receive-Job)
+[Receive-Job](xref:Microsoft.PowerShell.Core.Receive-Job)
 
-[Stop-Job](xref:Micrsoft.PowerShell.Core.Stop-Job)
+[Stop-Job](xref:Microsoft.PowerShell.Core.Stop-Job)
 
-[Wait-Job](xref:Micrsoft.PowerShell.Core.Wait-Job)
+[Wait-Job](xref:Microsoft.PowerShell.Core.Wait-Job)
 
-[Remove-Job](xref:Micrsoft.PowerShell.Core.Remove-Job)
+[Remove-Job](xref:Microsoft.PowerShell.Core.Remove-Job)
 
 [Invoke-Command](xref:Microsoft.PowerShell.Core.Invoke-Command)

@@ -138,7 +138,7 @@ In Windows PowerShell 2.0, you can get only the PSSessions
 that you have created in the current session. You cannot get
 PSSessions that you created in other sessions.
 
-For more information, see [Get-PSSession](xref:Micrsoft.PowerShell.Core.Get-PSSession).
+For more information, see [Get-PSSession](xref:Microsoft.PowerShell.Core.Get-PSSession).
 
 ## Can I See the PSSessions That Others Have Created on My Computer?
 
@@ -231,7 +231,7 @@ interactive session for use in later commands.
 When you end the interactive session, the PSSession remains open and
 available for use.
 
-For more information, see [Enter-PSSession](xref:Micrsoft.PowerShell.Core.Enter-PSSession) and [Exit-PSSession](xref:Micrsoft.PowerShell.Core.Exit-PSSession).
+For more information, see [Enter-PSSession](xref:Microsoft.PowerShell.Core.Enter-PSSession) and [Exit-PSSession](xref:Microsoft.PowerShell.Core.Exit-PSSession).
 
 ## Must I Delete the PSSessions?
 
@@ -246,7 +246,7 @@ PSSessions and releases all of the resources that they were using.
 
 You can also use the **IdleTimeOut** parameter of `New-PSSessionOption` to close
 an idle PSSession after an interval that you specify. For more information,
-see [New-PSSessionOption](xref:Micrsoft.PowerShell.Core.New-PSSessionOption).
+see [New-PSSessionOption](xref:Microsoft.PowerShell.Core.New-PSSessionOption).
 
 If you save a PSSession object in a variable and then delete the PSSession
 or let it time out, the variable still contains the PSSession object, but
@@ -270,14 +270,14 @@ another, it might be because the session is restricted.
 
 [about_Remote_Requirements](about_Remote_Requirements.md)
 
-[Invoke-Command](xref:Micrsoft.PowerShell.Core.Invoke-Command)
+[Invoke-Command](xref:Microsoft.PowerShell.Core.Invoke-Command)
 
-[Enter-PSSession](xref:Micrsoft.PowerShell.Core.Enter-PSSession)
+[Enter-PSSession](xref:Microsoft.PowerShell.Core.Enter-PSSession)
 
-[Exit-PSSession](xref:Micrsoft.PowerShell.Core.Exit-PSSession)
+[Exit-PSSession](xref:Microsoft.PowerShell.Core.Exit-PSSession)
 
-[Get-PSSession](xref:Micrsoft.PowerShell.Core.Get-PSSession)
+[Get-PSSession](xref:Microsoft.PowerShell.Core.Get-PSSession)
 
-[New-PSSession](xref:Micrsoft.PowerShell.Core.New-PSSession)
+[New-PSSession](xref:Microsoft.PowerShell.Core.New-PSSession)
 
-[Remove-PSSession](xref:Micrsoft.PowerShell.Core.Remove-PSSession)
+[Remove-PSSession](xref:Microsoft.PowerShell.Core.Remove-PSSession)
