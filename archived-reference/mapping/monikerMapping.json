@@ -96,7 +96,7 @@
         "conceptualToc": "docs-conceptual/TOC.yml",
         "packageRoot": "7.0",
         "conceptualTocUrl": "/previous-versions/powershell/scripting/toc.json",
-        "referenceTocUrl": "/previous-versions/powershell/module/psdocs/toc.json"
+        "referenceTocUrl": "/previous-versions/powershell/module/psdocs/toc.json",
         "modules": {
             "CimCmdlets": {},
             "Microsoft.PowerShell.Archive": {},
