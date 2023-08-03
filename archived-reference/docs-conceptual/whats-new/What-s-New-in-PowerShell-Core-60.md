@@ -443,7 +443,6 @@ information about PowerShell jobs, see
 ## Breaking Changes for PowerShell 6.0
 
 We've introduced a number of breaking changes in PowerShell Core 6.0.
-To read more about them in detail, see [Breaking Changes in PowerShell Core 6.0][breaking-changes].
 
 ### Debugging
 
@@ -934,7 +933,7 @@ Internet Explorer have resulted in several breaking changes within `Invoke-WebRe
 [.NET Blog]: https://devblogs.microsoft.com/dotnet/introducing-net-standard/
 [.NET Core 2.0]: /dotnet/core/
 [.NET Standard]: /dotnet/standard/net-standard
-[breaking-changes]: #breaking-changes-for-power-shell-60
+[breaking-changes]: #breaking-changes-for-powershell-60
 [CDXML]: /previous-versions/windows/desktop/wmi_v2/getting-started-with-cdxml
 [changelog]: https://github.com/PowerShell/PowerShell/tree/master/CHANGELOG.md
 [community-dashboard]: https://aka.ms/PSGitHubBI
