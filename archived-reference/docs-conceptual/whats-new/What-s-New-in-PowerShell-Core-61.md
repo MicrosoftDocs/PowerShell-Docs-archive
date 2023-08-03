@@ -208,8 +208,8 @@ You can learn more about this feature in
 ## Web cmdlet improvements
 
 Thanks to [@markekraus](https://github.com/markekraus), a whole slew of improvements have been made to our web cmdlets:
-[`Invoke-WebRequest`](/powershell/module/Microsoft.PowerShell.Utility/invoke-webrequest)
-and [`Invoke-RestMethod`](/powershell/module/Microsoft.PowerShell.Utility/invoke-restmethod).
+[`Invoke-WebRequest`](/powershell/module/microsoft.powershell.utility/invoke-webrequest)
+and [`Invoke-RestMethod`](/powershell/module/microsoft.powershell.utility/invoke-restmethod).
 
 - [PR #6109](https://github.com/PowerShell/PowerShell/pull/6109) - default encoding set to UTF-8 for
   `application-json` responses
@@ -563,7 +563,8 @@ To opt-out of this telemetry, set the environment variable `POWERSHELL_TELEMETRY
 To prevent the use of unencrypted traffic, PowerShell Remoting on Unix platforms now requires usage
 of NTLM/Negotiate or HTTPS.
 
-For more information on these changes, check out [Issue #6779](https://github.com/PowerShell/PowerShell/issues/6779).
+For more information on these changes, check out
+[Issue #6779](https://github.com/PowerShell/PowerShell/issues/6779).
 
 ### Removed `VisualBasic` as a supported language in Add-Type
 
@@ -582,7 +583,9 @@ Although you should not rely on the order, you could be broken by this change if
 first group. We decided that this performance improvement was worth the change since the impact of
 being dependent on previous behavior is low.
 
-For more information on this change, see [Issue #7409](https://github.com/PowerShell/PowerShell/issues/7409).
+For more information on this change, see
+[Issue #7409](https://github.com/PowerShell/PowerShell/issues/7409).
 
-<!-- URL references -->
+<!-- end of content -->
+<!-- reference links -->
 [Experimental Features]: /powershell/module/Microsoft.PowerShell.Core/About/about_Experimental_Features

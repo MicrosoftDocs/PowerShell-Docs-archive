@@ -727,7 +727,7 @@ For more information about [Invoke-DSCResource][10].
 [06]: /powershell/module/microsoft.powershell.core/about/about_update_notifications
 [07]: /powershell/module/microsoft.powershell.core/foreach-object?view=powershell-7&preserve-view=true
 [08]: /powershell/module/microsoft.powershell.core/import-module?view=powershell-7&preserve-view=true
-[09]: /powershell/module/Microsoft.PowerShell.Utility/get-error?view=powershell-7&preserve-view=true
+[09]: /powershell/module/microsoft.powershell.utility/get-error?view=powershell-7&preserve-view=true
 [10]: /powershell/module/psdesiredstateconfiguration/invoke-dscresource?view=powershell-7&preserve-view=true
 [11]: /powershell/scripting/install/installing-powershell-core-on-linux
 [12]: /powershell/scripting/install/installing-powershell-core-on-macos
