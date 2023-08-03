@@ -37,8 +37,9 @@ Get-Commnd
 ```
 
 ```Output
-Get-Commnd : The term 'Get-Commnd' is not recognized as the name of a cmdlet, function, script file, or operable program.
-Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+Get-Commnd : The term 'Get-Commnd' is not recognized as the name of a cmdlet, function, script file,
+or operable program. Check the spelling of the name, or if a path was included, verify that the path
+is correct and try again.
 At line:1 char:1
 + Get-Commnd
 + ~~~~~~~~~~
@@ -46,7 +47,8 @@ At line:1 char:1
 + FullyQualifiedErrorId : CommandNotFoundException
 
 
-Suggestion [4,General]: The most similar commands are: Get-Command, Get-Content, Get-Job, Get-Module, Get-Event, Get-Host, Get-Member, Get-Item, Set-Content.
+Suggestion [4,General]: The most similar commands are: Get-Command, Get-Content, Get-Job, Get-Module,
+Get-Event, Get-Host, Get-Member, Get-Item, Set-Content.
 ```
 
 ### Implicit Remoting Batching
@@ -227,6 +229,7 @@ PS> Import-AzRecoveryServicesAsrVaultSettingsFile
 - Add `%F` case to `Get-Date` -UFormat (#7630) (Thanks @britishben!)
 - Fix `Set-Service -Status Stopped` to stop services with dependencies (#5525) (Thanks @zhenggu!)
 
+<!-- end of content -->
 <!-- Link references -->
 [about_Numeric_Literals]: /powershell/module/Microsoft.PowerShell.Core/About/about_numeric_literals
 [Experimental Features]: /powershell/module/Microsoft.PowerShell.Core/About/about_Experimental_Features
