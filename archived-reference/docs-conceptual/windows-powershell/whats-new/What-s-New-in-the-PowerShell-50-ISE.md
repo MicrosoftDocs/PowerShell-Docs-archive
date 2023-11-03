@@ -15,8 +15,7 @@ Windows PowerShell Integrated Scripting Environment (ISE).
 > We currently have no plans to remove the ISE from Windows.
 >
 > There is no support for the ISE in PowerShell v6 and beyond. Users looking for replacement for the
-> ISE should use [Visual Studio Code](https://code.visualstudio.com/) with the
-> [PowerShell Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell).
+> ISE should use [Visual Studio Code][04] with the [PowerShell Extension][05].
 
 ## Feature description
 
@@ -25,7 +24,7 @@ and modules in a graphical and intuitive environment. Key features such as synta
 completion, visual debugging, Unicode compliance, and context-sensitive Help provide a rich
 scripting experience.
 
-For more information, see [Introducing the Windows PowerShell ISE](../ise/Introducing-the-Windows-PowerShell-ISE.md).
+For more information, see [Introducing the Windows PowerShell ISE][03].
 
 The following table lists the new and changed features for this release of Windows PowerShell ISE in
 Windows PowerShell.
@@ -74,7 +73,7 @@ Windows PowerShell ISE now supports add-on tools using the object model. These a
 Presentation Foundation (WPF) controls that are displayed as a vertical or horizontal pane in the
 console. Multiple add-on tools in a pane are displayed as a tabbed control. You can also add or
 remove add-on tools that are produced by non-Microsoft parties. For more information, see
-[The Purpose of the Windows PowerShell ISE Scripting Object Model](../ise/object-model/Purpose-of-the-Windows-PowerShell-ISE-Scripting-Object-Model.md).
+[The Purpose of the Windows PowerShell ISE Scripting Object Model][02].
 
 **What value does this change add?**
 
@@ -272,4 +271,10 @@ learn Windows PowerShell.
 ## See also
 
 For more information about using Windows PowerShell ISE, see
-[Exploring the Windows PowerShell Integrated Scripting Environment](../ise/exploring-the-windows-powershell-ise.md).
+[Exploring the Windows PowerShell Integrated Scripting Environment][01].
+<!-- updated link references -->
+[01]: /powershell/scripting/windows-powershell/ise/exploring-the-windows-powershell-ise
+[02]: /powershell/scripting/windows-powershell/ise/object-model/Purpose-of-the-Windows-PowerShell-ISE-Scripting-Object-Model
+[03]: /powershell/scripting/windows-powershell/ise/Introducing-the-Windows-PowerShell-ISE
+[04]: https://code.visualstudio.com/
+[05]: https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell

@@ -27,8 +27,6 @@ items:
             href: windows-powershell/install/installing-the-windows-powershell-2.0-engine.md
           - name: Windows PowerShell System Requirements
             href: windows-powershell/install/windows-powershell-system-requirements.md
-          - name: Creating a custom PowerShell shortcut
-            href: windows-powershell/install/creating-a-custom-powershell-shortcut.md
       - name: What's new in PowerShell 5.x
         items:
           - name: What's new in Windows PowerShell 5.x

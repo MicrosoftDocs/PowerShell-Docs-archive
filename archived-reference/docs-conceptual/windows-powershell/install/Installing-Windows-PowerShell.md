@@ -8,10 +8,6 @@ title: Installing Windows PowerShell
 Windows PowerShell comes installed by default in every Windows, starting with Windows 7 SP1 and
 Windows Server 2008 R2 SP1.
 
-If you are interested in PowerShell 7 and later, you need to install PowerShell instead of Windows
-PowerShell. For more information, see
-[Installing PowerShell on Windows][01].
-
 ## Finding PowerShell in Windows 11, 10, 8.1, 8.0, and 7
 
 Sometimes locating PowerShell console or the Integrated Scripting Environment (ISE) in Windows can
@@ -93,8 +89,7 @@ If you're looking for **Azure PowerShell**, you could start with
 - [Starting Windows PowerShell][02]
 
 <!-- link refs -->
-[01]: ../../install/Installing-PowerShell-on-Windows.md
-[02]: ../Starting-Windows-PowerShell.md
+[02]: /powershell/scripting/windows-powershell/starting-windows-powershell
 [04]: /powershell/azure/overview
 [08]: https://www.microsoft.com/download/details.aspx?id=54616
 [09]: Windows-PowerShell-System-Requirements.md

@@ -170,7 +170,7 @@ For information on installing Windows PowerShell 5.1 on Windows PE, see
 
 <!-- link references -->
 [01]: ../Starting-the-Windows-PowerShell-2.0-Engine.md
-[02]: ../Starting-Windows-PowerShell.md
+[02]: /powershell/scripting/windows-powershell/starting-windows-powershell
 [03]: ../wmf/overview.md
 [04]: ../wmf/setup/install-configure.md
 [05]: /powershell/module/bitstransfer/
@@ -187,7 +187,6 @@ For information on installing Windows PowerShell 5.1 on Windows PE, see
 [16]: /powershell/module/Microsoft.PowerShell.Utility/Show-Command
 [17]: /powershell/scripting/components/ise/introducing-the-windows-powershell-ise
 [18]: https://aka.ms/wmf5download
-[21]: https://www.microsoft.com/download/details.aspx?id=34595
 [23]: Installing-the-Windows-PowerShell-2.0-Engine.md
 [24]: Installing-Windows-PowerShell.md
 [25]: /windows-hardware/manufacture/desktop/winpe-adding-powershell-support-to-windows-pe
