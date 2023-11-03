@@ -933,7 +933,6 @@ Internet Explorer have resulted in several breaking changes within `Invoke-WebRe
 [.NET Blog]: https://devblogs.microsoft.com/dotnet/introducing-net-standard/
 [.NET Core 2.0]: /dotnet/core/
 [.NET Standard]: /dotnet/standard/net-standard
-[breaking-changes]: #breaking-changes-for-powershell-60
 [CDXML]: /previous-versions/windows/desktop/wmi_v2/getting-started-with-cdxml
 [changelog]: https://github.com/PowerShell/PowerShell/tree/master/CHANGELOG.md
 [community-dashboard]: https://aka.ms/PSGitHubBI
