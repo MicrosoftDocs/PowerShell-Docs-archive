@@ -13,6 +13,8 @@ items:
         href: whats-new/known-issues-ps6.md
   - name: PowerShell 7.x release notes
     items:
+      - name: What's new in PowerShell 7.3
+        href: whats-new/what-s-new-in-powershell-73.md
       - name: What's new in PowerShell 7.1
         href: whats-new/what-s-new-in-powershell-71.md
       - name: What's new in PowerShell 7.0
