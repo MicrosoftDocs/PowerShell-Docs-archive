@@ -95,7 +95,7 @@
     "powershell-7": {
         "conceptualToc": "docs-conceptual/TOC.yml",
         "packageRoot": "7.0",
-        "conceptualTocUrl": "/previous-versions/powershell/scripting/toc.json",
+        "conceptualTocUrl": "/previous-versions/powershell/scripting/powershell-7/toc.json",
         "referenceTocUrl": "/previous-versions/powershell/module/psdocs/toc.json",
         "modules": {
             "CimCmdlets": {},
@@ -119,6 +119,29 @@
         "conceptualToc": "docs-conceptual/TOC.yml",
         "packageRoot": "7.1",
         "conceptualTocUrl": "/previous-versions/powershell/scripting/powershell-7.1/toc.json",
+        "referenceTocUrl": "/previous-versions/powershell/module/psdocs/toc.json",
+        "modules": {
+            "CimCmdlets": {},
+            "Microsoft.PowerShell.Archive": {},
+            "Microsoft.PowerShell.Core": {},
+            "Microsoft.PowerShell.Diagnostics": {},
+            "Microsoft.PowerShell.Host": {},
+            "Microsoft.PowerShell.Management": {},
+            "Microsoft.PowerShell.Security": {},
+            "Microsoft.PowerShell.Utility": {},
+            "Microsoft.WsMan.Management": {},
+            "PackageManagement": {},
+            "PowershellGet": {},
+            "PSDesiredStateConfiguration": {},
+            "PSDiagnostics": {},
+            "PSReadline": {},
+            "ThreadJob": {}
+        }
+    },
+    "powershell-7.3": {
+        "conceptualToc": "docs-conceptual/TOC.yml",
+        "packageRoot": "7.3",
+        "conceptualTocUrl": "/previous-versions/powershell/scripting/powershell-7.3/toc.json",
         "referenceTocUrl": "/previous-versions/powershell/module/psdocs/toc.json",
         "modules": {
             "CimCmdlets": {},

@@ -376,5 +376,5 @@ The value of the **Prefix** parameter takes precedence over the value of
 [13]: xref:Microsoft.PowerShell.Core.Get-Module
 [14]: xref:Microsoft.PowerShell.Core.Import-Module
 [15]: xref:Microsoft.PowerShell.Core.Remove-Module
-[16]: xref:Microsoft.PowerShell.PSResourceGet.Install-PSResource
+[16]: /powershell/module/Microsoft.PowerShell.PSResourceGet/Install-PSResource
 [17]: xref:PowerShellGet.Install-Module
