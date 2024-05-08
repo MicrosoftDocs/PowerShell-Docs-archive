@@ -7,6 +7,7 @@
       "powershell-6": { "moniker_range": "powershell-6" },
       "powershell-7": { "moniker_range": "powershell-7" },
       "powershell-7.1": { "moniker_range": "powershell-7.1" },
+      "powershell-7.3": { "moniker_range": "powershell-7.3" },
       "conceptual": { "moniker_range": ">=powershell-3.0" }
   },
   "content": [
