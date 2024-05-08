@@ -1,87 +1,97 @@
 {
   "build": {
+    "content": [
+      { "dest": "scripting", "files": [ "bread/toc.yml" ] },
+      { "dest": "scripting", "files": [ "**/*.md", "**/**.yml" ], "group": "conceptual", "src": "docs-conceptual" },
+
+      { "dest": "module/psdocs", "files": [ "toc.yml" ], "group": "powershell-3.0", "src": "3.0" },
+      { "dest": "module", "exclude": [ "docs-conceptual/**" ], "files": [ "**/*.yml", "**/About/*.md" ], "group": "powershell-3.0", "src": "3.0" },
+
+      { "dest": "module/psdocs", "files": [ "toc.yml" ], "group": "powershell-4.0", "src": "4.0" },
+      { "dest": "module", "exclude": [ "docs-conceptual/**" ], "files": [ "**/*.yml", "**/About/*.md" ], "group": "powershell-4.0", "src": "4.0" },
+
+      { "dest": "module/psdocs", "files": [ "toc.yml" ], "group": "powershell-5.0", "src": "5.0" },
+      { "dest": "module", "exclude": [ "docs-conceptual/**" ], "files": [ "**/*.yml", "**/About/*.md" ], "group": "powershell-5.0", "src": "5.0" },
+
+      { "dest": "module/psdocs", "files": [ "toc.yml" ], "group": "powershell-6", "src": "6" },
+      { "dest": "module", "exclude": [ "docs-conceptual/**" ], "files": [ "**/*.yml", "**/About/*.md" ], "group": "powershell-6", "src": "6" },
+
+      { "dest": "module/psdocs", "files": [ "toc.yml" ], "group": "powershell-7", "src": "7.0" },
+      { "dest": "module", "exclude": [ "docs-conceptual/**" ], "files": [ "**/*.yml", "**/About/*.md" ], "group": "powershell-7", "src": "7.0" },
+
+      { "dest": "module/psdocs", "files": [ "toc.yml" ], "group": "powershell-7.1", "src": "7.1" },
+      { "dest": "module", "exclude": [ "docs-conceptual/**" ], "files": [ "**/*.yml", "**/About/*.md" ], "group": "powershell-7.1", "src": "7.1" },
+
+      { "dest": "module/psdocs", "files": [ "toc.yml" ], "group": "powershell-7.3", "src": "7.3" },
+      { "dest": "module", "exclude": [ "docs-conceptual/**" ], "files": [ "**/*.yml", "**/About/*.md" ], "group": "powershell-7.3", "src": "7.3" },
+
+      { "dest": "scripting", "files": [ "**/*.md" ], "src": "virtual-directory" },
+      { "dest": "module", "files": [ "**/*.md" ], "src": "virtual-directory-module" }
+    ],
+    "dest": "PowerShell-ref-archive",
+    "externalReference": [],
+    "fileMetadata": {
+      "ms.topic": {
+        "3.0/**/*": "managed-reference",
+        "4.0/**/*": "managed-reference",
+        "5.0/**/*": "managed-reference",
+        "6/**/*": "managed-reference",
+        "7.0/**/*": "managed-reference",
+        "7.1/**/*": "managed-reference",
+        "7.3/**/*": "managed-reference",
+        "docs-conceptual/**/*": "conceptual"
+      }
+    },
+    "globalMetadata": {
+      "ROBOTS": "NOINDEX, NOFOLLOW",
+      "apiPlatform": "powershell",
+      "author": "sdwheeler",
+      "breadcrumb_path": "/previous-versions/powershell/scripting/bread/toc.json",
+      "current_version_url": "https://learn.microsoft.com/powershell/scripting",
+      "docs_archive": "manual",
+      "feedback_system": "None",
+      "is_archived": "true",
+      "ms.author": "sewhee",
+      "ms.devlang": "powershell",
+      "ms.service": "powershell",
+      "ms.tgt_pltfr": "windows, macos, linux",
+      "manager": "sewhee",
+      "social_image_url": "https://learn.microsoft.com/media/logos/logo-powershell-social.png",
+      "titleSuffix": "PowerShell",
+      "toc_preview": true,
+      "uhfHeaderId": "MSDocsHeader-Archive",
+    },
     "groups": {
+      "conceptual": { "moniker_range": ">=powershell-3.0" },
       "powershell-3.0": { "moniker_range": "powershell-3.0" },
       "powershell-4.0": { "moniker_range": "powershell-4.0" },
       "powershell-5.0": { "moniker_range": "powershell-5.0" },
       "powershell-6": { "moniker_range": "powershell-6" },
       "powershell-7": { "moniker_range": "powershell-7" },
       "powershell-7.1": { "moniker_range": "powershell-7.1" },
-      "powershell-7.3": { "moniker_range": "powershell-7.3" },
-      "conceptual": { "moniker_range": ">=powershell-3.0" }
-  },
-  "content": [
-      { "files": [ "bread/toc.yml" ], "dest": "scripting" },
-
-      { "files": ["**/*.md", "**/**.yml"], "group": "conceptual", "src": "docs-conceptual", "dest": "scripting"},
-
-      { "files": ["toc.yml"], "src": "3.0", "group": "powershell-3.0", "dest": "module/psdocs" },
-      { "files": ["**/*.yml", "**/About/*.md"], "src": "3.0", "group": "powershell-3.0", "exclude": ["docs-conceptual/**"], "dest": "module" },
-
-      { "files": ["toc.yml"], "src": "4.0", "group": "powershell-4.0", "dest": "module/psdocs" },
-      { "files": ["**/*.yml", "**/About/*.md"], "src": "4.0", "group": "powershell-4.0", "exclude": ["docs-conceptual/**"], "dest": "module" },
-
-      { "files": ["toc.yml"], "src": "5.0", "group": "powershell-5.0", "dest": "module/psdocs" },
-      { "files": ["**/*.yml", "**/About/*.md"], "src": "5.0", "group": "powershell-5.0", "exclude": ["docs-conceptual/**"], "dest": "module" },
-
-      { "files": ["toc.yml"], "src": "6", "group": "powershell-6", "dest": "module/psdocs" },
-      { "files": ["**/*.yml", "**/About/*.md"], "src": "6", "group": "powershell-6", "exclude": ["docs-conceptual/**"], "dest": "module" },
-
-      { "files": ["toc.yml"], "src": "7.0", "group": "powershell-7", "dest": "module/psdocs" },
-      { "files": ["**/*.yml", "**/About/*.md"], "src": "7.0", "group": "powershell-7", "exclude": ["docs-conceptual/**"], "dest": "module" },
-
-      { "files": ["toc.yml"], "src": "7.1", "group": "powershell-7.1", "dest": "module/psdocs" },
-      { "files": ["**/*.yml", "**/About/*.md"], "src": "7.1", "group": "powershell-7.1", "exclude": ["docs-conceptual/**"], "dest": "module" },
-
-      { "files": ["toc.yml"], "src": "7.3", "group": "powershell-7.3", "dest": "module/psdocs" },
-      { "files": ["**/*.yml", "**/About/*.md"], "src": "7.3", "group": "powershell-7.3", "exclude": ["docs-conceptual/**"], "dest": "module" },
-
-      { "files": [ "**/*.md" ], "src": "virtual-directory", "dest": "scripting" },
-      { "files": [ "**/*.md" ], "src": "virtual-directory-module", "dest": "module" }
-    ],
+      "powershell-7.3": { "moniker_range": "powershell-7.3" }
+    },
+    "markdownEngineName": "markdig",
+    "overwrite": [],
     "resource": [
       {
-        "files": [ "**/media/**", "**/*.png", "**/*.gif", "**/*.jpeg", "**/*.jpg", "**/*.svg" ],
-        "exclude": [ "**/obj/**", "**/includes/**", "_themes/**", "_themes.pdf/**", "**/docfx.json" ]
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json"
+        ],
+        "files": [
+          "**/media/**",
+          "**/*.png",
+          "**/*.gif",
+          "**/*.jpeg",
+          "**/*.jpg",
+          "**/*.svg"
+        ]
       }
     ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {
-      "breadcrumb_path": "/previous-versions/powershell/scripting/bread/toc.json",
-      "current_version_url": "https://learn.microsoft.com/powershell/scripting",
-      "docs_archive": "manual",
-      "uhfHeaderId": "MSDocsHeader-Archive",
-      "is_archived": "true",
-      "apiPlatform": "powershell",
-      "ms.devlang": "powershell",
-      "ROBOTS": "NOINDEX, NOFOLLOW",
-      "feedback_system": "None"
-    },
-    "fileMetadata": {
-      "social_image_url": {
-          "**/**.md": "https://learn.microsoft.com/media/logos/logo-powershell-social.png",
-          "**/**.yml": "https://learn.microsoft.com/media/logos/logo-powershell-social.png"
-      },
-      "ms.prod": {
-          "**/**.md": "powershell",
-          "**/**.yml": "powershell"
-      },
-      "ms.technology": { "**/**.md": "powershell-cmdlets" },
-      "ms.topic": { "**/**.md": "reference" },
-      "manager": { "**/**.md": "sewhee" },
-      "ms.tgt_pltfr": { "**/**.md": "windows, macos, linux" },
-      "author": {
-        "**/**.md": "sdwheeler",
-        "**/**.yml": "sdwheeler"
-      },
-      "ms.author": {
-        "**/**.md": "sewhee",
-        "**/**.yml": "sewhee"
-      }
-    },
-    "template": [],
-    "dest": "PowerShell-ref-archive",
-    "markdownEngineName": "markdig"
+    "template": []
   }
 }
