@@ -13,6 +13,7 @@ For the latest documentation, see the [PowerShell Reference](/powershell/scripti
 
 This site has release notes for the following versions:
 
+- PowerShell 7.3
 - PowerShell 7.1
 - PowerShell 6.x
 - Windows PowerShell 5.1
@@ -20,6 +21,7 @@ This site has release notes for the following versions:
 
 This site has cmdlet reference for the following versions:
 
+- PowerShell 7.3
 - PowerShell 7.1
 - PowerShell 6.x
 - PowerShell 5.0

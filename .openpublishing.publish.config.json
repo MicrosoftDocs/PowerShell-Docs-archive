@@ -1,73 +1,71 @@
 {
+  "branch_target_mapping": {},
+  "branches_to_filter": [],
+  "contribution_branch_mappings": {},
+  "dependent_packages": [
+    {
+      "id": "opbuild.templates.azurecli",
+      "nuget_feed": "https://www.myget.org/F/op/api/v2",
+      "path_to_root": "_dependentPackages/azurecli.plugins",
+      "version": "latest"
+    },
+    {
+      "id": "Microsoft.OpenPublishing.CommonPlugins",
+      "nuget_feed": "https://www.myget.org/F/op/api/v2",
+      "path_to_root": "_dependentPackages/CommonPlugins",
+      "target_framework": "net45",
+      "version": "latest"
+    }
+  ],
+  "dependent_repositories": [
+    {
+      "branch": "main",
+      "branch_mapping": {},
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft"
+    }
+  ],
+  "docs_build_engine": {
+    "name": "docfx_v3"
+  },
   "docsets_to_publish": [
     {
-      "docset_name": "PowerShell-ref-archive",
-      "build_source_folder": "archived-reference",
-      "build_output_subfolder": "PowerShell-ref-archive",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "AzurePSModulePage": "Content"
-      },
       "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "customized_template_paths": [
-        "_dependentPackages/azurecli.plugins/azurecli"
-      ],
+      "build_output_subfolder": "PowerShell-ref-archive",
+      "build_source_folder": "archived-reference",
       "customized_tasks": {
         "docset_prebuild": [
           "_dependentPackages/CommonPlugins/tools/PowerShellReference.ps1"
         ]
       },
+      "customized_template_paths": [
+        "_dependentPackages/azurecli.plugins/azurecli"
+      ],
+      "docset_name": "PowerShell-ref-archive",
+      "locale": "en-us",
       "monikerPath": [
         "mapping/monikerMapping.json"
       ],
+      "moniker_ranges": [],
+      "monikers": [],
+      "open_to_public_contributors": false,
+      "template_folder": "_themes",
+      "type_mapping": {
+        "AzurePSModulePage": "Content",
+        "Conceptual": "Content"
+      },
       "xref_query_tags": [
         "/dotnet",
         "/uwp/api"
       ]
     }
   ],
-  "notification_subscribers": [
-    "sewhee@microsoft.com"
-  ],
-  "sync_notification_subscribers": [],
-  "branches_to_filter": [],
-  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/PowerShell-Docs-archive",
   "git_repository_branch_open_to_public_contributors": "main",
-  "skip_source_output_uploading": false,
-  "need_preview_pull_request": true,
-  "contribution_branch_mappings": {},
-  "dependent_repositories": [
-    {
-      "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "main",
-      "branch_mapping": {}
-    }
-  ],
-  "branch_target_mapping": {},
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/PowerShell-Docs-archive",
   "need_generate_pdf_url_template": false,
-  "targets": {},
-  "dependent_packages": [
-    {
-      "path_to_root": "_dependentPackages/azurecli.plugins",
-      "id": "opbuild.templates.azurecli",
-      "version": "latest",
-      "nuget_feed": "https://www.myget.org/F/op/api/v2"
-    },
-    {
-      "path_to_root": "_dependentPackages/CommonPlugins",
-      "target_framework": "net45",
-      "version": "latest",
-      "id": "Microsoft.OpenPublishing.CommonPlugins",
-      "nuget_feed": "https://www.myget.org/F/op/api/v2"
-    }
-  ],
-  "docs_build_engine": {
-    "name": "docfx_v3"
-  }
+  "need_preview_pull_request": true,
+  "notification_subscribers": [ "sewhee@microsoft.com"],
+  "skip_source_output_uploading": false,
+  "sync_notification_subscribers": [],
+  "targets": {}
 }
