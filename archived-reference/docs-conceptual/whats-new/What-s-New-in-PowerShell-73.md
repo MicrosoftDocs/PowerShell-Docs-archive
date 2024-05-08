@@ -85,7 +85,6 @@ PowerShell 7.3 includes the following features, updates, and breaking changes.
 - Add `-HttpVersion` parameter to web cmdlets ([#15853][15853]) (Thanks @hayhay27!)
 - Add support to web cmdlets for open-ended input tags ([#16193][16193]) (Thanks @farmerau!)
 - Fix `ConvertTo-Json -Depth` to allow 100 at maximum ([#16197][16197]) (Thanks @KevRitchie!)
-  @rkeithhill!)
 - Improve variable handling when calling `Invoke-Command` with the `$using:` expression
   ([#16113][16113]) (Thanks @dwtaber!)
 - Add `-StrictMode` to `Invoke-Command` to allow specifying strict mode when invoking command
@@ -147,9 +146,9 @@ For more information about the Experimental Features, see [Using Experimental Fe
 
 <!-- end of content -->
 <!-- reference links -->
-[01]: ../learn/experimental-features.md
-[06]: ../learn/experimental-features.md#psnativecommanderroractionpreference
-[08]: ../learn/experimental-features.md#psnativecommandargumentpassing
+[01]: /powershell/scripting/learn/experimental-features
+[06]: /powershell/scripting/learn/experimental-features#psnativecommanderroractionpreference
+[08]: /powershell/scripting/learn/experimental-features#psnativecommandargumentpassing
 [09]: https://github.com/dotnet/runtime/issues/66746
 [10]: https://github.com/PowerShell/PowerShell/issues/17018
 [11]: https://github.com/PowerShell/PowerShell/releases/tag/v7.3.0
