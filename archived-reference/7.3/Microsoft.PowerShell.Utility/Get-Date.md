@@ -676,4 +676,4 @@ The valid **UFormat specifiers** are displayed in the following table:
 
 [Set-Date](Set-Date.md)
 
-[Set-Culture](xref:International.Set-Culture)
+[Set-Culture](/powershell/module/International/Set-Culture)

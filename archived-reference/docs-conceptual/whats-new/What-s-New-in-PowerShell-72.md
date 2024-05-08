@@ -145,10 +145,10 @@ Install-Module -Name PSDesiredStateConfiguration -Repository PSGallery -MaximumV
 
 <!-- end of content -->
 <!-- link references -->
-[01]: ../learn/experimental-features.md
-[02]: ../learn/experimental-features.md#psansirenderingfileinfo
-[03]: ../learn/experimental-features.md#psloadassemblyfromnativecode
-[04]: ../learn/experimental-features.md#psnativecommandargumentpassing
+[01]: /powershell/scripting/learn/experimental-features
+[02]: /powershell/scripting/learn/experimental-features#psansirenderingfileinfo
+[03]: /powershell/scripting/learn/experimental-features#psloadassemblyfromnativecode
+[04]: /powershell/scripting/learn/experimental-features#psnativecommandargumentpassing
 [05]: /powershell/module/microsoft.powershell.core/about/about_ansi_terminals
 [06]: /powershell/module/microsoft.powershell.utility/import-powershelldatafile
 [07]: /powershell/scripting/install/installing-powershell-core-on-linux

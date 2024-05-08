@@ -323,7 +323,7 @@ stamp server ensures that users can use your script for many years to come.
 [01]: about_Execution_Policies.md
 [02]: /previous-versions/windows/hardware/design/dn653556(v=vs.85)
 [03]: xref:Microsoft.PowerShell.Security.Set-AuthenticodeSignature
-[04]: xref:pki.New-SelfSignedCertificate
+[04]: /powershell/module/pki/new-selfsignedcertificate
 [05]: /previous-versions/dotnet/netframework-2.0/bfsktky3(v=vs.80)
 [06]: about_Profiles.md
 [07]: xref:Microsoft.PowerShell.Security.Get-ExecutionPolicy

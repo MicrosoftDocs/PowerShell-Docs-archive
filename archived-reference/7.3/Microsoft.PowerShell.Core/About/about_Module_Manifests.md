@@ -1566,4 +1566,4 @@ imported as `Get-ExampleItem`.
 [11]: about_Updatable_Help.md
 [13]: xref:Microsoft.PowerShell.Core.New-ModuleManifest
 [14]: xref:Microsoft.PowerShell.Core.Test-ModuleManifest
-[15]: xref:Microsoft.PowerShell.Crescendo.Export-CrescendoModule
+[15]: /powershell/module/Microsoft.PowerShell.Crescendo/Export-CrescendoModule
