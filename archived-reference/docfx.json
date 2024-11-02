@@ -22,6 +22,9 @@
       { "dest": "module/psdocs", "files": [ "toc.yml" ], "group": "powershell-7.1", "src": "7.1" },
       { "dest": "module", "exclude": [ "docs-conceptual/**" ], "files": [ "**/*.yml", "**/About/*.md" ], "group": "powershell-7.1", "src": "7.1" },
 
+      { "dest": "module/psdocs", "files": [ "toc.yml" ], "group": "powershell-7.2", "src": "7.2" },
+      { "dest": "module", "exclude": [ "docs-conceptual/**" ], "files": [ "**/*.yml", "**/About/*.md" ], "group": "powershell-7.2", "src": "7.2" },
+
       { "dest": "module/psdocs", "files": [ "toc.yml" ], "group": "powershell-7.3", "src": "7.3" },
       { "dest": "module", "exclude": [ "docs-conceptual/**" ], "files": [ "**/*.yml", "**/About/*.md" ], "group": "powershell-7.3", "src": "7.3" },
 
@@ -32,13 +35,11 @@
     "externalReference": [],
     "fileMetadata": {
       "ms.topic": {
-        "3.0/**/*": "managed-reference",
-        "4.0/**/*": "managed-reference",
-        "5.0/**/*": "managed-reference",
-        "6/**/*": "managed-reference",
-        "7.0/**/*": "managed-reference",
-        "7.1/**/*": "managed-reference",
-        "7.3/**/*": "managed-reference",
+        "3*/**/*": "managed-reference",
+        "4*/**/*": "managed-reference",
+        "5*/**/*": "managed-reference",
+        "6*/**/*": "managed-reference",
+        "7*/**/*": "managed-reference",
         "docs-conceptual/**/*": "conceptual"
       }
     },
@@ -69,6 +70,7 @@
       "powershell-6": { "moniker_range": "powershell-6" },
       "powershell-7": { "moniker_range": "powershell-7" },
       "powershell-7.1": { "moniker_range": "powershell-7.1" },
+      "powershell-7.2": { "moniker_range": "powershell-7.1" },
       "powershell-7.3": { "moniker_range": "powershell-7.3" }
     },
     "markdownEngineName": "markdig",
