@@ -50,7 +50,7 @@
       },
       "xref_query_tags": [
         "/dotnet",
-        "/powershell"
+        "/powershell",
         "/uwp/api"
       ]
     }
