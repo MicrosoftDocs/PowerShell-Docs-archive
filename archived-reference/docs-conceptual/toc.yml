@@ -1,16 +1,6 @@
 items:
   - name: Overview
     href: overview.md
-  - name: PowerShell Core 6.x Release Notes
-    items:
-      - name: What's new in PowerShell Core 6.2
-        href: whats-new/what-s-new-in-powershell-core-62.md
-      - name: What's new in PowerShell Core 6.1
-        href: whats-new/what-s-new-in-powershell-core-61.md
-      - name: What's new in PowerShell Core 6.0
-        href: whats-new/what-s-new-in-powershell-core-60.md
-      - name: Known issues in PowerShell Core 6.0
-        href: whats-new/known-issues-ps6.md
   - name: PowerShell 7.x release notes
     items:
       - name: What's new in PowerShell 7.3
@@ -21,7 +11,17 @@ items:
         href: whats-new/what-s-new-in-powershell-71.md
       - name: What's new in PowerShell 7.0
         href: whats-new/what-s-new-in-powershell-70.md
-  - name: Windows PowerShell
+  - name: PowerShell Core 6.x Release Notes
+    items:
+      - name: What's new in PowerShell Core 6.2
+        href: whats-new/what-s-new-in-powershell-core-62.md
+      - name: What's new in PowerShell Core 6.1
+        href: whats-new/what-s-new-in-powershell-core-61.md
+      - name: What's new in PowerShell Core 6.0
+        href: whats-new/what-s-new-in-powershell-core-60.md
+      - name: Known issues in PowerShell Core 6.0
+        href: whats-new/known-issues-ps6.md
+  - name: Windows PowerShell 5.x
     items:
       - name: Installing Windows PowerShell 5.1
         items:
