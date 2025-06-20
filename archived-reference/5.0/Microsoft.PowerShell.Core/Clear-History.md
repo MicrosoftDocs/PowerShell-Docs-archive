@@ -1,7 +1,8 @@
 ---
 external help file: System.Management.Automation.dll-Help.xml
-keywords: powershell,cmdlet
-ms.date: 2/22/2019
+Locale: en-US
+Module Name: Microsoft.PowerShell.Core
+ms.date: 02/22/2019
 online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/clear-history?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Clear-History

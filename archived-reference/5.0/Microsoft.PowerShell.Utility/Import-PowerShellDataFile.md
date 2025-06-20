@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.PowerShell.Utility-help.xml
-keywords: powershell,cmdlet
+Locale: en-US
 Module Name: Microsoft.PowerShell.Utility
 ms.date: 04/23/2017
 online version: https://learn.microsoft.com/previous-versions/powershell/module/Microsoft.PowerShell.Utility/import-powershelldatafile?view=powershell-5.0&WT.mc_id=ps-gethelp

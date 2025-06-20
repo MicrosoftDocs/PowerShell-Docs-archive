@@ -1,6 +1,7 @@
 ---
 external help file: Disable-DscDebug.cdxml-help.xml
-keywords: powershell,cmdlet
+Locale: en-US
+Module Name: PSDesiredStateConfiguration
 ms.date: 06/09/2017
 online version: https://learn.microsoft.com/previous-versions/powershell/module/psdesiredstateconfiguration/disable-dscdebug?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0

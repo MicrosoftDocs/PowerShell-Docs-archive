@@ -1,5 +1,6 @@
 ---
-keywords: powershell,cmdlet
+Locale: en-US
+Module Name: Microsoft.WsMan.Management
 ms.date: 06/09/2017
 online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.wsman.management/about/about_ws-management_cmdlets?view=powershell-3.0&WT.mc_id=ps-gethelp
 schema: 2.0.0

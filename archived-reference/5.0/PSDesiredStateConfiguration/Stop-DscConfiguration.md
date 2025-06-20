@@ -1,6 +1,7 @@
 ---
 external help file: Stop-DscConfiguration.cdxml-help.xml
-keywords: powershell,cmdlet
+Locale: en-US
+Module Name: PSDesiredStateConfiguration
 ms.date: 08/19/2019
 online version: https://learn.microsoft.com/previous-versions/powershell/module/psdesiredstateconfiguration/stop-dscconfiguration?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0

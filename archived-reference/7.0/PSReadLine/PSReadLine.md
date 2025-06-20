@@ -34,9 +34,6 @@ These articles document version 2.0.4 of PSReadLine.
 
 ## PSReadLine Cmdlets
 
-### [PSConsoleHostReadLine](PSConsoleHostReadLine.md)
-The main entry point for PSReadLine.
-
 ### [Get-PSReadLineKeyHandler](Get-PSReadLineKeyHandler.md)
 Gets the key bindings for the PSReadLine module.
 

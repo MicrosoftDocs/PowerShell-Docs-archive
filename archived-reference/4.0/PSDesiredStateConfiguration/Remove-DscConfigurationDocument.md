@@ -1,6 +1,6 @@
 ---
 external help file: Remove-DscConfigurationDocument.cdxml-help.xml
-keywords: powershell,cmdlet
+Locale: en-US
 Module Name: PSDesiredStateConfiguration
 ms.date: 06/09/2017
 online version: https://learn.microsoft.com/previous-versions/powershell/module/psdesiredstateconfiguration/remove-dscconfigurationdocument?view=powershell-4.0&WT.mc_id=ps-gethelp

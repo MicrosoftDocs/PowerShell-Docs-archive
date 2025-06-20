@@ -1,8 +1,8 @@
 ---
 external help file: Microsoft.PowerShell.Commands.Utility.dll-Help.xml
-keywords: powershell,cmdlet
+Locale: en-US
 Module Name: Microsoft.PowerShell.Utility
-ms.date: 5/10/2019
+ms.date: 05/10/2019
 online version: https://learn.microsoft.com/previous-versions/powershell/module/Microsoft.PowerShell.Utility/measure-object?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Measure-Object

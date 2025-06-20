@@ -1,7 +1,8 @@
 ---
 external help file: Microsoft.PowerShell.Commands.Management.dll-Help.xml
-keywords: powershell,cmdlet
-ms.date: 5/1/2019
+Locale: en-US
+Module Name: Microsoft.PowerShell.Management
+ms.date: 05/01/2019
 online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-3.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Rename-Computer

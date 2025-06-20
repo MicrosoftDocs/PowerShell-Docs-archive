@@ -1,5 +1,6 @@
 ---
-keywords: powershell,cmdlet
+Locale: en-US
+Module Name: PSWorkflow
 ms.date: 07/10/2019
 online version: https://learn.microsoft.com/previous-versions/powershell/module/psworkflow/about/about_foreach-parallel?view=powershell-4.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
