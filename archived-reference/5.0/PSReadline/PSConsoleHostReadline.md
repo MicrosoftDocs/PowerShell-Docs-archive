@@ -1,5 +1,5 @@
 ---
-external help file: PSReadLine-help.xml
+external help file: PSReadline-help.xml
 keywords: powershell,cmdlet
 ms.date: 12/07/2018
 online version: https://learn.microsoft.com/previous-versions/powershell/module/psreadline/psconsolehostreadline?view=powershell-5.0&WT.mc_id=ps-gethelp
@@ -10,7 +10,7 @@ title: PSConsoleHostReadLine
 # PSConsoleHostReadLine
 
 ## SYNOPSIS
-This function is the main entry point for PSReadLine.
+This function is the main entry point for PSReadline.
 
 ## SYNTAX
 
@@ -20,8 +20,8 @@ PSConsoleHostReadLine
 
 ## DESCRIPTION
 
-`PSConsoleHostReadLine` is the main entry point for the PSReadLine module. The PowerShell console
-host automatically loads the PSReadLine modules and calls this function. Under normal operating
+`PSConsoleHostReadLine` is the main entry point for the PSReadline module. The PowerShell console
+host automatically loads the PSReadline modules and calls this function. Under normal operating
 conditions, this function is not intended to be used from the command line.
 
 If you wanted to create your own custom ReadLine function, you could replace this function with
@@ -47,4 +47,4 @@ This function is not intended to be used from the command line.
 
 ## RELATED LINKS
 
-[about_PSReadLine](./About/about_PSReadLine.md)
+[about_PSReadline](./About/about_PSReadline.md)

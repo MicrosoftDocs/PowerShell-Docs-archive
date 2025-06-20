@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Management.Infrastructure.CimCmdlets.dll-Help.xml
-keywords: powershell,cmdlet
+Locale: en-US
 Module Name: CimCmdlets
 ms.date: 06/09/2017
 online version: https://learn.microsoft.com/previous-versions/powershell/module/cimcmdlets/remove-cimsession?view=powershell-3.0&WT.mc_id=ps-gethelp

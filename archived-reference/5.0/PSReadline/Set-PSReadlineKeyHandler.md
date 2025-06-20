@@ -1,36 +1,36 @@
 ---
-external help file: Microsoft.PowerShell.PSReadLine.dll-Help.xml
-keywords: powershell,cmdlet
-Module Name: PSReadLine
+external help file: Microsoft.PowerShell.PSReadline.dll-Help.xml
+Locale: en-US
+Module Name: PSReadline
 ms.date: 12/07/2018
-online version: https://learn.microsoft.com/previous-versions/powershell/module/psreadline/set-psreadlinekeyhandler?view=powershell-5.0&WT.mc_id=ps-gethelp
+online version: https://learn.microsoft.com/previous-versions/powershell/module/psreadline/set-psreadlinekeyhandler?view=powershell-5.0&wt.mc_id=ps-gethelp
 schema: 2.0.0
-title: Set-PSReadLineKeyHandler
+title: Set-PSReadlineKeyHandler
 ---
 
-# Set-PSReadLineKeyHandler
+# Set-PSReadlineKeyHandler
 
 ## SYNOPSIS
-Binds keys to user-defined or PSReadLine key handler functions.
+Binds keys to user-defined or PSReadline key handler functions.
 
 ## SYNTAX
 
 ### ScriptBlock
 
 ```
-Set-PSReadLineKeyHandler [-ScriptBlock] <ScriptBlock> [-BriefDescription <String>] [-Description <String>]
+Set-PSReadlineKeyHandler [-ScriptBlock] <ScriptBlock> [-BriefDescription <String>] [-Description <String>]
  [-Chord] <String[]> [-ViMode <ViMode>] [<CommonParameters>]
 ```
 
 ### Function
 
 ```
-Set-PSReadLineKeyHandler [-Chord] <String[]> [-ViMode <ViMode>] [-Function] <String> [<CommonParameters>]
+Set-PSReadlineKeyHandler [-Chord] <String[]> [-ViMode <ViMode>] [-Function] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
 
-The `Set-PSReadLineKeyHandler` cmdlet customizes the result when a key or sequence of keys is
+The `Set-PSReadlineKeyHandler` cmdlet customizes the result when a key or sequence of keys is
 pressed. With user-defined key bindings, you can do almost anything that is possible from within a
 PowerShell script.
 
@@ -42,7 +42,7 @@ This command binds the up arrow key to the function **HistorySearchBackward**. T
 the current contents of the command line as the search string used to search the command history.
 
 ```powershell
-Set-PSReadLineKeyHandler -Chord UpArrow -Function HistorySearchBackward
+Set-PSReadlineKeyHandler -Chord UpArrow -Function HistorySearchBackward
 ```
 
 ### Example 2: Bind a key to a script block
@@ -52,7 +52,7 @@ This example shows how a single key can be used to run a command. The command bi
 the line.
 
 ```powershell
-Set-PSReadLineKeyHandler -Chord Ctrl+Shift+B -ScriptBlock {
+Set-PSReadlineKeyHandler -Chord Ctrl+Shift+B -ScriptBlock {
     [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
     [Microsoft.PowerShell.PSConsoleReadLine]::Insert('build')
     [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
@@ -64,7 +64,7 @@ Set-PSReadLineKeyHandler -Chord Ctrl+Shift+B -ScriptBlock {
 ### -BriefDescription
 
 A brief description of the key binding. This description is displayed by the
-`Get-PSReadLineKeyHandler` cmdlet.
+`Get-PSReadlineKeyHandler` cmdlet.
 
 ```yaml
 Type: String
@@ -104,7 +104,7 @@ Accept wildcard characters: False
 ### -Description
 
 Specifies a more detailed description of the key binding that is visible in the output of the
-`Get-PSReadLineKeyHandler` cmdlet.
+`Get-PSReadlineKeyHandler` cmdlet.
 
 ```yaml
 Type: String
@@ -120,7 +120,7 @@ Accept wildcard characters: False
 
 ### -Function
 
-Specifies the name of an existing key handler provided by PSReadLine. This parameter lets you
+Specifies the name of an existing key handler provided by PSReadline. This parameter lets you
 rebind existing key bindings, or bind a handler that is currently unbound.
 
 ```yaml
@@ -138,7 +138,7 @@ Accept wildcard characters: False
 
 ### -ScriptBlock
 
-Specifies a script block value to run when the chord is entered. PSReadLine passes one or two
+Specifies a script block value to run when the chord is entered. PSReadline passes one or two
 parameters to this script block. The first parameter is a **ConsoleKeyInfo** object representing
 the key pressed. The second argument can be any object depending on the context.
 
@@ -197,11 +197,11 @@ You cannot pipe objects to this cmdlet.
 
 ## RELATED LINKS
 
-[Get-PSReadLineKeyHandler](Get-PSReadLineKeyHandler.md)
+[Get-PSReadlineKeyHandler](Get-PSReadlineKeyHandler.md)
 
-[Remove-PSReadLineKeyHandler](Remove-PSReadLineKeyHandler.md)
+[Remove-PSReadlineKeyHandler](Remove-PSReadlineKeyHandler.md)
 
-[Get-PSReadLineOption](Get-PSReadLineOption.md)
+[Get-PSReadlineOption](Get-PSReadlineOption.md)
 
-[Set-PSReadLineOption](Set-PSReadLineOption.md)
+[Set-PSReadlineOption](Set-PSReadlineOption.md)
 

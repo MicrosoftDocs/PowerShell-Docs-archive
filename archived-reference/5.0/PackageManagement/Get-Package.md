@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.PowerShell.PackageManagement.dll-Help.xml
-keywords: powershell,cmdlet
+Locale: en-US
 Module Name: PackageManagement
 ms.date: 05/22/2019
 online version: https://learn.microsoft.com/previous-versions/powershell/module/packagemanagement/get-package?view=powershell-5.0&WT.mc_id=ps-gethelp

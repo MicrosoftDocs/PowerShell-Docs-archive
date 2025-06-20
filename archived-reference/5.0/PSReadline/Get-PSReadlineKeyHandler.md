@@ -1,27 +1,27 @@
 ---
-external help file: Microsoft.PowerShell.PSReadLine.dll-Help.xml
-keywords: powershell,cmdlet
-Module Name: PSReadLine
+external help file: Microsoft.PowerShell.PSReadline.dll-Help.xml
+Locale: en-US
+Module Name: PSReadline
 ms.date: 12/07/2018
 online version: https://learn.microsoft.com/previous-versions/powershell/module/psreadline/get-psreadlinekeyhandler?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
-title: Get-PSReadLineKeyHandler
+title: Get-PSReadlineKeyHandler
 ---
 
-# Get-PSReadLineKeyHandler
+# Get-PSReadlineKeyHandler
 
 ## SYNOPSIS
-Gets the key bindings for the PSReadLine module.
+Gets the key bindings for the PSReadline module.
 
 ## SYNTAX
 
 ```
-Get-PSReadLineKeyHandler [-Bound] [-Unbound] [<CommonParameters>]
+Get-PSReadlineKeyHandler [-Bound] [-Unbound] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
 
-The **Get-PSReadLineKeyHandler** cmdlet returns the currently bound key bindings.
+The **Get-PSReadlineKeyHandler** cmdlet returns the currently bound key bindings.
 
 ## EXAMPLES
 
@@ -30,7 +30,7 @@ The **Get-PSReadLineKeyHandler** cmdlet returns the currently bound key bindings
 This command returns all key mappings, bound and unbound.
 
 ```powershell
-Get-PSReadLineKeyHandler -Bound -Unbound
+Get-PSReadlineKeyHandler -Bound -Unbound
 ```
 
 ```Output
@@ -71,7 +71,7 @@ Ctrl+r                ReverseSearchHistory    Search history backwards interacti
 This command returns only bound keys and key combinations.
 
 ```powershell
-Get-PSReadLineKeyHandler
+Get-PSReadlineKeyHandler
 ```
 
 ```Output
@@ -159,11 +159,11 @@ each unbound function.
 
 ## RELATED LINKS
 
-[Remove-PSReadLineKeyHandler](Remove-PSReadLineKeyHandler.md)
+[Remove-PSReadlineKeyHandler](Remove-PSReadlineKeyHandler.md)
 
-[Get-PSReadLineOption](Get-PSReadLineOption.md)
+[Get-PSReadlineOption](Get-PSReadlineOption.md)
 
-[Set-PSReadLineOption](Set-PSReadLineOption.md)
+[Set-PSReadlineOption](Set-PSReadlineOption.md)
 
-[Set-PSReadLineKeyHandler](Set-PSReadLineKeyHandler.md)
+[Set-PSReadlineKeyHandler](Set-PSReadlineKeyHandler.md)
 

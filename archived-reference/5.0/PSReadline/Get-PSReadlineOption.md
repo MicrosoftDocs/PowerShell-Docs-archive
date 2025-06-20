@@ -1,14 +1,14 @@
 ---
-external help file: Microsoft.PowerShell.PSReadLine.dll-Help.xml
-keywords: powershell,cmdlet
-Module Name: PSReadLine
+external help file: Microsoft.PowerShell.PSReadline.dll-Help.xml
+Locale: en-US
+Module Name: PSReadline
 ms.date: 12/07/2018
 online version: https://learn.microsoft.com/previous-versions/powershell/module/psreadline/get-psreadlineoption?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
-title: Get-PSReadLineOption
+title: Get-PSReadlineOption
 ---
 
-# Get-PSReadLineOption
+# Get-PSReadlineOption
 
 ## SYNOPSIS
 Gets values for the options that can be configured.
@@ -16,14 +16,14 @@ Gets values for the options that can be configured.
 ## SYNTAX
 
 ```
-Get-PSReadLineOption [<CommonParameters>]
+Get-PSReadlineOption [<CommonParameters>]
 ```
 
 ## DESCRIPTION
 
-The `Get-PSReadLineOption` cmdlet returns the current state of the settings that can be configured
-by using the `Set-PSReadLineOption` cmdlet. You can use the returned object to change
-**PSReadLine** options. This provides a slightly simpler way to set syntax coloring options for
+The `Get-PSReadlineOption` cmdlet returns the current state of the settings that can be configured
+by using the `Set-PSReadlineOption` cmdlet. You can use the returned object to change
+**PSReadline** options. This provides a slightly simpler way to set syntax coloring options for
 multiple kinds of tokens.
 
 ## EXAMPLES
@@ -31,7 +31,7 @@ multiple kinds of tokens.
 ### Example 1: Get options and their values
 
 ```powershell
-Get-PSReadLineOption
+Get-PSReadlineOption
 ```
 
 ```Output
@@ -55,7 +55,7 @@ DingDuration                           : 50
 BellStyle                              : Audible
 HistorySearchCaseSensitive             : False
 ViModeIndicator                        : None
-HistorySavePath                        : C:\Users\testuser\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\Cons
+HistorySavePath                        : C:\Users\testuser\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\Cons
                                          oleHost_history.txt
 HistorySaveStyle                       : SaveIncrementally
 DefaultTokenForegroundColor            : DarkYellow
@@ -86,7 +86,7 @@ ErrorForegroundColor                   : Red
 ErrorBackgroundColor                   : DarkMagenta
 ```
 
-This command returns the list of available PSReadLine options and their current values.
+This command returns the list of available PSReadline options and their current values.
 
 ## PARAMETERS
 
@@ -111,11 +111,11 @@ You cannot pipe objects to this cmdlet.
 
 ## RELATED LINKS
 
-[Remove-PSReadLineKeyHandler](Remove-PSReadLineKeyHandler.md)
+[Remove-PSReadlineKeyHandler](Remove-PSReadlineKeyHandler.md)
 
-[Get-PSReadLineKeyHandler](Get-PSReadLineKeyHandler.md)
+[Get-PSReadlineKeyHandler](Get-PSReadlineKeyHandler.md)
 
-[Set-PSReadLineOption](Set-PSReadLineOption.md)
+[Set-PSReadlineOption](Set-PSReadlineOption.md)
 
-[Set-PSReadLineKeyHandler](Set-PSReadLineKeyHandler.md)
+[Set-PSReadlineKeyHandler](Set-PSReadlineKeyHandler.md)
 
