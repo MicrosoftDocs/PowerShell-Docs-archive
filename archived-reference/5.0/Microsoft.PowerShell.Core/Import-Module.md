@@ -1,6 +1,6 @@
 ---
 external help file: System.Management.Automation.dll-Help.xml
-keywords: powershell,cmdlet
+Locale: en-US
 Module Name: Microsoft.PowerShell.Core
 ms.date: 08/15/2019
 online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/import-module?view=powershell-5.0&WT.mc_id=ps-gethelp

@@ -1,6 +1,6 @@
 ---
 external help file: System.Management.Automation.dll-Help.xml
-keywords: powershell,cmdlet
+Locale: en-US
 Module Name: Microsoft.PowerShell.Core
 ms.date: 03/28/2019
 online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.core/test-pssessionconfigurationfile?view=powershell-4.0&WT.mc_id=ps-gethelp

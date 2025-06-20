@@ -1,8 +1,8 @@
 ---
 external help file: Microsoft.Management.Infrastructure.CimCmdlets.dll-Help.xml
-keywords: powershell,cmdlet
+Locale: en-US
 Module Name: CimCmdlets
-ms.date: 5/15/2019
+ms.date: 05/15/2019
 online version: https://learn.microsoft.com/previous-versions/powershell/module/cimcmdlets/remove-ciminstance?view=powershell-4.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Remove-CimInstance

@@ -1,7 +1,8 @@
 ---
 external help file: Microsoft.PowerShell.Security.dll-Help.xml
-keywords: powershell,cmdlet
-ms.date: 3/22/2019
+Locale: en-US
+Module Name: Microsoft.PowerShell.Security
+ms.date: 03/22/2019
 online version: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-4.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: Set-ExecutionPolicy

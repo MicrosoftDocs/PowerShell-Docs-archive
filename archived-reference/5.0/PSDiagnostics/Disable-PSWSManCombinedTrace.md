@@ -1,6 +1,6 @@
 ---
 external help file: PSDiagnostics-help.xml
-keywords: powershell,cmdlet
+Locale: en-US
 Module Name: PSDiagnostics
 ms.date: 11/29/2018
 online version: https://learn.microsoft.com/previous-versions/powershell/module/psdiagnostics/disable-pswsmancombinedtrace?view=powershell-5.0&WT.mc_id=ps-gethelp

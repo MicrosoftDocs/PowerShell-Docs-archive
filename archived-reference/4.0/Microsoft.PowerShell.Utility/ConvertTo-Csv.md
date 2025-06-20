@@ -1,7 +1,8 @@
 ---
 external help file: Microsoft.PowerShell.Commands.Utility.dll-Help.xml
-keywords: powershell,cmdlet
-ms.date: 1/7/2019
+Locale: en-US
+Module Name: Microsoft.PowerShell.Utility
+ms.date: 01/07/2019
 online version: https://learn.microsoft.com/previous-versions/powershell/module/Microsoft.PowerShell.Utility/convertto-csv?view=powershell-4.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
 title: ConvertTo-Csv

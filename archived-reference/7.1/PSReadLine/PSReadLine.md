@@ -25,9 +25,6 @@ in PowerShell. PowerShell 7.1 shipped with PSReadLine v2.1. These articles docum
 
 ## PSReadLine Cmdlets
 
-### [PSConsoleHostReadLine](PSConsoleHostReadLine.md)
-The main entry point for PSReadLine.
-
 ### [Get-PSReadLineKeyHandler](Get-PSReadLineKeyHandler.md)
 Gets the bound key functions for the PSReadLine module.
 
