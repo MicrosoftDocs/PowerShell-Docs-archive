@@ -19,5 +19,5 @@ This module contains cmdlets that designed to work with DSC Resources.
 ### [Get-DscResource](Get-DscResource.md)
 Gets Desired State Configuration (DSC) resources present on the computer.
 
-### [New-DSCCheckSum](New-DSCCheckSum.md)
+### [New-DscChecksum](New-DscChecksum.md)
 Creates checksum files for DSC documents and DSC resources.

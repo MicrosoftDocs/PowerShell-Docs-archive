@@ -18,7 +18,7 @@ below.
 
 ## PSReadline Cmdlets
 
-### [PSConsoleHostReadLine](PSConsoleHostReadLine.md)
+### [PSConsoleHostReadline](PSConsoleHostReadline.md)
 The main entry point for PSReadline.
 
 ### [Get-PSReadlineKeyHandler](Get-PSReadlineKeyHandler.md)
