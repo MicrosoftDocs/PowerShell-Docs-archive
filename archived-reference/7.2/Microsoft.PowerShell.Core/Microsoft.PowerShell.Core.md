@@ -32,7 +32,7 @@ Clears the display in the host program.
 Reconnects to disconnected sessions.
 
 ### [Debug-Job](Debug-Job.md)
-Debugs a running background, remote, or PowerShell Workflow job.
+Debugs a running background or remote job.
 
 ### [Disable-ExperimentalFeature](Disable-ExperimentalFeature.md)
 Disable an experimental feature on startup of new instance of PowerShell.
@@ -89,7 +89,7 @@ Gets a list of the commands entered during the current session.
 Gets PowerShell background jobs that are running in the current session.
 
 ### [Get-Module](Get-Module.md)
-Gets the modules that have been imported or that can be imported into the current session.
+List the modules imported in the current session or that can be imported from the PSModulePath.
 
 ### [Get-PSHostProcessInfo](Get-PSHostProcessInfo.md)
 Gets process information about the PowerShell host.
@@ -104,7 +104,7 @@ Gets the capabilities of a specific user on a constrained session configuration.
 Gets the registered session configurations on the computer.
 
 ### [Get-PSSubsystem](Get-PSSubsystem.md)
-Retrieves information about the subsystems registered in PowerShell. (Experimental Feature)
+Retrieves information about the subsystems registered in PowerShell.
 
 ### [Import-Module](Import-Module.md)
 Adds modules to the current session.
@@ -184,6 +184,9 @@ Starts a PowerShell background job.
 ### [Stop-Job](Stop-Job.md)
 Stops a PowerShell background job.
 
+### [TabExpansion2](TabExpansion2.md)
+A helper function that wraps the `CompleteInput()` method of the **CommandCompletion** class to provide tab completion for PowerShell scripts.
+
 ### [Test-ModuleManifest](Test-ModuleManifest.md)
 Verifies that a module manifest file accurately describes the contents of a module.
 
@@ -197,8 +200,7 @@ Deletes registered session configurations from the computer.
 Downloads and installs the newest help files on your computer.
 
 ### [Wait-Job](Wait-Job.md)
-Suppresses the command prompt until one or all of the PowerShell background jobs running in the session are completed.
+Waits until one or all of the PowerShell jobs running in the session are in a terminating state.
 
 ### [Where-Object](Where-Object.md)
 Selects objects from a collection based on their property values.
-

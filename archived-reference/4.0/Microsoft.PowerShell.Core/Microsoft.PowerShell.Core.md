@@ -27,8 +27,11 @@ Adds one or more Windows PowerShell snap-ins to the current session.
 ### [Clear-History](Clear-History.md)
 Deletes entries from the PowerShell command history.
 
+### [Clear-Host](Clear-Host.md)
+Clears the display in the host program.
+
 ### [Connect-PSSession](Connect-PSSession.md)
-Reconnects to disconnected sessions.
+Reconnects to disconnected sessions
 
 ### [Disable-PSRemoting](Disable-PSRemoting.md)
 Prevents remote users from running commands on the local computer.
@@ -76,13 +79,16 @@ Gets PowerShell background jobs that are running in the current session.
 Gets the modules that have been imported or that can be imported into the current session.
 
 ### [Get-PSSession](Get-PSSession.md)
-Gets the PowerShell sessions on local and remote computers.
+Gets the Windows PowerShell sessions on local and remote computers.
 
 ### [Get-PSSessionConfiguration](Get-PSSessionConfiguration.md)
 Gets the registered session configurations on the computer.
 
 ### [Get-PSSnapin](Get-PSSnapin.md)
 Gets the Windows PowerShell snap-ins on the computer.
+
+### [Get-Verb](Get-Verb.md)
+Gets approved PowerShell verbs.
 
 ### [Import-Module](Import-Module.md)
 Adds modules to the current session.
@@ -124,7 +130,7 @@ Hides the output instead of sending it down the pipeline or displaying it.
 Gets the results of the PowerShell background jobs in the current session.
 
 ### [Receive-PSSession](Receive-PSSession.md)
-Gets results of commands in disconnected sessions.
+Gets results of commands in disconnected sessions
 
 ### [Register-PSSessionConfiguration](Register-PSSessionConfiguration.md)
 Creates and registers a new session configuration.
@@ -142,7 +148,7 @@ Closes one or more PowerShell sessions (PSSessions).
 Removes Windows PowerShell snap-ins from the current session.
 
 ### [Resume-Job](Resume-Job.md)
-Restarts a suspended job.
+Restarts a suspended job
 
 ### [Save-Help](Save-Help.md)
 Downloads and saves the newest help files to a file system directory.
@@ -178,8 +184,7 @@ Deletes registered session configurations from the computer.
 Downloads and installs the newest help files on your computer.
 
 ### [Wait-Job](Wait-Job.md)
-Suppresses the command prompt until one or all of the PowerShell background jobs running in the session are completed.
+Suppresses the command prompt until one or all of the Windows PowerShell background jobs running in the session are complete.
 
 ### [Where-Object](Where-Object.md)
 Selects objects from a collection based on their property values.
-
