@@ -17,6 +17,12 @@ PowerShell artifacts like Modules, DSC Resources, Role Capabilities, and Scripts
 
 ## PowerShellGet Cmdlets
 
+### [Find-Command](Find-Command.md)
+Finds PowerShell commands in modules.
+
+### [Find-DscResource](Find-DscResource.md)
+Finds Desired State Configuration (DSC) resources.
+
 ### [Find-Module](Find-Module.md)
 Finds modules in a repository that match specified criteria.
 
@@ -36,7 +42,7 @@ Publishes a specified module from the local computer to an online gallery.
 Registers a PowerShell repository.
 
 ### [Save-Module](Save-Module.md)
-Saves a module locally without installing it.
+Saves a module and its dependencies on the local computer but doesn't install the module.
 
 ### [Set-PSRepository](Set-PSRepository.md)
 Sets values for a registered repository.
@@ -48,6 +54,4 @@ Uninstalls a module.
 Unregisters a repository.
 
 ### [Update-Module](Update-Module.md)
-Downloads and installs the newest version of specified modules from an online gallery to the local
-computer.
-
+Downloads and installs the newest version of specified modules from an online gallery to the local computer.
