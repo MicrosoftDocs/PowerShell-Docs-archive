@@ -1,6 +1,7 @@
 ---
 external help file: PSReadline-help.xml
 keywords: powershell,cmdlet
+Module Name: PSReadline
 ms.date: 12/07/2018
 online version: https://learn.microsoft.com/previous-versions/powershell/module/psreadline/psconsolehostreadline?view=powershell-5.0&WT.mc_id=ps-gethelp
 schema: 2.0.0
