@@ -18,7 +18,7 @@ basic features of PowerShell.
 
 ## Microsoft.PowerShell.Core Cmdlets
 
-#### [Add-History](Add-History.md)
+### [Add-History](Add-History.md)
 Appends entries to the session history.
 
 ### [Add-PSSnapin](Add-PSSnapin.md)
