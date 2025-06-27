@@ -38,7 +38,7 @@
       "docset_name": "PowerShell-ref-archive",
       "locale": "en-us",
       "monikerPath": [
-        "mapping/MAML2Yaml/monikerMapping.json"
+        "mapping/monikerMapping.json"
       ],
       "moniker_ranges": [],
       "monikers": [],
