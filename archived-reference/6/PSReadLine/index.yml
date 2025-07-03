@@ -1,0 +1,28 @@
+### YamlMime:PowerShellModule1
+uid: PSReadLine
+name: PSReadLine Module
+isPreview: false
+cmdletGroups:
+- title: PSReadLine Cmdlets
+  cmdlets:
+  - PSReadLine.Get-PSReadLineKeyHandler
+  - PSReadLine.Get-PSReadLineOption
+  - PSReadLine.PSConsoleHostReadLine
+  - PSReadLine.Remove-PSReadLineKeyHandler
+  - PSReadLine.Set-PSReadLineKeyHandler
+  - PSReadLine.Set-PSReadLineOption
+description: |-
+  The PSReadLine module contains cmdlets that let you customize the command-line editing environment
+  in PowerShell. These articles documents PSReadLine v2.0. This version ships in PowerShell v6 and
+  the Windows 10 October 2018 Update (Build 1809).
+metadata:
+  HelpInfoUri: https://go.microsoft.com/fwlink/?linkid=855966
+  Help Version: 6.2.5.0
+  keywords: powershell
+  Locale: en-US
+  Module Guid: 5714753b-2afd-4492-a5fd-01d9e2cff8b5
+  Module Name: PSReadLine
+  ms.date: 12/07/2018
+  PlatyPS schema version: 2024-05-01
+  title: PSReadLine
+  document type: module

@@ -1,0 +1,73 @@
+### YamlMime:PowerShellCmdlet1
+uid: PowershellGet.Unregister-PSRepository
+name: Unregister-PSRepository
+module: PowershellGet
+isPreview: false
+summary: |-
+  Unregisters a repository.
+description: |-
+  The `Unregister-PSRepository` cmdlet unregisters a repository for the current user.
+parameters:
+  cmdletParameters:
+  - name: Name
+    type: <xref href="String" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    description: |-
+      Specifies an array of names of the repositories to remove.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: "0"
+      isRequired: true
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: true
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  commonParameters: |-
+    This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+    -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+    -ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+    [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+syntaxes:
+- syntax: |-
+    ```Syntax
+    Unregister-PSRepository
+        [-Name] <String[]>
+        [<CommonParameters>]
+    ```
+  parameterSetName: Default
+  isDefault: true
+examples:
+- title: 'Example 1: Unregister a repository'
+  description: |-
+    This example unregisters the repository named myNuGetSource.
+
+    ```powershell
+    Unregister-PSRepository -Name "myNuGetSource"
+    ```
+- title: 'Example 2: Unregister all repositories'
+  description: |-
+    This example uses `Get-PSRepository` to get all registered repositories, and uses the pipeline operator to pass them to `Unregister-PSRepository` to unregister them.
+
+    ```powershell
+    Get-PSRepository | Unregister-PSRepository
+    ```
+
+    Note that PSGallery is a built-in repository and cannot be unregistered.
+links:
+- text: Get-PSRepository
+  href: Get-PSRepository.yml
+- text: Register-PSRepository
+  href: Register-PSRepository.yml
+- text: Set-PSRepository
+  href: Set-PSRepository.yml
+metadata:
+  document type: cmdlet
+  external help file: PSModule-help.xml
+  HelpUri: https://learn.microsoft.com/previous-versions/powershell/module/powershellget/unregister-psrepository?view=powershell-5.0&WT.mc_id=ps-gethelp
+  Locale: en-US
+  Module Name: PowershellGet
+  ms.date: 06/09/2017
+  PlatyPS schema version: 2024-05-01
+  title: Unregister-PSRepository

@@ -1,0 +1,164 @@
+### YamlMime:PowerShellCmdlet1
+uid: Microsoft.PowerShell.Utility.Get-RunspaceDebug
+name: Get-RunspaceDebug
+module: Microsoft.PowerShell.Utility
+isPreview: false
+summary: |-
+  Shows runspace debugging options.
+description: |-
+  The **Get-RunspaceDebug** cmdlet shows runspace debugging options.
+parameters:
+  cmdletParameters:
+  - name: AppDomainName
+    type: <xref href="String" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: ProcessNameParameterSet
+      position: "1"
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: ProcessName
+    type: <xref href="String" data-throw-if-not-resolved="False" />
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: ProcessNameParameterSet
+      position: "0"
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Runspace
+    type: <xref href="Runspace" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    description: |-
+      Specifies a runspace object.
+      The simplest way to provide a value for this parameter is to specify a variable that contains the results of a filtered **Get-Runspace** command.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: RunspaceParameterSet
+      position: "0"
+      isRequired: true
+      valueFromPipeline: true
+      valueFromPipelineByPropertyName: true
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: RunspaceId
+    type: <xref href="Int32" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: RunspaceIdParameterSet
+      position: "0"
+      isRequired: true
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: RunspaceInstanceId
+    type: <xref href="Guid" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: RunspaceInstanceIdParameterSet
+      position: "0"
+      isRequired: true
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: RunspaceName
+    type: <xref href="String" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: RunspaceNameParameterSet
+      position: "0"
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  commonParameters: |-
+    This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+    -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+    -ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+    [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+syntaxes:
+- syntax: |-
+    ```Syntax
+    Get-RunspaceDebug
+        [[-RunspaceName] <String[]>]
+        [<CommonParameters>]
+    ```
+  parameterSetName: RunspaceNameParameterSet
+  isDefault: true
+- syntax: |-
+    ```Syntax
+    Get-RunspaceDebug
+        [-Runspace] <Runspace[]>
+        [<CommonParameters>]
+    ```
+  parameterSetName: RunspaceParameterSet
+  isDefault: false
+- syntax: |-
+    ```Syntax
+    Get-RunspaceDebug
+        [-RunspaceId] <Int32[]>
+        [<CommonParameters>]
+    ```
+  parameterSetName: RunspaceIdParameterSet
+  isDefault: false
+- syntax: |-
+    ```Syntax
+    Get-RunspaceDebug
+        [-RunspaceInstanceId] <Guid[]>
+        [<CommonParameters>]
+    ```
+  parameterSetName: RunspaceInstanceIdParameterSet
+  isDefault: false
+- syntax: |-
+    ```Syntax
+    Get-RunspaceDebug
+        [[-ProcessName] <String>]
+        [[-AppDomainName] <String[]>]
+        [<CommonParameters>]
+    ```
+  parameterSetName: ProcessNameParameterSet
+  isDefault: false
+examples:
+- title: '1:'
+  description: |-
+    ```
+
+    ```
+- title: '2:'
+  description: |-
+    ```
+
+    ```
+links:
+- text: Disable-RunspaceDebug
+  href: Disable-RunspaceDebug.yml
+- text: Enable-RunspaceDebug
+  href: Enable-RunspaceDebug.yml
+metadata:
+  document type: cmdlet
+  external help file: Microsoft.PowerShell.Commands.Utility.dll-Help.xml
+  HelpUri: https://learn.microsoft.com/previous-versions/powershell/module/Microsoft.PowerShell.Utility/get-runspacedebug?view=powershell-5.0&WT.mc_id=ps-gethelp
+  Locale: en-US
+  Module Name: Microsoft.PowerShell.Utility
+  ms.date: 06/09/2017
+  PlatyPS schema version: 2024-05-01
+  title: Get-RunspaceDebug

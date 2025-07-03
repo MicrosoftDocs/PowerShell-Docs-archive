@@ -1,0 +1,254 @@
+### YamlMime:PowerShellCmdlet1
+uid: Microsoft.PowerShell.Management.Limit-EventLog
+name: Limit-EventLog
+module: Microsoft.PowerShell.Management
+isPreview: false
+description: |-
+  The Limit-EventLog cmdlet sets the maximum size of a classic event log, how long each event must be retained, and what happens when the log reaches its maximum size.
+  You can use it to limit the event logs on local or remote computers.
+
+  The cmdlets that contain the EventLog noun (the EventLog cmdlets) work only on classic event logs.
+notes: |-
+  * To use Limit-EventLog on Windows Vista and later versions of Windows, open Windows PowerShell with the "Run as administrator" option.
+
+    Limit-EventLog changes the properties of the System.Diagnostics.EventLog object that represents a classic event log.
+  To see the current settings of the event log properties, type "get-eventlog -list".
+parameters:
+  cmdletParameters:
+  - name: ComputerName
+    type: <xref href="String" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    description: |-
+      Specifies a remote computer.
+      The default is the local computer.
+
+      Type the NetBIOS name, an Internet Protocol (IP) address, or a fully qualified domain name of a remote computer.
+      To specify the local computer, type the computer name, a dot (.), or "localhost".
+
+      This parameter does not rely on Windows PowerShell remoting.
+      You can use the ComputerName parameter of Limit-EventLog even if your computer is not configured to run remote commands.
+    aliases:
+    - CN
+    defaultValue: Local computer
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Confirm
+    type: <xref href="SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Prompts you for confirmation before running the cmdlet.
+    aliases:
+    - cf
+    defaultValue: "False"
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: LogName
+    type: <xref href="String" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    description: |-
+      Specifies the event logs.
+      Enter the log name (the value of the Log property; not the LogDisplayName) of one or more event logs , separated by commas.
+      Wildcard characters are not permitted.
+      This parameter is required.
+    aliases:
+    - LN
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: "1"
+      isRequired: true
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: true
+  - name: MaximumSize
+    type: <xref href="Int64" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the maximum size of the event logs in bytes.
+      Enter a value between 64 kilobytes (KB) and 4 gigabytes (GB).
+      The value must be divisible by 64 KB (65536).
+
+      This parameter specifies the value of the MaximumKilobytes property of the System.Diagnostics.EventLog object that represents a classic event log.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: OverflowAction
+    type: <xref href="OverflowAction" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies what happens when the event log reaches its maximum size.
+
+      Valid values are:
+
+      - DoNotOverwrite:  Existing entries are retained and new entries are discarded.
+      - OverwriteAsNeeded:  Each new entry overwrites the oldest entry.
+      - OverwriteOlder:  New events overwrite events older than the value specified by the MinimumRetentionDays property. If there are no events older than specified by the MinimumRetentionDays property value, new events are discarded.
+
+      This parameter specifies the value of the OverflowAction property of the System.Diagnostics.EventLog object that represents a classic event log.
+    aliases:
+    - OFA
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: RetentionDays
+    type: <xref href="Int32" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the minimum number of days that an event must remain in the event log.
+
+      This parameter specifies the value of the MinimumRetentionDays property of the System.Diagnostics.EventLog object that represents a classic event log.
+    aliases:
+    - MRD
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: WhatIf
+    type: <xref href="SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Shows what would happen if the cmdlet runs.
+      The cmdlet is not run.
+    aliases:
+    - wi
+    defaultValue: "False"
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  commonParameters: |-
+    This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+    -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+    -ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+    [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+syntaxes:
+- syntax: |-
+    ```Syntax
+    Limit-EventLog
+        [-LogName] <String[]>
+        [-ComputerName <String[]>]
+        [-RetentionDays <Int32>]
+        [-OverflowAction <OverflowAction>]
+        [-MaximumSize <Int64>]
+        [-WhatIf]
+        [-Confirm]
+        [<CommonParameters>]
+    ```
+  parameterSetName: Default
+  isDefault: true
+inputs:
+- name: <xref href="None" data-throw-if-not-resolved="False" />
+  description: |-
+    None
+outputs:
+- name: <xref href="None" data-throw-if-not-resolved="False" />
+  description: |-
+    None
+examples:
+- title: Example 1
+  description: |-
+    ```
+    PS C:\> limit-eventLog -logname "Windows PowerShell" -MaximumSize 20KB
+    ```
+
+    This command increases the maximum size of the Windows PowerShell event log on the local computer to 20480 kilobytes (KB) (20 KB).
+- title: Example 2
+  description: |-
+    ```
+    PS C:\> limit-eventlog -logname Security -comp Server01, Server02 -retentionDays 7
+    ```
+
+    This command ensures that events in the Security log on the Server01 and Server02 computers are retained for at least 7 days.
+- title: Example 3
+  description: |-
+    ```
+    PS C:\> $logs = get-eventlog -list | foreach {$_.log}
+    PS C:\> limit-eventlog -overflowaction OverwriteOlder -logname $logs
+    PS C:\> get-eventlog -list
+
+    Max(K) Retain OverflowAction     Entries  Log
+    ------ ------ --------------     -------  ---
+    15,168      0 OverwriteOlder       3,412  Application
+    512      0 OverwriteOlder           0  DFS Replication
+    512      0 OverwriteOlder          17  DxStudio
+    10,240      7 OverwriteOlder           0  HardwareEvents
+    512      0 OverwriteOlder           0  Internet Explorer
+    512      0 OverwriteOlder           0  Key Management Service
+    16,384      0 OverwriteOlder           4  ODiag
+    16,384      0 OverwriteOlder         389  OSession Security
+    15,168      0 OverwriteOlder      19,360  System
+    15,360      0 OverwriteOlder      15,828  Windows PowerShell
+    ```
+
+    These commands change the overflow action of all event logs on the local computer to "OverwriteOlder".
+
+    The first command gets the log names of all of the logs on the local computer.
+    The second command sets the overflow action.
+    The third command displays the results.
+links:
+- text: Clear-EventLog
+  href: Clear-EventLog.yml
+- text: Get-EventLog
+  href: Get-EventLog.yml
+- text: Get-WinEvent
+  href: ../Microsoft.PowerShell.Diagnostics/Get-WinEvent.yml
+- text: Limit-EventLog
+  href: Limit-EventLog.yml
+- text: New-EventLog
+  href: New-EventLog.yml
+- text: Remove-EventLog
+  href: Remove-EventLog.yml
+- text: Show-EventLog
+  href: Show-EventLog.yml
+- text: Write-EventLog
+  href: Write-EventLog.yml
+metadata:
+  document type: cmdlet
+  external help file: Microsoft.PowerShell.Commands.Management.dll-Help.xml
+  HelpUri: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.management/limit-eventlog?view=powershell-3.0&WT.mc_id=ps-gethelp
+  Locale: en-US
+  Module Name: Microsoft.PowerShell.Management
+  ms.date: 06/09/2017
+  PlatyPS schema version: 2024-05-01
+  title: Limit-EventLog

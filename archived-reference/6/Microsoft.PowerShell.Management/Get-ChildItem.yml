@@ -1,0 +1,487 @@
+### YamlMime:PowerShellCmdlet1
+uid: Microsoft.PowerShell.Management.Get-ChildItem
+name: Get-ChildItem
+module: Microsoft.PowerShell.Management
+isPreview: false
+summary: |-
+  Gets the items and child items in one or more specified locations.
+description: |-
+  The `Get-ChildItem` cmdlet gets the items in one or more specified locations. If the item is a
+  container, it gets the items inside the container, known as child items. You can use the **Recurse**
+  parameter to get items in all child containers and use the **Depth** parameter to limit the number
+  of levels to recurse.
+
+  `Get-ChildItem` doesn't display empty directories. When a `Get-ChildItem` command includes the
+  **Depth** or **Recurse** parameters, empty directories aren't included in the output.
+
+  Locations are exposed to `Get-ChildItem` by PowerShell providers. A location can be a file system
+  directory, registry hive, or a certificate store. For more information, see [about_Providers](../Microsoft.PowerShell.Core/About/about_Providers.md).
+notes: |-
+  - `Get-ChildItem` can be run using any of the built-in aliases, `ls`, `dir`, and `gci`. For more
+    information, see [about_Aliases](../Microsoft.PowerShell.Core/About/about_Aliases.md).
+  - `Get-ChildItem` doesn't get hidden items by default. To get hidden items, use the **Force**
+    parameter.
+  - The `Get-ChildItem` cmdlet is designed to work with the data exposed by any provider. To list the
+    providers available in your session, type `Get-PSProvider`.
+    For more information, see [about_Providers](../Microsoft.PowerShell.Core/About/about_Providers.md).
+parameters:
+  cmdletParameters:
+  - name: Attributes
+    type: <xref href="System.Management.Automation.FlagsExpression`1" data-throw-if-not-resolved="False" /><span>[</span><xref href="System.IO.FileAttributes" data-throw-if-not-resolved="False" /><span>]</span>
+    description: |-
+      Gets files and folders with the specified attributes. This parameter supports all attributes and
+      lets you specify complex combinations of attributes.
+
+      For example, to get non-system files (not directories) that are encrypted or compressed, type:
+
+      `Get-ChildItem -Attributes !Directory+!System+Encrypted, !Directory+!System+Compressed`
+
+      To find files and folders with commonly used attributes, use the **Attributes** parameter. Or, the
+      parameters **Directory**, **File**, **Hidden**, **ReadOnly**, and **System**.
+
+      The **Attributes** parameter supports the following properties:
+
+      - **Archive**
+      - **Compressed**
+      - **Device**
+      - **Directory**
+      - **Encrypted**
+      - **Hidden**
+      - **IntegrityStream**
+      - **Normal**
+      - **NoScrubData**
+      - **NotContentIndexed**
+      - **Offline**
+      - **ReadOnly**
+      - **ReparsePoint**
+      - **SparseFile**
+      - **System**
+      - **Temporary**
+
+      For a description of these attributes, see the [FileAttributes Enumeration](/dotnet/api/system.io.fileattributes).
+
+      To combine attributes, use the following operators:
+
+      - `!` (NOT)
+      - `+` (AND)
+      - `,` (OR)
+
+      Don't use spaces between an operator and its attribute. Spaces are accepted after commas.
+
+      For common attributes, use the following abbreviations:
+
+      - `D` (Directory)
+      - `H` (Hidden)
+      - `R` (Read-only)
+      - `S` (System)
+    acceptedValues:
+    - Archive
+    - Compressed
+    - Device
+    - Directory
+    - Encrypted
+    - Hidden
+    - IntegrityStream
+    - Normal
+    - NoScrubData
+    - NotContentIndexed
+    - Offline
+    - ReadOnly
+    - ReparsePoint
+    - SparseFile
+    - System
+    - Temporary
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Depth
+    type: <xref href="System.UInt32" data-throw-if-not-resolved="False" />
+    description: |-
+      This parameter was added in PowerShell 5.0 and enables you to control the depth of recursion. By
+      default, `Get-ChildItem` displays the contents of the parent directory. The **Depth** parameter
+      determines the number of subdirectory levels that are included in the recursion and displays the
+      contents.
+
+      For example, `Depth 2` includes the **Path** parameter's directory, first level of subdirectories,
+      and second level of subdirectories. By default directory names and filenames are included in the
+      output.
+
+      > [!NOTE]
+      > On a Windows computer from PowerShell or **cmd.exe**, you can display a graphical view of a
+      > directory structure with the **tree.com** command.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Directory
+    type: <xref href="System.Management.Automation.SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      To get a list of directories, use the **Directory** parameter or the **Attributes** parameter with
+      the **Directory** property. You can use the **Recurse** parameter with **Directory**.
+    aliases:
+    - ad
+    - d
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Exclude
+    type: <xref href="System.String" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    description: |-
+      Specifies, as a string array, a property or property that this cmdlet excludes from the operation.
+      The value of this parameter qualifies the **Path** parameter. Enter a path element or pattern, such
+      as `*.txt` or `A*`. Wildcard characters are accepted.
+
+      A trailing asterisk (`*`) in the **Path** parameter is optional. For example, `-Path C:\Test\Logs`
+      or `-Path C:\Test\Logs\*`. If a trailing asterisk (`*`) is included, the command recurses into the
+      **Path** parameter's subdirectories. Without the asterisk (`*`), the contents of the **Path**
+      parameter are displayed. More details are included in Example 5 and the Notes section.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: true
+  - name: File
+    type: <xref href="System.Management.Automation.SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      To get a list of files, use the **File** parameter. You can use the **Recurse** parameter with
+      **File**.
+    aliases:
+    - af
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Filter
+    type: <xref href="System.String" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies a filter to qualify the **Path** parameter. The [FileSystem](../Microsoft.PowerShell.Core/About/about_FileSystem_Provider.md)
+      provider is the only installed PowerShell provider that supports filters. Filters are more efficient
+      than other parameters. The provider applies filter when the cmdlet gets the objects rather than
+      having PowerShell filter the objects after they're retrieved. The filter string is passed to the
+      .NET API to enumerate files. The API only supports `*` and `?` wildcards.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: "1"
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: true
+  - name: FollowSymlink
+    type: <xref href="System.Management.Automation.SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      By default, the `Get-ChildItem` cmdlet displays symbolic links to directories found during
+      recursion, but doesn't recurse into them. Use the **FollowSymlink** parameter to search the
+      directories that target those symbolic links. The **FollowSymlink** is a dynamic parameter and is
+      supported only in the **FileSystem** provider.
+
+      This parameter was introduced in PowerShell 6.0.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Force
+    type: <xref href="System.Management.Automation.SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Allows the cmdlet to get items that otherwise can't be accessed by the user, such as hidden or
+      system files. The **Force** parameter doesn't override security restrictions. Implementation varies
+      among providers. For more information, see [about_Providers](../Microsoft.PowerShell.Core/About/about_Providers.md).
+    defaultValue: "False"
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Hidden
+    type: <xref href="System.Management.Automation.SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      To get only hidden items, use the **Hidden** parameter or the **Attributes** parameter with the
+      **Hidden** property. By default, `Get-ChildItem` doesn't display hidden items. Use the **Force**
+      parameter to get hidden items.
+    aliases:
+    - ah
+    - h
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Include
+    type: <xref href="System.String" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    description: |-
+      Specifies, as a string array, an item or items that this cmdlet includes in the operation. The value
+      of this parameter qualifies the **Path** parameter. Enter a path element or pattern, such as
+      `"*.txt"`. Wildcard characters are permitted. The **Include** parameter is effective only when the
+      command includes the contents of an item, such as `C:\Windows\*`, where the wildcard character
+      specifies the contents of the `C:\Windows` directory.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: true
+  - name: LiteralPath
+    type: <xref href="System.String" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    description: |-
+      Specifies a path to one or more locations. The value of **LiteralPath** is used exactly as it's
+      typed. No characters are interpreted as wildcards. If the path includes escape characters, enclose
+      it in single quotation marks. Single quotation marks tell PowerShell to not interpret any characters
+      as escape sequences.
+
+      For more information, see [about_Quoting_Rules](../Microsoft.Powershell.Core/About/about_Quoting_Rules.md).
+    aliases:
+    - PSPath
+    - LP
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: LiteralItems
+      position: Named
+      isRequired: true
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: true
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Name
+    type: <xref href="System.Management.Automation.SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Gets only the names of the items in the location. The output is a string object that can be sent
+      down the pipeline to other commands. Wildcards are permitted.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: true
+  - name: Path
+    type: <xref href="System.String" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    description: |-
+      Specifies a path to one or more locations. Wildcards are accepted. The default location is the
+      current directory (`.`).
+    defaultValue: Current directory
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: Items
+      position: "0"
+      isRequired: false
+      valueFromPipeline: true
+      valueFromPipelineByPropertyName: true
+      valueFromRemainingArguments: false
+    supportsWildcards: true
+  - name: ReadOnly
+    type: <xref href="System.Management.Automation.SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      To get only read-only items, use the **ReadOnly** parameter or the **Attributes** parameter
+      **ReadOnly** property.
+    aliases:
+    - ar
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Recurse
+    type: <xref href="System.Management.Automation.SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Gets the items in the specified locations and in all child items of the locations.
+    aliases:
+    - s
+    defaultValue: "False"
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: System
+    type: <xref href="System.Management.Automation.SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Gets only system files and directories. To get only system files and folders, use the **System**
+      parameter or **Attributes** parameter **System** property.
+    aliases:
+    - as
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  commonParameters: |-
+    This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+    -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+    -ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+    [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+syntaxes:
+- syntax: |-
+    ```Syntax
+    Get-ChildItem
+        [[-Path] <string[]>]
+        [[-Filter] <string>]
+        [-Include <string[]>]
+        [-Exclude <string[]>]
+        [-Recurse]
+        [-Depth <uint32>]
+        [-Force]
+        [-Name]
+        [-Attributes <FlagsExpression[FileAttributes]>]
+        [-FollowSymlink]
+        [-Directory]
+        [-File]
+        [-Hidden]
+        [-ReadOnly]
+        [-System]
+        [<CommonParameters>]
+    ```
+  parameterSetName: Items
+  isDefault: true
+- syntax: |-
+    ```Syntax
+    Get-ChildItem
+        [[-Filter] <string>]
+        -LiteralPath <string[]>
+        [-Include <string[]>]
+        [-Exclude <string[]>]
+        [-Recurse]
+        [-Depth <uint32>]
+        [-Force]
+        [-Name]
+        [-Attributes <FlagsExpression[FileAttributes]>]
+        [-FollowSymlink]
+        [-Directory]
+        [-File]
+        [-Hidden]
+        [-ReadOnly]
+        [-System]
+        [<CommonParameters>]
+    ```
+  parameterSetName: LiteralItems
+  isDefault: false
+inputs:
+- name: <xref href="System.String" data-throw-if-not-resolved="False" />
+  description: |-
+    You can pipe a string that contains a path to `Get-ChildItem`.
+outputs:
+- name: <xref href="System.Object" data-throw-if-not-resolved="False" />
+  description: |-
+    The type of object that `Get-ChildItem` returns is determined by the objects in the provider drive
+    path.
+- name: <xref href="System.String" data-throw-if-not-resolved="False" />
+  description: |-
+    If you use the **Name** parameter, `Get-ChildItem` returns the object names as strings.
+links:
+- text: about_Certificate_Provider
+  href: ../Microsoft.PowerShell.Security/About/about_Certificate_Provider.md
+- text: about_Providers
+  href: ../Microsoft.PowerShell.Core/About/about_Providers.md
+- text: about_Quoting_Rules
+  href: ../Microsoft.Powershell.Core/About/about_Quoting_Rules.md
+- text: about_Registry_Provider
+  href: ../Microsoft.PowerShell.Core/About/about_Registry_Provider.md
+- text: ForEach-Object
+  href: ../Microsoft.PowerShell.Core/ForEach-Object.yml
+- text: Get-Alias
+  href: ../Microsoft.PowerShell.Utility/Get-Alias.yml
+- text: Get-Item
+  href: Get-Item.yml
+- text: Get-Location
+  href: Get-Location.yml
+- text: Get-Process
+  href: Get-Process.yml
+- text: Get-PSProvider
+  href: Get-PSProvider.yml
+- text: Split-Path
+  href: Split-Path.yml
+metadata:
+  document type: cmdlet
+  external help file: Microsoft.PowerShell.Commands.Management.dll-Help.xml
+  HelpUri: https://learn.microsoft.com/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-6&WT.mc_id=ps-gethelp
+  keywords: powershell,cmdlet
+  Locale: en-US
+  Module Name: Microsoft.PowerShell.Management
+  ms.date: 03/27/2020
+  PlatyPS schema version: 2024-05-01
+  title: Get-ChildItem

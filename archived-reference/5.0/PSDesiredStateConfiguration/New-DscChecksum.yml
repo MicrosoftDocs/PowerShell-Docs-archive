@@ -1,0 +1,143 @@
+### YamlMime:PowerShellCmdlet1
+uid: PSDesiredStateConfiguration.New-DscChecksum
+name: New-DscChecksum
+module: PSDesiredStateConfiguration
+isPreview: false
+summary: |-
+  Creates checksum files for DSC documents and DSC resources.
+description: |-
+  The **New-DSCCheckSum** cmdlet generates checksum files for Windows PowerShell Desired State Configuration (DSC) documents and compressed DSC resources.
+  This cmdlet generates a checksum file for each configuration and resource to be used in pull mode.
+  The DSC service uses the checksums to make sure that the correct configuration and resources exist on the target node.
+  Place the checksums together with the associated DSC documents and compressed DSC resources in the DSC service store.
+parameters:
+  cmdletParameters:
+  - name: Confirm
+    type: <xref href="SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Prompts you for confirmation before running the cmdlet.
+    aliases:
+    - cf
+    defaultValue: "False"
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Force
+    type: <xref href="SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Indicates that the cmdlet overwrites the specified output file if it already exists.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: OutPath
+    type: <xref href="String" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the path and file name of the output checksum file.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: "1"
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Path
+    type: <xref href="String" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    description: |-
+      Specifies the path of the input file.
+    aliases:
+    - ConfigurationPath
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: "0"
+      isRequired: true
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: WhatIf
+    type: <xref href="SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Shows what would happen if the cmdlet runs.
+      The cmdlet is not run.
+    aliases:
+    - wi
+    defaultValue: "False"
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  commonParameters: |-
+    This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+    -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+    -ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+    [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+syntaxes:
+- syntax: |-
+    ```Syntax
+    New-DscChecksum
+        [-Path] <String[]>
+        [[-OutPath] <String>]
+        [-Force]
+        [-WhatIf]
+        [-Confirm]
+        [<CommonParameters>]
+    ```
+  parameterSetName: Default
+  isDefault: true
+examples:
+- title: 'Example 1: Create checksum files for all configurations in a specific path'
+  description: |-
+    ```
+    PS C:\> New-DscCheckSum -Path "C:\DSC\Configurations\"
+    ```
+
+    This command creates checksum files for all configurations in the path C:\DSC\Configurations.
+    Any checksum files that already exist are skipped.
+- title: 'Example 2: Create checksum files for all configurations in a specific path and overwrite the existing checksum files'
+  description: |-
+    ```
+    PS C:\> New-DscCheckSum -Path "C:\DSC\Configurations\" -Force
+    ```
+
+    This command creates new checksum files for all configurations in the path C:\DSC\Configurations.
+    Specifying the *Force* parameter causes the command to overwrite any checksum files that already exist.
+links:
+- text: Windows PowerShell Desired State Configuration Overview
+  href: https://go.microsoft.com/fwlink/?LinkID=311940
+metadata:
+  document type: cmdlet
+  external help file: PSDesiredStateConfiguration-help.xml
+  HelpUri: https://learn.microsoft.com/previous-versions/powershell/module/psdesiredstateconfiguration/new-dscchecksum?view=powershell-5.0&WT.mc_id=ps-gethelp
+  Locale: en-US
+  Module Name: PSDesiredStateConfiguration
+  ms.date: 06/09/2017
+  PlatyPS schema version: 2024-05-01
+  title: New-DscChecksum

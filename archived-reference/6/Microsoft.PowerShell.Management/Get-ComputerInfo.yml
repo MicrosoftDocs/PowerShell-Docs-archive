@@ -1,0 +1,72 @@
+### YamlMime:PowerShellCmdlet1
+uid: Microsoft.PowerShell.Management.Get-ComputerInfo
+name: Get-ComputerInfo
+module: Microsoft.PowerShell.Management
+isPreview: false
+summary: |-
+  Gets a consolidated object of system and operating system properties.
+description: |-
+  The `Get-ComputerInfo` cmdlet gets a consolidated object of system and operating system properties.
+  This cmdlet was introduced in Windows PowerShell 5.1.
+notes: |-
+  This cmdlet is only available on Windows platforms.
+parameters:
+  cmdletParameters:
+  - name: Property
+    type: <xref href="System.String" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    description: |-
+      Specifies, as a string array, the computer properties in which this cmdlet displays.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: "0"
+      isRequired: false
+      valueFromPipeline: true
+      valueFromPipelineByPropertyName: true
+      valueFromRemainingArguments: false
+    supportsWildcards: true
+  commonParameters: |-
+    This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+    -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+    -ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+    [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+syntaxes:
+- syntax: |-
+    ```Syntax
+    Get-ComputerInfo
+        [[-Property] <String[]>]
+        [<CommonParameters>]
+    ```
+  parameterSetName: Default
+  isDefault: true
+inputs:
+- name: <xref href="System.String" data-throw-if-not-resolved="False" />
+outputs:
+- name: <xref href="Microsoft.PowerShell.Management.ComputerInfo" data-throw-if-not-resolved="False" />
+examples:
+- title: 'Example 1: Get all computer properties'
+  description: |-
+    ```powershell
+    Get-ComputerInfo
+    ```
+
+    This command gets all system and operating system properties from the computer.
+- title: 'Example 2: Get all computer operating system properties'
+  description: |-
+    ```powershell
+    Get-ComputerInfo -Property "os*"
+    ```
+
+    This command gets all operating system properties from the computer.
+metadata:
+  document type: cmdlet
+  external help file: Microsoft.PowerShell.Commands.Management.dll-Help.xml
+  HelpUri: https://learn.microsoft.com/powershell/module/microsoft.powershell.management/get-computerinfo?view=powershell-6&WT.mc_id=ps-gethelp
+  keywords: powershell,cmdlet
+  Locale: en-US
+  Module Name: Microsoft.PowerShell.Management
+  ms.date: 06/09/2017
+  PlatyPS schema version: 2024-05-01
+  title: Get-ComputerInfo

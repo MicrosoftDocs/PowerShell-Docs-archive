@@ -1,0 +1,81 @@
+### YamlMime:PowerShellCmdlet1
+uid: Microsoft.PowerShell.Utility.Measure-Command
+name: Measure-Command
+module: Microsoft.PowerShell.Utility
+isPreview: false
+summary: |-
+  Measures the time it takes to run script blocks and cmdlets.
+description: |-
+  The `Measure-Command` cmdlet runs a script block or cmdlet internally, times the execution of the operation, and returns the execution time.
+parameters:
+  cmdletParameters:
+  - name: Expression
+    type: <xref href="ScriptBlock" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the expression that is being timed.
+      Enclose the expression in braces ({}).
+      The parameter name ("**Expression**") is optional.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: "0"
+      isRequired: true
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: InputObject
+    type: <xref href="PSObject" data-throw-if-not-resolved="False" />
+    description: |-
+      Objects bound to the `InputObject` parameter are optional input for the `ScriptBlock` passed to the `Expression` parameter.
+      Inside the `ScriptBlock`, `$_` can be used to reference the current object in the pipeline.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: true
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  commonParameters: |-
+    This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+    -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+    -ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+    [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+syntaxes:
+- syntax: |-
+    ```Syntax
+    Measure-Command
+        [-InputObject <PSObject>]
+        [-Expression] <ScriptBlock>
+        [<CommonParameters>]
+    ```
+  parameterSetName: Default
+  isDefault: true
+inputs:
+- name: <xref href="System.Management.Automation.PSObject" data-throw-if-not-resolved="False" />
+  description: |-
+    You can pipe an object to `Measure-Command`.
+outputs:
+- name: <xref href="System.TimeSpan" data-throw-if-not-resolved="False" />
+  description: |-
+    `Measure-Command` returns a time span object that represents the result.
+links:
+- text: Invoke-Command
+  href: ../Microsoft.PowerShell.Core/Invoke-Command.yml
+- text: Trace-Command
+  href: Trace-Command.yml
+metadata:
+  document type: cmdlet
+  external help file: Microsoft.PowerShell.Commands.Utility.dll-Help.xml
+  HelpUri: https://learn.microsoft.com/previous-versions/powershell/module/Microsoft.PowerShell.Utility/measure-command?view=powershell-4.0&WT.mc_id=ps-gethelp
+  Locale: en-US
+  Module Name: Microsoft.PowerShell.Utility
+  ms.date: 06/09/2017
+  PlatyPS schema version: 2024-05-01
+  title: Measure-Command

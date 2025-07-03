@@ -1,0 +1,353 @@
+### YamlMime:PowerShellCmdlet1
+uid: PSReadline.Set-PSReadlineKeyHandler
+name: Set-PSReadlineKeyHandler
+module: PSReadline
+isPreview: false
+summary: |-
+  Binds keys to user-defined or PSReadline key handler functions.
+description: |-
+  The `Set-PSReadlineKeyHandler` cmdlet customizes the result when a key or sequence of keys is
+  pressed. With user-defined key bindings, you can do almost anything that is possible from within a
+  PowerShell script.
+parameters:
+  cmdletParameters:
+  - name: BriefDescription
+    type: <xref href="String" data-throw-if-not-resolved="False" />
+    description: |-
+      A brief description of the key binding. This description is displayed by the
+      `Get-PSReadlineKeyHandler` cmdlet.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: ScriptBlock
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Chord
+    type: <xref href="String" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    description: |-
+      The key or sequence of keys to be bound to a function or script block. Use a single string to
+      specify a single binding. If the binding is a sequence of keys, separate the keys by a comma, as in
+      the following example:
+
+      `Ctrl+X,Ctrl+L`
+
+      This parameter accepts an array of strings. Each string is a separate binding, not a sequence of
+      keys for a single binding.
+    aliases:
+    - Key
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: "0"
+      isRequired: true
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Description
+    type: <xref href="String" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies a more detailed description of the key binding that is visible in the output of the
+      `Get-PSReadlineKeyHandler` cmdlet.
+    aliases:
+    - LongDescription
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: ScriptBlock
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Function
+    type: <xref href="String" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the name of an existing key handler provided by PSReadline. This parameter lets you
+      rebind existing key bindings, or bind a handler that is currently unbound.
+    acceptedValues:
+    - Abort
+    - AcceptAndGetNext
+    - AcceptLine
+    - AddLine
+    - BackwardChar
+    - BackwardDeleteChar
+    - BackwardDeleteLine
+    - BackwardDeleteWord
+    - BackwardKillLine
+    - BackwardKillWord
+    - BackwardWord
+    - BeginningOfHistory
+    - BeginningOfLine
+    - CancelLine
+    - CaptureScreen
+    - CharacterSearch
+    - CharacterSearchBackward
+    - ClearHistory
+    - ClearScreen
+    - Complete
+    - Copy
+    - CopyOrCancelLine
+    - Cut
+    - DeleteChar
+    - DeleteCharOrExit
+    - DeleteEndOfWord
+    - DeleteLine
+    - DeleteLineToFirstChar
+    - DeleteToEnd
+    - DeleteWord
+    - DigitArgument
+    - EndOfHistory
+    - EndOfLine
+    - ExchangePointAndMark
+    - ForwardChar
+    - ForwardDeleteLine
+    - ForwardSearchHistory
+    - ForwardWord
+    - GotoBrace
+    - GotoColumn
+    - GotoFirstNonBlankOfLine
+    - HistorySearchBackward
+    - HistorySearchForward
+    - InsertLineAbove
+    - InsertLineBelow
+    - InvertCase
+    - InvokePrompt
+    - KillLine
+    - KillRegion
+    - KillWord
+    - MenuComplete
+    - MoveToEndOfLine
+    - NextHistory
+    - NextLine
+    - NextWord
+    - NextWordEnd
+    - Paste
+    - PasteAfter
+    - PasteBefore
+    - PossibleCompletions
+    - PrependAndAccept
+    - PreviousHistory
+    - PreviousLine
+    - Redo
+    - RepeatLastCharSearch
+    - RepeatLastCharSearchBackwards
+    - RepeatLastCommand
+    - RepeatSearch
+    - RepeatSearchBackward
+    - ReverseSearchHistory
+    - RevertLine
+    - ScrollDisplayDown
+    - ScrollDisplayDownLine
+    - ScrollDisplayToCursor
+    - ScrollDisplayTop
+    - ScrollDisplayUp
+    - ScrollDisplayUpLine
+    - SearchChar
+    - SearchCharBackward
+    - SearchCharBackwardWithBackoff
+    - SearchCharWithBackoff
+    - SearchForward
+    - SelectAll
+    - SelectBackwardChar
+    - SelectBackwardsLine
+    - SelectBackwardWord
+    - SelectForwardChar
+    - SelectForwardWord
+    - SelectLine
+    - SelectNextWord
+    - SelectShellBackwardWord
+    - SelectShellForwardWord
+    - SelectShellNextWord
+    - SelfInsert
+    - SetMark
+    - ShellBackwardKillWord
+    - ShellBackwardWord
+    - ShellForwardWord
+    - ShellKillWord
+    - ShellNextWord
+    - ShowKeyBindings
+    - SwapCharacters
+    - TabCompleteNext
+    - TabCompletePrevious
+    - Undo
+    - UndoAll
+    - UnixWordRubout
+    - ValidateAndAcceptLine
+    - ViAcceptLine
+    - ViAcceptLineOrExit
+    - ViAppendLine
+    - ViBackwardDeleteGlob
+    - ViBackwardGlob
+    - ViBackwardWord
+    - ViCommandMode
+    - ViDeleteBrace
+    - ViDeleteEndOfGlob
+    - ViDeleteGlob
+    - ViDigitArgumentInChord
+    - ViEditVisually
+    - ViExit
+    - ViGotoBrace
+    - ViInsertAtBegining
+    - ViInsertAtEnd
+    - ViInsertLine
+    - ViInsertMode
+    - ViInsertWithAppend
+    - ViInsertWithDelete
+    - ViJoinLines
+    - ViNextWord
+    - ViSearchHistoryBackward
+    - ViTabCompleteNext
+    - ViTabCompletePrevious
+    - ViYankBeginningOfLine
+    - ViYankEndOfGlob
+    - ViYankEndOfWord
+    - ViYankLeft
+    - ViYankLine
+    - ViYankNextGlob
+    - ViYankNextWord
+    - ViYankPercent
+    - ViYankPreviousGlob
+    - ViYankPreviousWord
+    - ViYankRight
+    - ViYankToEndOfLine
+    - ViYankToFirstChar
+    - WhatIsKey
+    - Yank
+    - YankLastArg
+    - YankNthArg
+    - YankPop
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: Function
+      position: "1"
+      isRequired: true
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: ScriptBlock
+    type: <xref href="ScriptBlock" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies a script block value to run when the chord is entered. PSReadline passes one or two
+      parameters to this script block. The first parameter is a **ConsoleKeyInfo** object representing
+      the key pressed. The second argument can be any object depending on the context.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: ScriptBlock
+      position: "1"
+      isRequired: true
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: ViMode
+    type: <xref href="ViMode" data-throw-if-not-resolved="False" />
+    description: |-
+      Specify which vi mode the binding applies to.
+
+      Valid values are:
+
+      - Insert
+      - Command
+    acceptedValues:
+    - Insert
+    - Command
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  commonParameters: |-
+    This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+    -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+    -ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+    [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+syntaxes:
+- syntax: |-
+    ```Syntax
+    Set-PSReadlineKeyHandler
+        [-ScriptBlock] <ScriptBlock>
+        [-Chord] <String[]>
+        [-BriefDescription <String>]
+        [-Description <String>]
+        [-ViMode <ViMode>]
+        [<CommonParameters>]
+    ```
+  parameterSetName: ScriptBlock
+  isDefault: false
+- syntax: |-
+    ```Syntax
+    Set-PSReadlineKeyHandler
+        [-Chord] <String[]>
+        [-Function] <String>
+        [-ViMode <ViMode>]
+        [<CommonParameters>]
+    ```
+  parameterSetName: Function
+  isDefault: false
+inputs:
+- name: <xref href="None" data-throw-if-not-resolved="False" />
+  description: |-
+    You cannot pipe objects to this cmdlet.
+outputs:
+- name: <xref href="None" data-throw-if-not-resolved="False" />
+examples:
+- title: 'Example 1: Bind the arrow key to a function'
+  description: |-
+    This command binds the up arrow key to the function **HistorySearchBackward**. This function uses
+    the current contents of the command line as the search string used to search the command history.
+
+    ```powershell
+    Set-PSReadlineKeyHandler -Chord UpArrow -Function HistorySearchBackward
+    ```
+- title: 'Example 2: Bind a key to a script block'
+  description: |-
+    This example shows how a single key can be used to run a command. The command binds the key
+    `Ctrl+Shift+B` to a script block that clears the line, inserts the word "build", and then accepts
+    the line.
+
+    ```powershell
+    Set-PSReadlineKeyHandler -Chord Ctrl+Shift+B -ScriptBlock {
+        [Microsoft.PowerShell.PSConsoleReadLine]::RevertLine()
+        [Microsoft.PowerShell.PSConsoleReadLine]::Insert('build')
+        [Microsoft.PowerShell.PSConsoleReadLine]::AcceptLine()
+    }
+    ```
+links:
+- text: Get-PSReadlineKeyHandler
+  href: Get-PSReadlineKeyHandler.yml
+- text: Remove-PSReadlineKeyHandler
+  href: Remove-PSReadlineKeyHandler.yml
+- text: Get-PSReadlineOption
+  href: Get-PSReadlineOption.yml
+- text: Set-PSReadlineOption
+  href: Set-PSReadlineOption.yml
+metadata:
+  document type: cmdlet
+  external help file: Microsoft.PowerShell.PSReadline.dll-Help.xml
+  HelpUri: https://learn.microsoft.com/previous-versions/powershell/module/psreadline/set-psreadlinekeyhandler?view=powershell-5.0&wt.mc_id=ps-gethelp
+  Locale: en-US
+  Module Name: PSReadline
+  ms.date: 12/07/2018
+  PlatyPS schema version: 2024-05-01
+  title: Set-PSReadlineKeyHandler

@@ -1,0 +1,355 @@
+### YamlMime:PowerShellCmdlet1
+uid: PSDesiredStateConfiguration.Test-DscConfiguration
+name: Test-DscConfiguration
+module: PSDesiredStateConfiguration
+isPreview: false
+summary: |-
+  Tests whether the actual configuration on the nodes matches the desired configuration.
+description: |-
+  The **Test-DscConfiguration** cmdlet tests whether the actual configuration on the nodes matches the desired configuration.
+  Specify which computers for which you want to test configurations by using computer names or Common Information Model (CIM) sessions.
+  If you do not specify a target computer, the cmdlet tests configuration of the local computer.
+
+  If the desired and actual configurations match, the cmdlet returns a string value of 'True'.
+  Otherwise, it returns a string value of 'False'.
+parameters:
+  cmdletParameters:
+  - name: AsJob
+    type: <xref href="SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Indicates that this cmdlet runs the command as a background job.
+
+      If you specify the *AsJob* parameter, the command returns an object that represents the job, and then displays the command prompt.
+      You can continue to work in the session until the job finishes.
+      The job is created on the local computer and the results from remote computers are automatically returned to the local computer.
+      To manage the job, use the Job cmdlets.
+      To get the job results, use the Receive-Job cmdlet.
+
+      To use this parameter, the local and remote computers must be configured for remoting, and on Windows Vista and later versions of the Windows operating system, you must open Windows PowerShell with the Run as administrator option.
+      For more information, see [about_Remote_Requirements](../Microsoft.PowerShell.Core/About/about_Remote_Requirements.md).
+
+      For more information about Windows PowerShell background jobs, see [about_Jobs](../Microsoft.PowerShell.Core/About/about_Jobs.md) and [about_Remote_Jobs](../Microsoft.PowerShell.Core/About/about_Remote_Jobs.md).
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: CimSession
+    type: <xref href="CimSession" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    description: |-
+      Runs the cmdlet in a remote session or on a remote computer.
+      Enter a computer name or a session object, such as the output of a [New-CimSession](https://learn.microsoft.com/powershell/module/cimcmdlets/new-cimsession) or [Get-CimSession](https://learn.microsoft.com/powershell/module/cimcmdlets/get-cimsession) cmdlet.
+      The default is the current session on the local computer.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: CimSessionSet
+      position: Named
+      isRequired: true
+      valueFromPipeline: true
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    - name: CimSessionAndReferenceConfigurationSet
+      position: Named
+      isRequired: true
+      valueFromPipeline: true
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    - name: CimSessionAndPathSet
+      position: Named
+      isRequired: true
+      valueFromPipeline: true
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: ComputerName
+    type: <xref href="String" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    description: |-
+      Specifies an array of computer names on which this cmdlet tests the configuration.
+      The cmdlet tests the configuration document in the location specified by the *Path* parameter to these computers.
+    aliases:
+    - CN
+    - ServerName
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: ComputerNameSet
+      position: "1"
+      isRequired: false
+      valueFromPipeline: true
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    - name: ComputerNameAndPathSet
+      position: "1"
+      isRequired: false
+      valueFromPipeline: true
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    - name: ComputerNameAndReferenceConfigurationSet
+      position: "1"
+      isRequired: false
+      valueFromPipeline: true
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Credential
+    type: <xref href="PSCredential" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies a user name and password, as a **PSCredential** object, for the target computer.
+      To obtain a **PSCredential** object, use the Get-Credential cmdlet.
+      For more information, type `Get-Help Get-Credential`.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: ComputerNameSet
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    - name: ComputerNameAndPathSet
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    - name: ComputerNameAndReferenceConfigurationSet
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Detailed
+    type: <xref href="SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Indicates that this cmdlet returns a detailed result of comparing the configuration document with the desired state of the nodes.
+      The result includes information such as overall state, resources that are in the desired state, resources that are not in desired state, and computer name.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: ComputerNameSet
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    - name: CimSessionSet
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Path
+    type: <xref href="String" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the path of a folder that contains configuration document files.
+      The cmdlet tests the configuration against the desired state of computers specified by the *ComputerName* or *CimSession* parameter.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: ComputerNameAndPathSet
+      position: "0"
+      isRequired: true
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    - name: CimSessionAndPathSet
+      position: "0"
+      isRequired: true
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: ReferenceConfiguration
+    type: <xref href="String" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the path of the configuration document file.
+      This cmdlet tests the configuration against the actual state of computers specified by the *ComputerName* or *CimSession* parameter.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: ComputerNameAndReferenceConfigurationSet
+      position: Named
+      isRequired: true
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    - name: CimSessionAndReferenceConfigurationSet
+      position: Named
+      isRequired: true
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: ThrottleLimit
+    type: <xref href="Int32" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the maximum number of concurrent operations that can be established to run the cmdlet.
+      If this parameter is omitted or a value of `0` is entered, then Windows PowerShell calculates an optimum throttle limit for the cmdlet based on the number of CIM cmdlets that are running on the computer.
+      The throttle limit applies only to the current cmdlet, not to the session or to the computer.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  commonParameters: |-
+    This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+    -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+    -ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+    [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+syntaxes:
+- syntax: |-
+    ```Syntax
+    Test-DscConfiguration
+        [[-ComputerName] <String[]>]
+        [-Credential <PSCredential>]
+        [-ThrottleLimit <Int32>]
+        [-AsJob]
+        [-Detailed]
+        [<CommonParameters>]
+    ```
+  parameterSetName: ComputerNameSet
+  isDefault: true
+- syntax: |-
+    ```Syntax
+    Test-DscConfiguration
+        [[-ComputerName] <String[]>]
+        [-Path] <String>
+        [-Credential <PSCredential>]
+        [-ThrottleLimit <Int32>]
+        [-AsJob]
+        [<CommonParameters>]
+    ```
+  parameterSetName: ComputerNameAndPathSet
+  isDefault: false
+- syntax: |-
+    ```Syntax
+    Test-DscConfiguration
+        [[-ComputerName] <String[]>]
+        -ReferenceConfiguration <String>
+        [-Credential <PSCredential>]
+        [-ThrottleLimit <Int32>]
+        [-AsJob]
+        [<CommonParameters>]
+    ```
+  parameterSetName: ComputerNameAndReferenceConfigurationSet
+  isDefault: false
+- syntax: |-
+    ```Syntax
+    Test-DscConfiguration
+        -CimSession <CimSession[]>
+        [-ThrottleLimit <Int32>]
+        [-AsJob]
+        [-Detailed]
+        [<CommonParameters>]
+    ```
+  parameterSetName: CimSessionSet
+  isDefault: false
+- syntax: |-
+    ```Syntax
+    Test-DscConfiguration
+        -CimSession <CimSession[]>
+        -ReferenceConfiguration <String>
+        [-ThrottleLimit <Int32>]
+        [-AsJob]
+        [<CommonParameters>]
+    ```
+  parameterSetName: CimSessionAndReferenceConfigurationSet
+  isDefault: false
+- syntax: |-
+    ```Syntax
+    Test-DscConfiguration
+        [-Path] <String>
+        -CimSession <CimSession[]>
+        [-ThrottleLimit <Int32>]
+        [-AsJob]
+        [<CommonParameters>]
+    ```
+  parameterSetName: CimSessionAndPathSet
+  isDefault: false
+examples:
+- title: 'Example 1: Test configuration for the local computer'
+  description: |-
+    ```
+    PS C:\> Test-DscConfiguration
+    ```
+
+    This command tests configuration for the local computer.
+- title: 'Example 2: Test configuration for a specified computer'
+  description: |-
+    ```
+    PS C:\> $Session = New-CimSession -ComputerName "Server01" -Credential ACCOUNTS\PattiFuller
+    PS C:\> Test-DscConfiguration -CimSession $Session
+    ```
+
+    This example test configuration from a computer specified by a CIM session.
+    The example creates a CIM session for a computer named Server01 for use with the cmdlet.
+    Alternatively, create an array of CIM sessions to apply the cmdlet to multiple specified computers.
+
+    The first command creates a CIM session by using the **New-CimSession** cmdlet, and then stores the **CimSession** object in the $Session variable.
+    The command prompts you for a password.
+    For more information, type `Get-Help New-CimSession`.
+
+    The second command tests configuration for the computers identified by the **CimSession** objects stored in the $Session variable, in this case, the computer named Server01.
+- title: 'Example 3: Test configurations with detailed results'
+  description: |-
+    ```
+    PS C:\> Test-DscConfiguration -ComputerName "Server01", "Server02", "Server03" -Detailed
+    ```
+
+    This command tests configurations for a set of computers specified by the *ComputerName* parameter and returns detailed information that includes the overall state, resources that are in the desired state, resources that are not in the desired state and computer name.
+- title: 'Example 4: Test configurations specified in a folder'
+  description: |-
+    ```
+    PS C:\> Test-DscConfiguration -Path "C:\Dsc\Configurations"
+    ```
+
+    This command tests configurations that are defined in a folder specified by the *Path* parameter.
+    The configurations are tested against a set of computers, each identified by the file name of the configuration file.
+- title: 'Example 5: Test configurations specified in a file'
+  description: |-
+    ```
+    PS C:\> Test-DscConfiguration -ReferenceConfiguration "C:\Dsc\Configurations\WebServer.mof" -ComputerName "Server01", "Server02", "Server03"
+    ```
+
+    This command tests a configuration defined in a file against a set of computers specified by the *ComputerName* parameter.
+links:
+- text: Windows PowerShell Desired State Configuration Overview
+  href: https://go.microsoft.com/fwlink/?LinkID=311940
+- text: Get-DscConfiguration
+  href: Get-DscConfiguration.yml
+- text: Get-DscConfigurationStatus
+  href: Get-DscConfigurationStatus.yml
+- text: Restore-DscConfiguration
+  href: Restore-DscConfiguration.yml
+- text: Start-DscConfiguration
+  href: Start-DscConfiguration.yml
+metadata:
+  document type: cmdlet
+  external help file: Microsoft.Windows.DSC.CoreConfProviders.dll-Help.xml
+  HelpUri: https://learn.microsoft.com/previous-versions/powershell/module/psdesiredstateconfiguration/test-dscconfiguration?view=powershell-5.0&WT.mc_id=ps-gethelp
+  Locale: en-US
+  Module Name: PSDesiredStateConfiguration
+  ms.date: 06/09/2017
+  PlatyPS schema version: 2024-05-01
+  title: Test-DscConfiguration

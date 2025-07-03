@@ -1,0 +1,119 @@
+### YamlMime:PowerShellCmdlet1
+uid: PackageManagement.Get-PackageProvider
+name: Get-PackageProvider
+module: PackageManagement
+isPreview: false
+summary: |-
+  Returns a list of package providers that are connected to Package Management.
+description: |-
+  The **Get-PackageProvider** cmdlet returns a list of package providers that are connected to Package Management.
+  Examples of these providers include PSModule, NuGet, and Chocolatey.
+  You can filter the results based on all or part of one or more provider names.
+parameters:
+  cmdletParameters:
+  - name: Force
+    type: <xref href="SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Indicates that this cmdlet forces all other actions with this cmdlet that can be forced.
+      In **Get-PackageProvider**, this means the *Force* parameter acts the same as the *ForceBootstrap* parameter.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: ForceBootstrap
+    type: <xref href="SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Indicates that this cmdlet forces Package Management to automatically install the package provider.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Name
+    type: <xref href="String" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    description: |-
+      Specifies one or more provider names, or partial provider names.
+      Separate multiple provider names with commas.
+      Valid values for this parameter include names of providers that you have installed with packages; PackageManagement ships with a set of default providers, including the **PSModule** and **MSI** providers.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: "0"
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  commonParameters: |-
+    This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+    -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+    -ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+    [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+syntaxes:
+- syntax: |-
+    ```Syntax
+    Get-PackageProvider
+        [[-Name] <String[]>]
+        [-Force]
+        [-ForceBootstrap]
+        [<CommonParameters>]
+    ```
+  parameterSetName: Default
+  isDefault: true
+outputs:
+- name: <xref href="PackageProvider" data-throw-if-not-resolved="False" />
+examples:
+- title: 'Example 1: Get all currently loaded package providers'
+  description: |-
+    ```
+    PS C:\> Get-PackageProvider
+    ```
+
+    This command gets a list of all the package providers that are currently loaded on the local computer.
+- title: 'Example 2: Get all available package providers'
+  description: |-
+    ```
+    PS C:\> Get-PackageProvider -ListAvailable
+    ```
+
+    This command gets a list of all package providers that are available on the local computer.
+- title: 'Example 3: Dynamically get a package provider'
+  description: |-
+    ```
+    PS C:\> Get-PackageProvider -Name "Chocolatey" -ForceBootstrap
+    ```
+
+    This command automatically installs the Chocolatey provider if your computer does not have the Chocolatey provider installed.
+links:
+- text: about_PackageManagement
+  href: ../Microsoft.PowerShell.Core/About/about_packagemanagement.md
+- text: Get-PackageSource
+  href: Get-PackageSource.yml
+- text: Register-PackageSource
+  href: Register-PackageSource.yml
+- text: Unregister-PackageSource
+  href: Unregister-PackageSource.yml
+metadata:
+  document type: cmdlet
+  external help file: Microsoft.PowerShell.PackageManagement.dll-Help.xml
+  HelpUri: https://learn.microsoft.com/previous-versions/powershell/module/packagemanagement/get-packageprovider?view=powershell-5.0&WT.mc_id=ps-gethelp
+  Locale: en-US
+  Module Name: PackageManagement
+  ms.date: 06/09/2017
+  PlatyPS schema version: 2024-05-01
+  title: Get-PackageProvider

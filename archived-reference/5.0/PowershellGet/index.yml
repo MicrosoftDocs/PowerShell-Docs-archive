@@ -1,0 +1,33 @@
+### YamlMime:PowerShellModule1
+uid: PowershellGet
+name: PowerShellGet Module
+isPreview: false
+cmdletGroups:
+- title: PowerShellGet Cmdlets
+  cmdlets:
+  - PowershellGet.Find-Command
+  - PowershellGet.Find-DscResource
+  - PowershellGet.Find-Module
+  - PowershellGet.Get-InstalledModule
+  - PowershellGet.Get-PSRepository
+  - PowershellGet.Install-Module
+  - PowershellGet.Publish-Module
+  - PowershellGet.Register-PSRepository
+  - PowershellGet.Save-Module
+  - PowershellGet.Set-PSRepository
+  - PowershellGet.Uninstall-Module
+  - PowershellGet.Unregister-PSRepository
+  - PowershellGet.Update-Module
+description: |-
+  PowerShellGet is a module with commands for discovering, installing, updating and publishing
+  PowerShell artifacts like Modules, DSC Resources, Role Capabilities, and Scripts.
+metadata:
+  HelpInfoUri: https://go.microsoft.com/fwlink/?LinkID=393271
+  Help Version: 5.0.11.3
+  keywords: powershell,cmdlet
+  Module Guid: 1d73a601-4a6c-43c5-ba3f-619b18bbb404
+  Module Name: PowershellGet
+  ms.date: 06/09/2017
+  PlatyPS schema version: 2024-05-01
+  title: PowershellGet
+  document type: module

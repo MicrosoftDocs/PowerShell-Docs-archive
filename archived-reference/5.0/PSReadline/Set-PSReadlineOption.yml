@@ -1,0 +1,797 @@
+### YamlMime:PowerShellCmdlet1
+uid: PSReadline.Set-PSReadlineOption
+name: Set-PSReadlineOption
+module: PSReadline
+isPreview: false
+summary: |-
+  Customizes the behavior of command line editing in **PSReadline**.
+description: |-
+  The `Set-PSReadlineOption` cmdlet customizes the behavior of the **PSReadline** module when you're
+  editing the command line. To view the **PSReadline** settings, use `Get-PSReadlineOption`.
+parameters:
+  cmdletParameters:
+  - name: AddToHistoryHandler
+    type: <xref href="Func" data-throw-if-not-resolved="False" /><span>[</span><xref href="String, Boolean" data-throw-if-not-resolved="False" /><span>]</span>
+    description: |-
+      Specifies a **ScriptBlock** that controls which commands get added to **PSReadline** history.
+
+      The **ScriptBlock** receives the command line as input. If the **ScriptBlock** returns `$True`, the
+      command line is added to the history.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: BackgroundColor
+    type: <xref href="ConsoleColor" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the background color for the token specified by the **TokenKind** parameter.
+
+      The acceptable values for this parameter are as follows:
+
+      - Black
+      - DarkBlue
+      - DarkGreen
+      - DarkCyan
+      - DarkRed
+      - DarkMagenta
+      - DarkYellow
+      - Gray
+      - DarkGray
+      - Blue
+      - Green
+      - Cyan
+      - Red
+      - Magenta
+      - Yellow
+      - White
+    acceptedValues:
+    - Black
+    - DarkBlue
+    - DarkGreen
+    - DarkCyan
+    - DarkRed
+    - DarkMagenta
+    - DarkYellow
+    - Gray
+    - DarkGray
+    - Blue
+    - Green
+    - Cyan
+    - Red
+    - Magenta
+    - Yellow
+    - White
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: ColorSet
+      position: "2"
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: BellStyle
+    type: <xref href="BellStyle" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies how **PSReadline** responds to various error and ambiguous conditions.
+
+      The valid values are as follows:
+
+      - **Audible**: A short beep.
+      - **Visual**: Text flashes briefly.
+      - **None**: No feedback.
+    acceptedValues:
+    - None
+    - Visual
+    - Audible
+    defaultValue: Audible
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: CommandValidationHandler
+    type: <xref href="Action" data-throw-if-not-resolved="False" /><span>[</span><xref href="CommandAst" data-throw-if-not-resolved="False" /><span>]</span>
+    description: |-
+      Specifies a **ScriptBlock** that is called from **ValidateAndAcceptLine**. If an exception is
+      thrown, validation fails and the error is reported.
+
+      Before throwing an exception, the validation handler can place the cursor at the point of the error
+      to make it easier to fix. A validation handler can also change the command line, such as to correct
+      common typographical errors.
+
+      **ValidateAndAcceptLine** is used to avoid cluttering your history with commands that can't work.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: CompletionQueryItems
+    type: <xref href="Int32" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the maximum number of completion items that are shown without prompting.
+
+      If the number of items to show is greater than this value, **PSReadline** prompts **yes/no** before
+      displaying the completion items.
+    defaultValue: "100"
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: ContinuationPrompt
+    type: <xref href="String" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the string displayed at the beginning of the subsequent lines when multi-line input is
+      entered. The default is double greater-than signs (`>>`). An empty string is valid.
+    defaultValue: '>>'
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: ContinuationPromptBackgroundColor
+    type: <xref href="ConsoleColor" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the background color of the continuation prompt.
+
+      The acceptable values are the same as the **BackgroundColor** parameter.
+    acceptedValues:
+    - Black
+    - DarkBlue
+    - DarkGreen
+    - DarkCyan
+    - DarkRed
+    - DarkMagenta
+    - DarkYellow
+    - Gray
+    - DarkGray
+    - Blue
+    - Green
+    - Cyan
+    - Red
+    - Magenta
+    - Yellow
+    - White
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: OptionsSet
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: ContinuationPromptForegroundColor
+    type: <xref href="ConsoleColor" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the foreground color of the continuation prompt.
+
+      The acceptable values are the same as the **BackgroundColor** parameter.
+    acceptedValues:
+    - Black
+    - DarkBlue
+    - DarkGreen
+    - DarkCyan
+    - DarkRed
+    - DarkMagenta
+    - DarkYellow
+    - Gray
+    - DarkGray
+    - Blue
+    - Green
+    - Cyan
+    - Red
+    - Magenta
+    - Yellow
+    - White
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: OptionsSet
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: DingDuration
+    type: <xref href="Int32" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the duration of the beep when **BellStyle** is set to **Audible**.
+    defaultValue: 50ms
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: DingTone
+    type: <xref href="Int32" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the tone in Hertz (Hz) of the beep when **BellStyle** is set to **Audible**.
+    defaultValue: "1221"
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: EditMode
+    type: <xref href="EditMode" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the command line editing mode. Using this parameter resets any key bindings set by
+      `Set-PSReadlineKeyHandler`.
+
+      The valid values are as follows:
+
+      - **Windows**: Key bindings emulate PowerShell, cmd, and Visual Studio.
+      - **Emacs**: Key bindings emulate Bash or Emacs.
+      - **Vi**: Key bindings emulate Vi.
+    acceptedValues:
+    - Windows
+    - Emacs
+    - Vi
+    defaultValue: Windows
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: EmphasisBackgroundColor
+    type: <xref href="ConsoleColor" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the background color that's used for emphasis, such as to highlight search text.
+
+      The acceptable values are the same as the **BackgroundColor** parameter.
+    acceptedValues:
+    - Black
+    - DarkBlue
+    - DarkGreen
+    - DarkCyan
+    - DarkRed
+    - DarkMagenta
+    - DarkYellow
+    - Gray
+    - DarkGray
+    - Blue
+    - Green
+    - Cyan
+    - Red
+    - Magenta
+    - Yellow
+    - White
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: OptionsSet
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: EmphasisForegroundColor
+    type: <xref href="ConsoleColor" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the foreground color that's used for emphasis, such as to highlight search text.
+
+      The acceptable values are the same as the **BackgroundColor** parameter.
+    acceptedValues:
+    - Black
+    - DarkBlue
+    - DarkGreen
+    - DarkCyan
+    - DarkRed
+    - DarkMagenta
+    - DarkYellow
+    - Gray
+    - DarkGray
+    - Blue
+    - Green
+    - Cyan
+    - Red
+    - Magenta
+    - Yellow
+    - White
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: OptionsSet
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: ErrorBackgroundColor
+    type: <xref href="ConsoleColor" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the background color that's used for errors.
+
+      The acceptable values are the same as the **BackgroundColor** parameter.
+    acceptedValues:
+    - Black
+    - DarkBlue
+    - DarkGreen
+    - DarkCyan
+    - DarkRed
+    - DarkMagenta
+    - DarkYellow
+    - Gray
+    - DarkGray
+    - Blue
+    - Green
+    - Cyan
+    - Red
+    - Magenta
+    - Yellow
+    - White
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: OptionsSet
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: ErrorForegroundColor
+    type: <xref href="ConsoleColor" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the foreground color that's used for errors.
+
+      The acceptable values are the same as the **BackgroundColor** parameter.
+    acceptedValues:
+    - Black
+    - DarkBlue
+    - DarkGreen
+    - DarkCyan
+    - DarkRed
+    - DarkMagenta
+    - DarkYellow
+    - Gray
+    - DarkGray
+    - Blue
+    - Green
+    - Cyan
+    - Red
+    - Magenta
+    - Yellow
+    - White
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: OptionsSet
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: ExtraPromptLineCount
+    type: <xref href="Int32" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the number of extra lines.
+
+      If your prompt spans more than one line, specify a value for this parameter. Use this option when
+      you want extra lines to be available when **PSReadline** displays the prompt after showing some
+      output. For example, **PSReadline** returns a list of completions.
+
+      This option is needed less than in previous versions of **PSReadline**, but is useful when the
+      `InvokePrompt` function is used.
+    defaultValue: "0"
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: ForegroundColor
+    type: <xref href="ConsoleColor" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the foreground color for the token that's specified by the **TokenKind** parameter.
+
+      The acceptable values are the same as the **BackgroundColor** parameter.
+    acceptedValues:
+    - Black
+    - DarkBlue
+    - DarkGreen
+    - DarkCyan
+    - DarkRed
+    - DarkMagenta
+    - DarkYellow
+    - Gray
+    - DarkGray
+    - Blue
+    - Green
+    - Cyan
+    - Red
+    - Magenta
+    - Yellow
+    - White
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: ColorSet
+      position: "1"
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: HistoryNoDuplicates
+    type: <xref href="SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      This option controls the recall behavior. Duplicate commands are still added to the history file.
+      When this option is set, only the most recent invocation appears when recalling commands.
+
+      Repeated commands are added to history to preserve ordering during recall. However, you typically
+      don't want to see the command multiple times when recalling or searching the history.
+    defaultValue: "False"
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: HistorySavePath
+    type: <xref href="String" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the path to the file where history is saved. The file name is stored in a variable
+      `$($host.Name)_history.txt`, for example `ConsoleHost_history.txt`.
+
+      If you don't use this parameter, the default path is as follows:
+
+      `$env:APPDATA\Microsoft\Windows\PowerShell\PSReadline\$($host.Name)_history.txt`
+    defaultValue: $env:APPDATA\Microsoft\Windows\PowerShell\PSReadline\$($host.Name)_history.txt
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: HistorySaveStyle
+    type: <xref href="HistorySaveStyle" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies how **PSReadline** saves history.
+
+      Valid values are as follows:
+
+      - **SaveIncrementally**: Save history after each command is executed and share across multiple
+        instances of PowerShell.
+      - **SaveAtExit**: Append history file when PowerShell exits.
+      - **SaveNothing**: Don't use a history file.
+    acceptedValues:
+    - SaveIncrementally
+    - SaveAtExit
+    - SaveNothing
+    defaultValue: SaveIncrementally
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: HistorySearchCaseSensitive
+    type: <xref href="SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies that history searching is case-sensitive in functions like **ReverseSearchHistory** or
+      **HistorySearchBackward**.
+    defaultValue: "False"
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: HistorySearchCursorMovesToEnd
+    type: <xref href="SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Indicates that the cursor moves to the end of commands that you load from history by using a search.
+      When this parameter is set to `$False`, the cursor remains at the position it was when you pressed
+      the up or down arrows.
+
+      To turn off this option, you can run either of the following commands:
+
+      `Set-PSReadlineOption -HistorySearchCursorMovesToEnd:$False`
+
+      `(Get-PSReadlineOption).HistorySearchCursorMovesToEnd = $False`
+    defaultValue: "False"
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: MaximumHistoryCount
+    type: <xref href="Int32" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the maximum number of commands to save in **PSReadline** history.
+
+      **PSReadline** history is separate from PowerShell history.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: MaximumKillRingCount
+    type: <xref href="Int32" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the maximum number of items stored in the kill ring.
+    defaultValue: "10"
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: ResetTokenColors
+    type: <xref href="SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Indicates that this cmdlet restores token colors to default settings.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: OptionsSet
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: ShowToolTips
+    type: <xref href="SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      When displaying possible completions, tooltips are shown in the list of completions.
+
+      This option is enabled by default. This option wasn't enabled by default in prior versions of
+      **PSReadline**. To disable, set this option to `$False`.
+    defaultValue: "True"
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: TokenKind
+    type: <xref href="TokenClassification" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the token when you set token color options with the **ForegroundColor** and
+      **BackgroundColor** parameters.
+
+      The acceptable values for this parameter are as follows:
+
+      - None
+      - Comment
+      - Keyword
+      - String
+      - Operator
+      - Variable
+      - Command
+      - Parameter
+      - Type
+      - Number
+      - Member
+    acceptedValues:
+    - None
+    - Comment
+    - Keyword
+    - String
+    - Operator
+    - Variable
+    - Command
+    - Parameter
+    - Type
+    - Number
+    - Member
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: ColorSet
+      position: "0"
+      isRequired: true
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: WordDelimiters
+    type: <xref href="String" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the characters that delimit words for functions like **ForwardWord** or **KillWord**.
+    defaultValue: ;:,.[]{}()/\|^&*-=+–—―
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  commonParameters: |-
+    This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+    -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+    -ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+    [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+syntaxes:
+- syntax: |-
+    ```Syntax
+    Set-PSReadlineOption
+        [-EditMode <EditMode>]
+        [-ContinuationPrompt <String>]
+        [-ContinuationPromptForegroundColor <ConsoleColor>]
+        [-ContinuationPromptBackgroundColor <ConsoleColor>]
+        [-EmphasisForegroundColor <ConsoleColor>]
+        [-EmphasisBackgroundColor <ConsoleColor>]
+        [-ErrorForegroundColor <ConsoleColor>]
+        [-ErrorBackgroundColor <ConsoleColor>]
+        [-HistoryNoDuplicates]
+        [-AddToHistoryHandler <Func[string,bool]>]
+        [-CommandValidationHandler <Action[CommandAst]>]
+        [-HistorySearchCursorMovesToEnd]
+        [-MaximumHistoryCount <Int32>]
+        [-MaximumKillRingCount <Int32>]
+        [-ResetTokenColors]
+        [-ShowToolTips]
+        [-ExtraPromptLineCount <Int32>]
+        [-DingTone <Int32>]
+        [-DingDuration <Int32>]
+        [-BellStyle <BellStyle>]
+        [-CompletionQueryItems <Int32>]
+        [-WordDelimiters <String>]
+        [-HistorySearchCaseSensitive]
+        [-HistorySaveStyle <HistorySaveStyle>]
+        [-HistorySavePath <String>]
+        [<CommonParameters>]
+    ```
+  parameterSetName: OptionsSet
+  isDefault: false
+- syntax: |-
+    ```Syntax
+    Set-PSReadlineOption
+        [-TokenKind] <TokenClassification>
+        [[-ForegroundColor] <ConsoleColor>]
+        [[-BackgroundColor] <ConsoleColor>]
+        [<CommonParameters>]
+    ```
+  parameterSetName: ColorSet
+  isDefault: false
+inputs:
+- name: <xref href="None" data-throw-if-not-resolved="False" />
+  description: |-
+    You can't send objects down the pipeline to `Set-PSReadlineOption`.
+outputs:
+- name: <xref href="None" data-throw-if-not-resolved="False" />
+  description: |-
+    `Set-PSReadlineOption` doesn't generate output.
+examples:
+- title: 'Example 1: Set foreground and background colors'
+  description: |-
+    This example sets **PSReadline** to display the **Comment** token with green foreground text on a
+    gray background.
+
+    ```powershell
+    Set-PSReadlineOption -TokenKind Comment -ForegroundColor Green -BackgroundColor Gray
+    ```
+- title: 'Example 2: Set bell style'
+  description: |-
+    In this example, **PSReadline** will respond to errors or conditions that require user attention.
+    The **BellStyle** is set to emit an audible beep at 1221 Hz for 60 ms.
+
+    ```powershell
+    Set-PSReadlineOption -BellStyle Audible -DingTone 1221 -DingDuration 60
+    ```
+links:
+- text: about_PSReadline
+  href: ./About/about_PSReadline.md
+- text: Get-PSReadlineKeyHandler
+  href: Get-PSReadlineKeyHandler.yml
+- text: Get-PSReadlineOption
+  href: Get-PSReadlineOption.yml
+- text: Remove-PSReadlineKeyHandler
+  href: Remove-PSReadlineKeyHandler.yml
+- text: Set-PSReadlineKeyHandler
+  href: Set-PSReadlineKeyHandler.yml
+metadata:
+  document type: cmdlet
+  external help file: Microsoft.PowerShell.PSReadline.dll-Help.xml
+  HelpUri: https://learn.microsoft.com/previous-versions/powershell/module/psreadline/set-psreadlineoption?view=powershell-5.0&WT.mc_id=ps-gethelp
+  Locale: en-US
+  Module Name: PSReadline
+  ms.date: 09/23/2019
+  PlatyPS schema version: 2024-05-01
+  title: Set-PSReadlineOption

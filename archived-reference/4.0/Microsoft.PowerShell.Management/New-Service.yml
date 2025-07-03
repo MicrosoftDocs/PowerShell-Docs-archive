@@ -1,0 +1,272 @@
+### YamlMime:PowerShellCmdlet1
+uid: Microsoft.PowerShell.Management.New-Service
+name: New-Service
+module: Microsoft.PowerShell.Management
+isPreview: false
+summary: |-
+  Creates a new Windows service.
+description: |-
+  The New-Service cmdlet creates a new entry for a Windows service in the registry and in the service database.
+  A new service requires an executable file that executes during the service.
+
+  The parameters of this cmdlet let you set the display name, description, startup type, and dependencies of the service.
+notes: |-
+  * To run this cmdlet on Windows Vista and later versions of Windows, start Windows PowerShell with the "Run as administrator" option.
+
+    To delete a service, use Sc.exe, or use the Get-WmiObject cmdlet to get the Win32_Service object that represents the service and then use the Delete method to delete the service.
+  (The object that Get-Service returns does not have a delete method.) For an example, see the Examples section.
+
+  *
+parameters:
+  cmdletParameters:
+  - name: BinaryPathName
+    type: <xref href="String" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the path to the executable file for the service.
+      This parameter is required.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: "2"
+      isRequired: true
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Confirm
+    type: <xref href="SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Prompts you for confirmation before running the cmdlet.
+    aliases:
+    - cf
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Credential
+    type: <xref href="PSCredential" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the account used by the service as the [Service Logon Account](/windows/desktop/ad/about-service-logon-accounts).
+
+      Type a user name, such as "User01" or "Domain01\User01".
+      Or, enter a PSCredential object, such as one from the Get-Credential cmdlet.
+      If you type a user name, you will be prompted for a password.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: DependsOn
+    type: <xref href="String" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    description: |-
+      Specifies the names of other services upon which the new service depends.
+      To enter multiple service names, use a comma to separate the names.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Description
+    type: <xref href="String" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies a description of the service.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: DisplayName
+    type: <xref href="String" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies a display name for the service.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Name
+    type: <xref href="String" data-throw-if-not-resolved="False" />
+    description: |-
+      Specifies the name of the service.
+      This parameter is required.
+    aliases:
+    - ServiceName
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: "1"
+      isRequired: true
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: StartupType
+    type: <xref href="ServiceStartMode" data-throw-if-not-resolved="False" />
+    description: |-
+      Sets the startup type of the service.
+      "Automatic" is the default.
+
+      Valid values are:
+
+      -  Manual:      The service is started only manually, by a user (using the Service Control Manager) or by an application.
+      -  Automatic:  The service is to be started (or was started) by the operating system, at system start-up. If an automatically started service depends on a manually started service, the manually started service is also started automatically at system startup.
+      - Disabled: The service is disabled and cannot be started by a user or application.
+    defaultValue: Automatic
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: WhatIf
+    type: <xref href="SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Shows what would happen if the cmdlet runs. The cmdlet is not run.
+    aliases:
+    - wi
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  commonParameters: |-
+    This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+    -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+    -ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+    [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+syntaxes:
+- syntax: |-
+    ```Syntax
+    New-Service
+        [-Name] <String>
+        [-BinaryPathName] <String>
+        [-DisplayName <String>]
+        [-Description <String>]
+        [-StartupType <ServiceStartMode>]
+        [-Credential <PSCredential>]
+        [-DependsOn <String[]>]
+        [-WhatIf]
+        [-Confirm]
+        [<CommonParameters>]
+    ```
+  parameterSetName: Default
+  isDefault: true
+inputs:
+- name: <xref href="None" data-throw-if-not-resolved="False" />
+  description: |-
+    You cannot pipe input to this cmdlet.
+outputs:
+- name: <xref href="System.ServiceProcess.ServiceController" data-throw-if-not-resolved="False" />
+  description: |-
+    New-Service returns an object that represents the new service.
+examples:
+- title: Example 1
+  description: |-
+    ```
+    PS C:\> new-service -name TestService -binaryPathName "C:\WINDOWS\System32\svchost.exe -k netsvcs"
+    ```
+
+    This command creates a new service named "TestService".
+- title: Example 2
+  description: |-
+    ```
+    PS C:\> new-service -name TestService -binaryPathName "C:\WINDOWS\System32\svchost.exe -k netsvcs" -dependson NetLogon -displayName "Test Service" -StartupType Manual -Description "This is a test service."
+    ```
+
+    This command creates a new service named "TestService".
+    It uses the parameters of the New-Service cmdlet to specify a description, startup type, and display name for the new service.
+- title: Example 3
+  description: |-
+    ```
+    PS C:\> get-wmiobject win32_service -filter "name='testservice'"
+
+    ExitCode  : 0
+    Name      : testservice
+    ProcessId : 0
+    StartMode : Auto
+    State     : Stopped
+    Status    : OK
+    ```
+
+    This command uses the Get-WmiObject cmdlet to get the Win32_Service object for the new service.
+    This object includes the start mode and the service description.
+- title: Example 4
+  description: |-
+    ```
+    PS C:\> sc.exe delete TestService
+    - or -
+    PS C:\> (get-wmiobject win32_service -filter "name='TestService'").delete()
+    ```
+
+    This example shows two ways to delete the TestService service.
+    The first command uses the delete option of Sc.exe.
+    The second command uses the Delete method of the Win32_Service objects that the Get-WmiObject cmdlet returns.
+links:
+- text: Get-Service
+  href: Get-Service.yml
+- text: Restart-Service
+  href: Restart-Service.yml
+- text: Resume-Service
+  href: Resume-Service.yml
+- text: Set-Service
+  href: Set-Service.yml
+- text: Start-Service
+  href: Start-Service.yml
+- text: Stop-Service
+  href: Stop-Service.yml
+- text: Suspend-Service
+  href: Suspend-Service.yml
+metadata:
+  document type: cmdlet
+  external help file: Microsoft.PowerShell.Commands.Management.dll-Help.xml
+  HelpUri: https://learn.microsoft.com/previous-versions/powershell/module/microsoft.powershell.management/new-service?view=powershell-4.0&WT.mc_id=ps-gethelp
+  Locale: en-US
+  Module Name: Microsoft.PowerShell.Management
+  ms.date: 06/09/2017
+  PlatyPS schema version: 2024-05-01
+  title: New-Service

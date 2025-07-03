@@ -1,0 +1,66 @@
+### YamlMime:PowerShellModule1
+uid: PowerShellGet
+name: PowerShellGet Module
+isPreview: false
+cmdletGroups:
+- title: PowerShellGet Cmdlets
+  cmdlets:
+  - PowerShellGet.Find-Command
+  - PowerShellGet.Find-DscResource
+  - PowerShellGet.Find-Module
+  - PowerShellGet.Find-RoleCapability
+  - PowerShellGet.Find-Script
+  - PowerShellGet.Get-InstalledModule
+  - PowerShellGet.Get-InstalledScript
+  - PowerShellGet.Get-PSRepository
+  - PowerShellGet.Install-Module
+  - PowerShellGet.Install-Script
+  - PowerShellGet.New-ScriptFileInfo
+  - PowerShellGet.Publish-Module
+  - PowerShellGet.Publish-Script
+  - PowerShellGet.Register-PSRepository
+  - PowerShellGet.Save-Module
+  - PowerShellGet.Save-Script
+  - PowerShellGet.Set-PSRepository
+  - PowerShellGet.Test-ScriptFileInfo
+  - PowerShellGet.Uninstall-Module
+  - PowerShellGet.Uninstall-Script
+  - PowerShellGet.Unregister-PSRepository
+  - PowerShellGet.Update-Module
+  - PowerShellGet.Update-ModuleManifest
+  - PowerShellGet.Update-Script
+  - PowerShellGet.Update-ScriptFileInfo
+description: |-
+  PowerShellGet is a module with commands for discovering, installing, updating and publishing
+  PowerShell artifacts like Modules, DSC Resources, Role Capabilities, and Scripts.
+
+  > [!IMPORTANT]
+  > Windows PowerShell 5.1 comes with version 1.0.0.1 of **PowerShellGet** preinstalled. This version
+  > of PowerShellGet has a limited features and doesn't support the updated capabilities of the
+  > PowerShell Gallery. To be supported, you must update to the latest version.
+
+  PowerShell 6.0 shipped with version 1.6.0 of **PowerShellGet**. PowerShell 7.0 shipped with version
+  2.2.3 of **PowerShellGet**. The current supported version of **PowerShellGet** is 2.2.5. If you are
+  running Windows PowerShell 5.1, you must install a newer version.
+
+  The cmdlet reference documentation on this site documents the latest version of the module.
+
+  > [!IMPORTANT]
+  > The PowerShell Gallery only supports Transport Layer Security (TLS) 1.2 or higher. Use the
+  > following command to ensure you are using TLS 1.2:
+  >
+  > `[Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12`
+  >
+  > For more information, see the
+  > [announcement](https://devblogs.microsoft.com/powershell/powershell-gallery-tls-support/) in the
+  > PowerShell blog.
+metadata:
+  HelpInfoUri: https://aka.ms/powershell70-help
+  Help Version: 7.0.1.0
+  Locale: en-US
+  Module Guid: 1d73a601-4a6c-43c5-ba3f-619b18bbb404
+  Module Name: PowerShellGet
+  ms.date: 10/10/2022
+  PlatyPS schema version: 2024-05-01
+  title: PowerShellGet
+  document type: module

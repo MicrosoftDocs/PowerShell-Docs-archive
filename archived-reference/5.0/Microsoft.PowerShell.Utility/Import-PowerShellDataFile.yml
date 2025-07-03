@@ -1,0 +1,94 @@
+### YamlMime:PowerShellCmdlet1
+uid: Microsoft.PowerShell.Utility.Import-PowerShellDataFile
+name: Import-PowerShellDataFile
+module: Microsoft.PowerShell.Utility
+isPreview: false
+summary: |-
+  Imports values from a .PSD1 file without invoking its contents
+description: |-
+  The `Import-PowerShellDataFile` cmdlet returns a hashtable consisting of the key-value pairs in a
+  .PSD1 file.
+parameters:
+  cmdletParameters:
+  - name: LiteralPath
+    type: <xref href="String" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    description: |-
+      The path to the file being imported. All characters in the path are treated as literal values.
+      Wildcard characters are not processed.
+    aliases:
+    - PSPath
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: ByLiteralPath
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: true
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Path
+    type: <xref href="String" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    description: |-
+      The path to the file being imported. Wildcards are allowed but only the first matching file is
+      imported.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: ByPath
+      position: "0"
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: true
+  commonParameters: |-
+    This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+    -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+    -ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+    [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+syntaxes:
+- syntax: |-
+    ```Syntax
+    Import-PowerShellDataFile
+        [[-Path] <String[]>]
+        [<CommonParameters>]
+    ```
+  parameterSetName: ByPath
+  isDefault: true
+- syntax: |-
+    ```Syntax
+    Import-PowerShellDataFile
+        [-LiteralPath <String[]>]
+        [<CommonParameters>]
+    ```
+  parameterSetName: ByLiteralPath
+  isDefault: false
+examples:
+- title: 'Example 1: Retrieve values from PSD1'
+  description: |-
+    ```powershell
+    $content = Import-PowerShellDataFile .\Configuration.psd1
+    $content
+    ```
+
+    ```Output
+    Name                           Value
+    ----                           -----
+    key1                           value1
+    key2                           value2
+    ```
+
+    This examples retrieves the key-value pairs stored in the hashtable kept inside the
+    Configuration.psd1 file.
+metadata:
+  document type: cmdlet
+  external help file: Microsoft.PowerShell.Utility-help.xml
+  HelpUri: https://learn.microsoft.com/previous-versions/powershell/module/Microsoft.PowerShell.Utility/import-powershelldatafile?view=powershell-5.0&WT.mc_id=ps-gethelp
+  Locale: en-US
+  Module Name: Microsoft.PowerShell.Utility
+  ms.date: 04/23/2017
+  PlatyPS schema version: 2024-05-01
+  title: Import-PowerShellDataFile

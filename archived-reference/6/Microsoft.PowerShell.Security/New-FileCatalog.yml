@@ -1,0 +1,156 @@
+### YamlMime:PowerShellCmdlet1
+uid: Microsoft.PowerShell.Security.New-FileCatalog
+name: New-FileCatalog
+module: Microsoft.PowerShell.Security
+isPreview: false
+summary: |-
+  `New-FileCatalog` creates a catalog file of file hashes that can be used to validate the
+  authenticity of a file.
+description: |-
+  `New-FileCatalog` creates a [Windows catalog file](/windows-hardware/drivers/install/catalog-files)
+  for a set of folders and files. This catalog file contains hashes for all files in the provided
+  paths. Users can then distribute the catalog with their files so that users can validate whether any
+  changes have been made to the folders since catalog creation time.
+
+  Catalog versions 1 and 2 are supported. Version 1 uses the (deprecated) SHA1 hashing algorithm to
+  create file hashes, and version 2 uses SHA256. Catalog version 2 is not supported on Windows Server
+  2008 R2 or Windows 7. You should use catalog version 2 on Windows 8, Windows Server 2012, and later
+  operating systems.
+notes: |-
+  This cmdlet is only available on Windows platforms.
+parameters:
+  cmdletParameters:
+  - name: CatalogFilePath
+    type: <xref href="System.String" data-throw-if-not-resolved="False" />
+    description: |-
+      A path to a file or folder where the catalog file (.cat) should be placed. If a folder path is
+      specified, the default filename `catalog.cat` will be used.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: "0"
+      isRequired: true
+      valueFromPipeline: true
+      valueFromPipelineByPropertyName: true
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: CatalogVersion
+    type: <xref href="System.Int32" data-throw-if-not-resolved="False" />
+    description: |-
+      Accepts `1.0` or `2.0` as possible values for specifying the catalog version. `1.0` should be used
+      avoided whenever possible, as it uses the insecure SHA-1 hash algorithm, while `2.0` uses the secure
+      SHA-256 algorithm However, `1.0` is the only supported algorithm on Windows 7 and Server 2008R2.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Confirm
+    type: <xref href="System.Management.Automation.SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Prompts you for confirmation before running the cmdlet.
+    aliases:
+    - cf
+    defaultValue: "False"
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: Path
+    type: <xref href="System.String" data-throw-if-not-resolved="False" /><span>[</span><span>]</span>
+    description: |-
+      Accepts a path or array of paths to files or folders that should be included in the catalog file. If
+      a folder is specified, all the files in the folder will be included as well.
+    defaultValue: None
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: "1"
+      isRequired: false
+      valueFromPipeline: true
+      valueFromPipelineByPropertyName: true
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  - name: WhatIf
+    type: <xref href="System.Management.Automation.SwitchParameter" data-throw-if-not-resolved="False" />
+    description: |-
+      Shows what would happen if the cmdlet runs. The cmdlet is not run.
+    aliases:
+    - wi
+    defaultValue: "False"
+    dontShow: false
+    isDynamic: false
+    parameterSets:
+    - name: (All)
+      position: Named
+      isRequired: false
+      valueFromPipeline: false
+      valueFromPipelineByPropertyName: false
+      valueFromRemainingArguments: false
+    supportsWildcards: false
+  commonParameters: |-
+    This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable,
+    -InformationAction, -InformationVariable, -OutBuffer, -OutVariable, -PipelineVariable,
+    -ProgressAction, -Verbose, -WarningAction, and -WarningVariable. For more information, see
+    [about_CommonParameters](https://go.microsoft.com/fwlink/?LinkID=113216).
+syntaxes:
+- syntax: |-
+    ```Syntax
+    New-FileCatalog
+        [-CatalogVersion <Int32>]
+        [-CatalogFilePath] <String>
+        [[-Path] <String[]>]
+        [-WhatIf]
+        [-Confirm]
+        [<CommonParameters>]
+    ```
+  parameterSetName: Default
+  isDefault: true
+inputs:
+- name: <xref href="System.String" data-throw-if-not-resolved="False" />
+  description: |-
+    The pipeline takes a string that is used as the catalog filename.
+outputs:
+- name: <xref href="System.IO.FileInfo" data-throw-if-not-resolved="False" />
+examples:
+- title: 'Example 1: Create a file catalog for `Microsoft.PowerShell.Utility`'
+  description: |-
+    ```powershell
+    New-FileCatalog -Path $PSHOME\Modules\Microsoft.PowerShell.Utility -CatalogFilePath \temp\Microsoft.PowerShell.Utility.cat -CatalogVersion 2.0
+    ```
+
+    ```Output
+    Mode                LastWriteTime         Length Name
+    ----                -------------         ------ ----
+    -a----         11/2/2018 11:58 AM            950 Microsoft.PowerShell.Utility.cat
+    ```
+links:
+- text: Test-FileCatalog
+  href: Test-FileCatalog.yml
+- text: PowerShellGet
+  href: /powerShell/module/powershellget
+metadata:
+  document type: cmdlet
+  external help file: Microsoft.PowerShell.Security.dll-Help.xml
+  HelpUri: https://learn.microsoft.com/powershell/module/microsoft.powershell.security/new-filecatalog?view=powershell-6&WT.mc_id=ps-gethelp
+  keywords: powershell,cmdlet
+  Locale: en-US
+  Module Name: Microsoft.PowerShell.Security
+  ms.date: 11/02/2018
+  PlatyPS schema version: 2024-05-01
+  title: New-FileCatalog

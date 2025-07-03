@@ -1,0 +1,35 @@
+### YamlMime:PowerShellModule1
+uid: PSDesiredStateConfiguration
+name: PSDesiredStateConfiguration Module
+isPreview: false
+cmdletGroups:
+- title: PSDesiredStateConfiguration Cmdlets
+  cmdlets:
+  - PSDesiredStateConfiguration.Disable-DscDebug
+  - PSDesiredStateConfiguration.Enable-DscDebug
+  - PSDesiredStateConfiguration.Get-DscConfiguration
+  - PSDesiredStateConfiguration.Get-DscConfigurationStatus
+  - PSDesiredStateConfiguration.Get-DscLocalConfigurationManager
+  - PSDesiredStateConfiguration.Get-DscResource
+  - PSDesiredStateConfiguration.Invoke-DscResource
+  - PSDesiredStateConfiguration.New-DscChecksum
+  - PSDesiredStateConfiguration.Publish-DscConfiguration
+  - PSDesiredStateConfiguration.Remove-DscConfigurationDocument
+  - PSDesiredStateConfiguration.Restore-DscConfiguration
+  - PSDesiredStateConfiguration.Set-DscLocalConfigurationManager
+  - PSDesiredStateConfiguration.Start-DscConfiguration
+  - PSDesiredStateConfiguration.Stop-DscConfiguration
+  - PSDesiredStateConfiguration.Test-DscConfiguration
+  - PSDesiredStateConfiguration.Update-DscConfiguration
+description: |-
+  This module contains cmdlets that designed to work with DSC Resources.
+metadata:
+  HelpInfoUri: https://go.microsoft.com/fwlink/?LinkId=390814
+  Help Version: 5.0.5.2
+  keywords: powershell,cmdlet
+  Module Guid: 94b905ff-74b5-437e-89ed-7df44386533c
+  Module Name: PSDesiredStateConfiguration
+  ms.date: 06/09/2017
+  PlatyPS schema version: 2024-05-01
+  title: PSDesiredStateConfiguration
+  document type: module
