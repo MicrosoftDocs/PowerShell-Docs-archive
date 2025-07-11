@@ -35,11 +35,11 @@
     "externalReference": [],
     "fileMetadata": {
       "ms.topic": {
-        "3*/**/*": "managed-reference",
-        "4*/**/*": "managed-reference",
-        "5*/**/*": "managed-reference",
-        "6*/**/*": "managed-reference",
-        "7*/**/*": "managed-reference",
+        "3*/**/*": "reference",
+        "4*/**/*": "reference",
+        "5*/**/*": "reference",
+        "6*/**/*": "reference",
+        "7*/**/*": "reference",
         "docs-conceptual/**/*": "conceptual"
       }
     },
